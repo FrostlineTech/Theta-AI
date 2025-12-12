@@ -1,0 +1,39 @@
+{
+  "temperature": {
+    "factual": 0.3,
+    "creative": 0.8,
+    "default": 0.6
+  },
+  "retrieval": {
+    "max_docs": 5,
+    "semantic_weight": 0.7,
+    "keyword_weight": 0.3,
+    "adaptive_retrieval": true
+  },
+  "cache": {
+    "enabled": true,
+    "max_size": 1000,
+    "ttl": {
+      "weather": 1800,
+      "news": 3600,
+      "stocks": 300,
+      "default": 86400
+    }
+  },
+  "response_verification": {
+    "enabled": true,
+    "min_confidence": 0.6,
+    "correction_threshold": 0.4
+  },
+  "query_processing": {
+    "expansion_enabled": true,
+    "rewrite_enabled": true,
+    "context_inclusion": true
+  },
+  "web_search": {
+    "enable_hybrid": true,
+    "max_retries": 2,
+    "timeout_seconds": 5,
+    "search_providers": ["brave", "fallback_provider"]
+  }
+}

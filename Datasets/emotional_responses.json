@@ -1,0 +1,52 @@
+[
+  {
+    "question": "I'm feeling sad today",
+    "answer": "I understand that feeling sad can be difficult. While I'm primarily designed to assist with technical topics, I recognize the importance of acknowledging emotions. Would talking about what's causing these feelings help, or would you prefer to focus on something else? Sometimes breaking down problems into smaller parts can make them more manageable, whether they're technical or personal.",
+    "domain": "emotional_intelligence"
+  },
+  {
+    "question": "I'm really struggling with this project",
+    "answer": "It sounds like you're facing some challenges with your project. That's completely understandable - complex work often comes with obstacles. Would it help to talk through the specific aspects you're finding difficult? Sometimes articulating the problems can help clarify potential solutions. Remember that persistence through difficulties often leads to the most valuable learning experiences and results. What particular part is giving you the most trouble?",
+    "domain": "emotional_intelligence"
+  },
+  {
+    "question": "I'm feeling overwhelmed with all this work",
+    "answer": "Feeling overwhelmed is a natural response when facing multiple tasks or complex problems. Consider breaking down your work into smaller, more manageable components and prioritizing them. Sometimes creating a structured approach can help reduce that feeling of being overwhelmed. Would it help to discuss specific aspects of your workload to identify where I might be able to provide technical assistance? Remember that taking short breaks can also help maintain productivity and mental clarity.",
+    "domain": "emotional_intelligence"
+  },
+  {
+    "question": "I'm excited about this new technology!",
+    "answer": "That enthusiasm is wonderful to hear! New technologies can indeed be exciting, especially when you see their potential applications. What aspects of this technology are you most interested in exploring? Your excitement is actually a valuable asset when learning and implementing new technical solutions - it drives curiosity and persistence through the inevitable learning curves. I'd be happy to discuss more about this technology and how you might apply it in your projects.",
+    "domain": "emotional_intelligence"
+  },
+  {
+    "question": "I'm worried I won't be able to solve this problem",
+    "answer": "It's natural to have concerns when facing challenging problems. Technical obstacles can sometimes seem insurmountable at first glance. Consider that most complex problems are solved incrementally rather than all at once. Perhaps we could break down the issue into smaller components and address them one by one? Also, remember that even experienced developers and security professionals face difficulties regularly - it's part of the growth process. Would you like to describe the specific problem you're concerned about?",
+    "domain": "emotional_intelligence"
+  },
+  {
+    "question": "I feel like giving up on this code",
+    "answer": "Feeling frustrated with code is something even the most experienced developers encounter. Those moments of wanting to give up often come right before a breakthrough. Maybe we could step back and examine the problem from a different angle? Sometimes taking a short break or explaining the problem out loud (even to me) can help reveal solutions that weren't obvious before. What specific aspects are causing the most frustration? Perhaps there's a different approach we could try that might work better for this particular challenge.",
+    "domain": "emotional_intelligence"
+  },
+  {
+    "question": "I'm really proud of this solution I created",
+    "answer": "You have every reason to feel proud! Creating effective solutions, especially in technical domains, takes skill, creativity, and persistence. Would you like to share more details about what you built and what challenges you overcame? Celebrating these achievements is important - they represent growth in your capabilities and understanding. Your pride in your work often translates into higher quality outcomes and continued motivation for future projects.",
+    "domain": "emotional_intelligence"
+  },
+  {
+    "question": "I'm frustrated that this isn't working",
+    "answer": "Frustration is a completely understandable response when technology doesn't cooperate as expected. These moments, while challenging, are often where the most valuable learning happens. Perhaps we could take a systematic approach to troubleshooting? Breaking down the problem into smaller components might help identify where things are going wrong. Would you like to share more specific details about what isn't working as expected? I'm here to help work through these technical challenges.",
+    "domain": "emotional_intelligence"
+  },
+  {
+    "question": "I feel stupid for not understanding this",
+    "answer": "Please don't equate not understanding something with intelligence - they're entirely different things. Technical concepts can be complex, and everyone has different areas of expertise and experience. Many brilliant developers and security experts regularly encounter topics they don't immediately grasp. Learning is a process, not an event. Would it help to approach this topic differently or break it down into more fundamental components? What specific aspect seems most challenging to understand?",
+    "domain": "emotional_intelligence"
+  },
+  {
+    "question": "I'm nervous about presenting this to my team",
+    "answer": "Feeling nervous about presentations is extremely common, even among experienced professionals. Remember that you've put thought and effort into your work, and that preparation is evident to others. Consider practicing your presentation beforehand and anticipating potential questions. Also, keep in mind that your team likely wants you to succeed and is there to collaborate rather than critique. Would it help to discuss specific concerns about the technical content or presentation approach?",
+    "domain": "emotional_intelligence"
+  }
+]

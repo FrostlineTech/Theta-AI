@@ -1,0 +1,134 @@
+[
+  {
+    "type": "code_review",
+    "category": "security",
+    "severity": "critical",
+    "pattern": "hardcoded_credentials",
+    "bad_example": "const API_KEY = 'sk-1234567890abcdef';",
+    "good_example": "const API_KEY = process.env.API_KEY;",
+    "explanation": "Hardcoded credentials get committed to version control and exposed. Always use environment variables.",
+    "detection_hints": ["password =", "api_key =", "secret =", "token ="],
+    "fix_approach": "Extract to environment variables, use secrets manager for production"
+  },
+  {
+    "type": "code_review",
+    "category": "security",
+    "severity": "high",
+    "pattern": "sql_injection",
+    "bad_example": "query = f\"SELECT * FROM users WHERE id = {user_input}\"",
+    "good_example": "cursor.execute(\"SELECT * FROM users WHERE id = ?\", (user_input,))",
+    "explanation": "String interpolation in SQL queries allows injection attacks. Use parameterized queries.",
+    "detection_hints": ["f\"SELECT", "f'SELECT", "+ user", "format("],
+    "fix_approach": "Use parameterized queries, ORM, or prepared statements"
+  },
+  {
+    "type": "code_review",
+    "category": "performance",
+    "severity": "medium",
+    "pattern": "n_plus_one_query",
+    "bad_example": "for user in users:\n    orders = db.query(Order).filter(user_id=user.id).all()",
+    "good_example": "users_with_orders = db.query(User).options(joinedload(User.orders)).all()",
+    "explanation": "N+1 queries cause database performance issues. Use eager loading or batch queries.",
+    "detection_hints": ["for", "in", "query", "filter"],
+    "fix_approach": "Use JOIN, eager loading, or batch the queries"
+  },
+  {
+    "type": "code_review",
+    "category": "maintainability",
+    "severity": "medium",
+    "pattern": "magic_numbers",
+    "bad_example": "if (status === 3) { ... }",
+    "good_example": "const STATUS_APPROVED = 3;\nif (status === STATUS_APPROVED) { ... }",
+    "explanation": "Magic numbers make code hard to understand. Use named constants.",
+    "detection_hints": ["=== 0", "=== 1", "== 200", "!= 404"],
+    "fix_approach": "Extract to named constants or enums"
+  },
+  {
+    "type": "code_review",
+    "category": "error_handling",
+    "severity": "high",
+    "pattern": "swallowed_exception",
+    "bad_example": "try:\n    risky_operation()\nexcept:\n    pass",
+    "good_example": "try:\n    risky_operation()\nexcept SpecificError as e:\n    logger.error(f\"Operation failed: {e}\")\n    raise",
+    "explanation": "Swallowing exceptions hides bugs and makes debugging impossible. Log and handle appropriately.",
+    "detection_hints": ["except:", "except Exception:", "pass"],
+    "fix_approach": "Catch specific exceptions, log them, decide on recovery or re-raise"
+  },
+  {
+    "type": "code_review",
+    "category": "security",
+    "severity": "critical",
+    "pattern": "command_injection",
+    "bad_example": "os.system(f\"ping {user_input}\")",
+    "good_example": "subprocess.run([\"ping\", user_input], shell=False, capture_output=True)",
+    "explanation": "Shell command injection allows arbitrary code execution. Never interpolate user input into commands.",
+    "detection_hints": ["os.system", "shell=True", "subprocess.call(f"],
+    "fix_approach": "Use subprocess with shell=False and list arguments"
+  },
+  {
+    "type": "code_review",
+    "category": "maintainability",
+    "severity": "low",
+    "pattern": "god_function",
+    "bad_example": "def process_everything(data):\n    # 500 lines of code doing validation, transformation, saving, notifications...",
+    "good_example": "def process(data):\n    validated = validate(data)\n    transformed = transform(validated)\n    save(transformed)\n    notify(transformed)",
+    "explanation": "Functions doing too much are hard to test and maintain. Follow single responsibility principle.",
+    "detection_hints": ["def ", "lines > 50", "multiple try blocks"],
+    "fix_approach": "Extract into smaller, focused functions"
+  },
+  {
+    "type": "code_review",
+    "category": "performance",
+    "severity": "medium",
+    "pattern": "unnecessary_computation_in_loop",
+    "bad_example": "for item in items:\n    config = load_config()  # Loaded every iteration\n    process(item, config)",
+    "good_example": "config = load_config()  # Loaded once\nfor item in items:\n    process(item, config)",
+    "explanation": "Avoid recomputing values that don't change inside loops.",
+    "detection_hints": ["for", "in", "= load", "= fetch", "= read"],
+    "fix_approach": "Hoist invariant computations outside the loop"
+  },
+  {
+    "type": "code_review",
+    "category": "security",
+    "severity": "high",
+    "pattern": "insecure_deserialization",
+    "bad_example": "data = pickle.loads(user_provided_data)",
+    "good_example": "data = json.loads(user_provided_data)",
+    "explanation": "Pickle can execute arbitrary code during deserialization. Use safe formats like JSON.",
+    "detection_hints": ["pickle.loads", "yaml.load(", "eval("],
+    "fix_approach": "Use JSON or other safe serialization formats for untrusted data"
+  },
+  {
+    "type": "code_review",
+    "category": "reliability",
+    "severity": "medium",
+    "pattern": "race_condition",
+    "bad_example": "if not file_exists(path):\n    create_file(path)  # Another process might create it between check and create",
+    "good_example": "try:\n    create_file_exclusive(path)\nexcept FileExistsError:\n    pass",
+    "explanation": "Check-then-act patterns have race conditions. Use atomic operations.",
+    "detection_hints": ["if not exists", "if file", "then create"],
+    "fix_approach": "Use atomic operations or proper locking"
+  },
+  {
+    "type": "code_review",
+    "category": "maintainability",
+    "severity": "low",
+    "pattern": "deep_nesting",
+    "bad_example": "if a:\n    if b:\n        if c:\n            if d:\n                do_thing()",
+    "good_example": "if not a: return\nif not b: return\nif not c: return\nif not d: return\ndo_thing()",
+    "explanation": "Deep nesting is hard to read. Use early returns or guard clauses.",
+    "detection_hints": ["if", "if", "if", "if"],
+    "fix_approach": "Use early returns, extract conditions, or restructure logic"
+  },
+  {
+    "type": "code_review",
+    "category": "security",
+    "severity": "high",
+    "pattern": "path_traversal",
+    "bad_example": "file_path = f\"/uploads/{user_filename}\"",
+    "good_example": "safe_name = secure_filename(user_filename)\nfile_path = os.path.join(UPLOAD_DIR, safe_name)",
+    "explanation": "User input in file paths allows directory traversal attacks (../../etc/passwd).",
+    "detection_hints": ["user", "filename", "path", "open(f"],
+    "fix_approach": "Sanitize filenames, use secure_filename(), validate against allowed paths"
+  }
+]

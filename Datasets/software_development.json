@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What is object-oriented programming?",
+    "answer": "Object-oriented programming (OOP) is a programming paradigm based on the concept of 'objects', which can contain data and code. Data in the form of fields (attributes or properties), and code in the form of procedures (methods). A key feature of OOP is that object's procedures can access and often modify the data fields of itself. OOP languages include Java, C++, Python, and C#."
+  },
+  {
+    "question": "What is a RESTful API?",
+    "answer": "REST (Representational State Transfer) is an architectural style for designing networked applications. RESTful APIs use HTTP requests to perform CRUD operations (CREATE, READ, UPDATE, DELETE). They are stateless, meaning each request contains all necessary information, and they use standard HTTP methods like GET, POST, PUT, DELETE. RESTful APIs typically return data in JSON or XML format."
+  },
+  {
+    "question": "What is version control?",
+    "answer": "Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. For software development, it allows multiple developers to work on the same codebase simultaneously, track changes, and revert to previous states if needed. Popular version control systems include Git, Mercurial, and SVN."
+  },
+  {
+    "question": "What is continuous integration?",
+    "answer": "Continuous Integration (CI) is a development practice where developers integrate code into a shared repository frequently, preferably several times a day. Each integration is verified by an automated build and automated tests to detect integration errors as quickly as possible. CI helps reduce integration problems and allows a team to develop cohesive software more rapidly."
+  },
+  {
+    "question": "What is Docker?",
+    "answer": "Docker is a platform for developing, shipping, and running applications in containers. Containers are lightweight, portable, and self-sufficient environments that package an application with all of its dependencies. Docker enables developers to build applications that will run consistently across different environments, making deployment more efficient and scalable."
+  },
+  {
+    "question": "What is microservices architecture?",
+    "answer": "Microservices architecture is a design approach where a single application is composed of many loosely coupled and independently deployable smaller services. Each microservice runs a unique process and communicates through lightweight mechanisms, often HTTP/REST APIs. This architecture allows for better scalability, easier maintenance, and the ability to use different technologies for different services."
+  },
+  {
+    "question": "What is test-driven development?",
+    "answer": "Test-Driven Development (TDD) is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards."
+  },
+  {
+    "question": "What is technical debt?",
+    "answer": "Technical debt refers to the implied cost of future reworking required when choosing an easy solution now instead of using a better approach that would take longer. It reflects the extra development work that arises when code that is easy to implement in the short run is used instead of applying the best overall solution. Over time, technical debt can accumulate and hurt the team's ability to deliver new features or maintain existing functionality."
+  },
+  {
+    "question": "What are design patterns?",
+    "answer": "Design patterns are typical solutions to common problems in software design. They represent best practices evolved over time by experienced software developers. Design patterns are not specific to a particular programming language but rather are reusable templates for solving problems that can be used in many different situations. Common pattern categories include creational patterns (like Singleton and Factory), structural patterns (like Adapter and Decorator), and behavioral patterns (like Observer and Strategy)."
+  },
+  {
+    "question": "What is agile software development?",
+    "answer": "Agile software development refers to a group of methodologies based on iterative development, where requirements and solutions evolve through collaboration between self-organizing cross-functional teams. It promotes adaptive planning, evolutionary development, early delivery, continuous improvement, and encourages rapid and flexible response to change. Agile methodologies include Scrum, Kanban, XP (Extreme Programming), and others."
+  },
+  {
+    "question": "What is a full-stack developer?",
+    "answer": "A full-stack developer is a programmer who can work on both the front-end and back-end portions of an application. The front-end refers to the visible parts that users interact with (like HTML, CSS, JavaScript), while the back-end involves the server, database, and application logic. Full-stack developers understand the entire web development process and can develop both client and server software."
+  },
+  {
+    "question": "What is API documentation?",
+    "answer": "API documentation is a technical content deliverable that explains how to effectively use and integrate with an API. It provides information about functions, classes, return types, arguments, and how to make requests and interpret responses. Good API documentation is crucial for developer experience and typically includes tutorials, examples, reference guides, and specifications like OpenAPI/Swagger."
+  }
+]

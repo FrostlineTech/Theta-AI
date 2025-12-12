@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is a VPN?",
+    "answer": "A VPN (Virtual Private Network) is a technology that creates an encrypted connection over a less secure network. It establishes a secure, encrypted tunnel through which internet traffic flows, protecting data from eavesdropping and masking the user's IP address and location. VPNs are commonly used to secure connections on public Wi-Fi, access region-restricted content, maintain privacy from ISPs, and allow remote workers to securely connect to corporate networks."
+  },
+  {
+    "question": "What is a network firewall?",
+    "answer": "A network firewall is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network and untrusted external networks (like the internet). Firewalls can be hardware devices, software programs, or both, and they use packet filtering, stateful inspection, or deep packet inspection to determine which traffic should be allowed through and which should be blocked, helping to prevent unauthorized access and protect against network-based threats."
+  },
+  {
+    "question": "What is network segmentation?",
+    "answer": "Network segmentation is the practice of dividing a computer network into smaller, isolated subnetworks to improve security and performance. By creating separate network segments, organizations can limit the damage from breaches, reduce the attack surface, and contain threats within specific segments. Segmentation can be implemented through VLANs, firewalls, subnetting, or zero trust architectures. This approach follows the principle of least privilege, ensuring that users and systems only have access to the specific network resources they need for their role or function."
+  },
+  {
+    "question": "What is a DMZ in network security?",
+    "answer": "A DMZ (Demilitarized Zone) in network security is a perimeter network that sits between an organization's internal network and an external network, typically the internet. It serves as a buffer zone where public-facing services (such as web servers, mail servers, and DNS servers) are placed. The DMZ prevents external users from gaining direct access to internal servers and data while still allowing authorized external users to access the services they need. Typically configured with firewalls on both sides, a DMZ adds an extra layer of security by ensuring that even if the public-facing services are compromised, attackers still face another barrier before reaching the internal network."
+  },
+  {
+    "question": "What is a SIEM system?",
+    "answer": "A SIEM (Security Information and Event Management) system is a comprehensive security solution that combines security information management (SIM) and security event management (SEM). It collects, aggregates, and analyzes log data from various network devices, servers, and applications across an organization's IT infrastructure to provide real-time monitoring, correlation of events, threat detection, and automated incident response. SIEM solutions typically offer features like log management, event correlation, threat intelligence integration, compliance reporting, user activity monitoring, and automated alerts. They help security teams detect, analyze, and respond to security incidents while maintaining compliance with regulatory requirements."
+  },
+  {
+    "question": "What is a honeypot in cybersecurity?",
+    "answer": "A honeypot is a security mechanism designed to detect, deflect, or counteract unauthorized access attempts. It's essentially a decoy system, network, or application that appears to be a legitimate part of the site but is actually isolated and monitored. Honeypots intentionally appear valuable or vulnerable to attract attackers, allowing security teams to study their tactics, gather intelligence on attack methods, identify new vulnerabilities, and distract attackers from legitimate targets. Types include low-interaction honeypots (simulating only specific services) and high-interaction honeypots (full systems that allow deeper attacker interaction). While primarily used for research and early warning detection, honeypots can also slow down attackers by wasting their time and resources."
+  },
+  {
+    "question": "What is the principle of least privilege?",
+    "answer": "The principle of least privilege (PoLP) is a fundamental security concept that restricts user account and computing process access rights to only those resources absolutely required to perform routine, legitimate activities. Under this principle, users, systems, and applications should operate using the minimum levels of access necessary to complete their functions. This reduces the attack surface by limiting what actions can be performed if an account is compromised. Implementing least privilege includes practices like role-based access control, just-in-time access, regular access reviews, and the removal of administrative privileges when not needed. This principle is a cornerstone of zero trust security architectures and helps organizations minimize the potential damage from both external attacks and insider threats."
+  },
+  {
+    "question": "What is a man-in-the-middle attack?",
+    "answer": "A man-in-the-middle (MITM) attack occurs when an attacker secretly intercepts and potentially alters communications between two parties who believe they are directly communicating with each other. The attacker positions themselves between the victim and the service they're trying to use, allowing them to eavesdrop on sensitive information, steal credentials, modify data in transit, or inject malicious content. Common MITM techniques include ARP spoofing, DNS spoofing, HTTPS spoofing, SSL stripping, and rogue Wi-Fi access points. Protections against MITM attacks include using encrypted connections (HTTPS), certificate pinning, VPNs, public key infrastructure, multi-factor authentication, and virtual private networks."
+  },
+  {
+    "question": "What is SSL/TLS encryption?",
+    "answer": "SSL (Secure Sockets Layer) and its successor TLS (Transport Layer Security) are cryptographic protocols designed to provide secure communication over a computer network. These protocols encrypt data transmitted between clients (like web browsers) and servers, ensuring privacy, data integrity, and authentication. The encryption prevents eavesdropping and tampering with the data during transmission. The process works through a TLS handshake where the server presents a digital certificate to verify its identity, and both parties negotiate encryption parameters and establish session keys. This technology is what enables HTTPS connections, securing sensitive online activities like e-commerce transactions, login credentials, and private communications. TLS has largely replaced SSL, with TLS 1.2 and 1.3 being the current recommended versions due to vulnerabilities found in earlier implementations."
+  },
+  {
+    "question": "What is a zero-day vulnerability?",
+    "answer": "A zero-day vulnerability is a software security flaw that is unknown to those who should be interested in mitigating it, including the vendor of the target software. The term \"zero-day\" refers to the fact that developers have had zero days to address and patch the vulnerability because they only become aware of it when it's actively exploited. These vulnerabilities are particularly dangerous because there are no patches available at the time of discovery, and often no specific antivirus signatures or indicators of compromise to detect them. Zero-day exploits are highly valued in both criminal markets and by nation-state actors for targeted attacks. Organizations can reduce their risk through defense-in-depth strategies, behavior-based detection, regular updates, network segmentation, and advanced endpoint protection solutions that use heuristic and machine learning approaches to identify suspicious behavior rather than relying solely on known signatures."
+  }
+]

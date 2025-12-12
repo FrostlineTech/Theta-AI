@@ -1,0 +1,228 @@
+[
+  {
+    "type": "api_design",
+    "category": "rest",
+    "pattern": "resource_naming",
+    "description": "Use nouns for resources, HTTP methods for actions",
+    "good_examples": [
+      "GET /users - list users",
+      "GET /users/123 - get specific user",
+      "POST /users - create user",
+      "PUT /users/123 - update user",
+      "DELETE /users/123 - delete user"
+    ],
+    "bad_examples": [
+      "GET /getUsers",
+      "POST /createUser",
+      "GET /deleteUser?id=123"
+    ],
+    "rationale": "Resources are nouns, HTTP verbs provide the action. This creates predictable, discoverable APIs."
+  },
+  {
+    "type": "api_design",
+    "category": "rest",
+    "pattern": "nested_resources",
+    "description": "Express relationships through URL hierarchy",
+    "good_examples": [
+      "GET /users/123/orders - orders for user 123",
+      "GET /orders/456/items - items in order 456",
+      "POST /projects/789/tasks - create task in project"
+    ],
+    "bad_examples": [
+      "GET /orders?userId=123",
+      "GET /getUserOrders?id=123"
+    ],
+    "depth_limit": "Max 2-3 levels deep. Beyond that, use filtering or separate endpoints.",
+    "rationale": "URL structure reflects data relationships, making API intuitive"
+  },
+  {
+    "type": "api_design",
+    "category": "rest",
+    "pattern": "pagination",
+    "description": "Handle large collections with consistent pagination",
+    "implementations": {
+      "offset_based": "GET /users?offset=20&limit=10",
+      "cursor_based": "GET /users?cursor=abc123&limit=10",
+      "page_based": "GET /users?page=3&per_page=10"
+    },
+    "response_format": {
+      "data": "[...]",
+      "pagination": {
+        "total": 1000,
+        "limit": 10,
+        "offset": 20,
+        "next_cursor": "xyz789"
+      }
+    },
+    "recommendation": "Cursor-based for large/changing datasets, offset for small static sets",
+    "rationale": "Cursor-based prevents issues when data changes between pages"
+  },
+  {
+    "type": "api_design",
+    "category": "rest",
+    "pattern": "error_responses",
+    "description": "Consistent, informative error format",
+    "format": {
+      "error": {
+        "code": "VALIDATION_ERROR",
+        "message": "Human readable message",
+        "details": [
+          {"field": "email", "issue": "Invalid format"}
+        ],
+        "request_id": "req-123-abc"
+      }
+    },
+    "http_codes": {
+      "400": "Bad request - client error in request",
+      "401": "Unauthorized - authentication required",
+      "403": "Forbidden - authenticated but not allowed",
+      "404": "Not found - resource doesn't exist",
+      "409": "Conflict - state conflict (duplicate, version mismatch)",
+      "422": "Unprocessable - valid syntax but semantic error",
+      "429": "Too many requests - rate limited",
+      "500": "Server error - our fault"
+    },
+    "rationale": "Consistent errors make client implementation easier and debugging faster"
+  },
+  {
+    "type": "api_design",
+    "category": "rest",
+    "pattern": "versioning",
+    "description": "Manage breaking changes with API versioning",
+    "strategies": {
+      "url_path": "GET /v1/users - clearest, easy routing",
+      "header": "Accept: application/vnd.api+json;version=1",
+      "query_param": "GET /users?version=1 - not recommended"
+    },
+    "recommendation": "URL path versioning is most explicit and cacheable",
+    "breaking_changes": ["removing_field", "changing_type", "changing_required", "removing_endpoint"],
+    "non_breaking": ["adding_optional_field", "adding_endpoint", "adding_optional_param"],
+    "rationale": "Allows API evolution while maintaining backward compatibility"
+  },
+  {
+    "type": "api_design",
+    "category": "rest",
+    "pattern": "filtering_sorting",
+    "description": "Flexible querying of collections",
+    "filtering": {
+      "simple": "GET /products?category=electronics&in_stock=true",
+      "comparison": "GET /products?price_gte=100&price_lte=500",
+      "search": "GET /products?q=laptop"
+    },
+    "sorting": {
+      "single": "GET /products?sort=price",
+      "direction": "GET /products?sort=-price (descending)",
+      "multiple": "GET /products?sort=category,-price"
+    },
+    "field_selection": "GET /users?fields=id,name,email",
+    "rationale": "Reduces over-fetching, enables efficient client queries"
+  },
+  {
+    "type": "api_design",
+    "category": "rest",
+    "pattern": "idempotency",
+    "description": "Safe retry behavior for non-GET requests",
+    "implementation": {
+      "header": "Idempotency-Key: unique-request-id-123",
+      "server_behavior": "Store result by key, return cached result on duplicate"
+    },
+    "idempotent_methods": ["GET", "PUT", "DELETE"],
+    "non_idempotent": ["POST", "PATCH"],
+    "use_cases": ["payment_processing", "order_creation", "any_side_effect_operation"],
+    "rationale": "Network failures happen. Clients need safe retry without duplicate side effects."
+  },
+  {
+    "type": "api_design",
+    "category": "graphql",
+    "pattern": "schema_design",
+    "description": "GraphQL schema best practices",
+    "principles": [
+      "Design schema from client needs, not database structure",
+      "Use connections for pagination (Relay spec)",
+      "Prefer nullable fields - makes evolution easier",
+      "Use custom scalars for domain types (DateTime, URL)",
+      "Group related fields into types"
+    ],
+    "pagination": {
+      "query": "users(first: 10, after: \"cursor\") { edges { node { id } } pageInfo { hasNextPage } }"
+    },
+    "nullability": "Only make fields non-null if they truly can never be null",
+    "rationale": "Good schema design prevents breaking changes and enables efficient queries"
+  },
+  {
+    "type": "api_design",
+    "category": "graphql",
+    "pattern": "n_plus_one_prevention",
+    "description": "Solve the N+1 query problem in GraphQL",
+    "problem": "Query for 10 users, then 10 separate queries for their orders",
+    "solution": "DataLoader pattern - batch and cache within request",
+    "implementation": {
+      "dataloader": "const userLoader = new DataLoader(ids => batchGetUsers(ids))",
+      "resolver": "resolve: (parent) => userLoader.load(parent.userId)"
+    },
+    "rationale": "Without batching, GraphQL flexibility leads to severe performance issues"
+  },
+  {
+    "type": "api_design",
+    "category": "security",
+    "pattern": "authentication",
+    "description": "API authentication patterns",
+    "patterns": {
+      "api_key": {
+        "use_for": "server_to_server, simple integrations",
+        "header": "X-API-Key: secret123",
+        "cons": "No expiration, hard to rotate"
+      },
+      "jwt": {
+        "use_for": "user authentication, stateless",
+        "header": "Authorization: Bearer eyJ...",
+        "pros": "Stateless, contains claims",
+        "cons": "Can't revoke until expiry"
+      },
+      "oauth2": {
+        "use_for": "third_party access, delegated auth",
+        "flows": ["authorization_code", "client_credentials", "pkce"],
+        "pros": "Standard, granular scopes"
+      }
+    },
+    "rationale": "Choose auth method based on use case and security requirements"
+  },
+  {
+    "type": "api_design",
+    "category": "security",
+    "pattern": "rate_limiting",
+    "description": "Protect API from abuse and ensure fair usage",
+    "strategies": {
+      "fixed_window": "100 requests per minute",
+      "sliding_window": "100 requests in last 60 seconds",
+      "token_bucket": "Burst allowed, refills over time"
+    },
+    "headers": {
+      "X-RateLimit-Limit": "100",
+      "X-RateLimit-Remaining": "95",
+      "X-RateLimit-Reset": "1234567890"
+    },
+    "scopes": ["per_user", "per_api_key", "per_ip", "per_endpoint"],
+    "rationale": "Prevents abuse, ensures availability, enables fair resource allocation"
+  },
+  {
+    "type": "api_design",
+    "category": "documentation",
+    "pattern": "openapi_spec",
+    "description": "Document APIs with OpenAPI/Swagger specification",
+    "components": {
+      "info": "API metadata, version, contact",
+      "servers": "Available environments",
+      "paths": "Endpoints with operations",
+      "components": "Reusable schemas, parameters, responses",
+      "security": "Authentication requirements"
+    },
+    "best_practices": [
+      "Include examples for all schemas",
+      "Document all error responses",
+      "Use $ref for reusable components",
+      "Keep spec in sync with implementation (code-first or spec-first)"
+    ],
+    "rationale": "Machine-readable docs enable code generation, testing, and tooling"
+  }
+]

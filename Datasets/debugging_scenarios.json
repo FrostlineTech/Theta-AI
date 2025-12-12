@@ -1,0 +1,172 @@
+[
+  {
+    "type": "debugging_scenario",
+    "category": "memory",
+    "symptom": "Application becomes slow over time, eventually crashes with OutOfMemoryError",
+    "domain": "backend",
+    "thought_process": [
+      "Symptom suggests memory leak - objects being retained when they shouldn't be",
+      "First, confirm with monitoring: check heap usage over time - is it growing?",
+      "Take heap dumps at different intervals to compare",
+      "Use profiler (VisualVM, MAT) to identify retained objects",
+      "Look for common leak sources: caches without eviction, listeners not removed, static collections"
+    ],
+    "common_causes": ["unbounded_cache", "event_listeners_not_removed", "static_collections", "connection_pool_exhaustion"],
+    "diagnostic_tools": ["heap_dump", "profiler", "gc_logs", "metrics"],
+    "resolution_pattern": "Identify the growing object type, trace its allocation, ensure proper cleanup or bounded size",
+    "prevention": ["use_weak_references_for_caches", "implement_close_methods", "bounded_collections", "regular_profiling"]
+  },
+  {
+    "type": "debugging_scenario",
+    "category": "concurrency",
+    "symptom": "Intermittent incorrect results, data corruption, or application hangs",
+    "domain": "backend",
+    "thought_process": [
+      "Intermittent issues often indicate race conditions",
+      "Identify shared mutable state accessed by multiple threads",
+      "Check for check-then-act patterns without synchronization",
+      "Look for compound operations on shared state (i++, if-then-update)",
+      "Use thread dumps to identify deadlocks if hanging"
+    ],
+    "common_causes": ["unsynchronized_shared_state", "check_then_act", "improper_double_checked_locking", "deadlock"],
+    "diagnostic_tools": ["thread_dump", "race_detector", "logging_thread_ids", "stress_testing"],
+    "resolution_pattern": "Make shared state immutable, use proper synchronization, or use concurrent data structures",
+    "prevention": ["prefer_immutability", "use_concurrent_collections", "minimize_shared_state", "thread_safety_annotations"]
+  },
+  {
+    "type": "debugging_scenario",
+    "category": "network",
+    "symptom": "API calls timing out or returning connection refused intermittently",
+    "domain": "distributed",
+    "thought_process": [
+      "Could be connection pool exhaustion, DNS issues, or downstream service problems",
+      "Check connection pool metrics - are connections being properly returned?",
+      "Verify DNS resolution is working and cached appropriately",
+      "Check downstream service health and its logs",
+      "Look for network segmentation or firewall issues"
+    ],
+    "common_causes": ["connection_pool_exhaustion", "dns_resolution_failure", "downstream_overload", "network_partition"],
+    "diagnostic_tools": ["netstat", "connection_pool_metrics", "distributed_tracing", "tcpdump"],
+    "resolution_pattern": "Tune pool sizes, implement proper connection handling, add circuit breakers",
+    "prevention": ["connection_pool_monitoring", "health_checks", "circuit_breakers", "retry_with_backoff"]
+  },
+  {
+    "type": "debugging_scenario",
+    "category": "performance",
+    "symptom": "Database queries suddenly become very slow",
+    "domain": "database",
+    "thought_process": [
+      "Check if query plan changed - run EXPLAIN ANALYZE",
+      "Look at table statistics - might need ANALYZE/UPDATE STATISTICS",
+      "Check for missing indexes or index bloat",
+      "Look for lock contention in pg_locks or SHOW PROCESSLIST",
+      "Check disk I/O and memory pressure on database server"
+    ],
+    "common_causes": ["query_plan_change", "stale_statistics", "index_bloat", "lock_contention", "data_growth"],
+    "diagnostic_tools": ["explain_analyze", "slow_query_log", "pg_stat_statements", "lock_monitoring"],
+    "resolution_pattern": "Update statistics, rebuild indexes, optimize query, add missing indexes",
+    "prevention": ["regular_maintenance", "query_monitoring", "index_health_checks", "capacity_planning"]
+  },
+  {
+    "type": "debugging_scenario",
+    "category": "frontend",
+    "symptom": "Page loads slowly, high Time to Interactive (TTI)",
+    "domain": "web",
+    "thought_process": [
+      "Use Lighthouse/DevTools Performance tab to identify bottlenecks",
+      "Check for large JavaScript bundles blocking render",
+      "Look for render-blocking CSS and unoptimized images",
+      "Check for excessive DOM size or layout thrashing",
+      "Verify API calls aren't waterfall-chained"
+    ],
+    "common_causes": ["large_bundles", "render_blocking_resources", "excessive_dom_manipulation", "unoptimized_images"],
+    "diagnostic_tools": ["lighthouse", "devtools_performance", "webpagetest", "bundle_analyzer"],
+    "resolution_pattern": "Code split, lazy load, optimize critical render path, compress assets",
+    "prevention": ["performance_budgets", "bundle_size_monitoring", "lazy_loading_by_default", "image_optimization_pipeline"]
+  },
+  {
+    "type": "debugging_scenario",
+    "category": "security",
+    "symptom": "Unauthorized access detected in logs, unusual data access patterns",
+    "domain": "security",
+    "thought_process": [
+      "Immediately assess scope: what data was accessed, from where?",
+      "Check authentication logs for anomalies (impossible travel, unusual times)",
+      "Review API logs for enumeration attempts or mass data access",
+      "Check for credential reuse or compromised tokens",
+      "Look for lateral movement indicators"
+    ],
+    "common_causes": ["credential_compromise", "session_hijacking", "insider_threat", "api_key_leak"],
+    "diagnostic_tools": ["siem_logs", "access_logs", "network_traffic_analysis", "user_behavior_analytics"],
+    "resolution_pattern": "Revoke compromised credentials, assess damage, implement additional controls",
+    "prevention": ["mfa", "anomaly_detection", "least_privilege", "regular_access_reviews", "token_rotation"]
+  },
+  {
+    "type": "debugging_scenario",
+    "category": "deployment",
+    "symptom": "New deployment causes errors, but works in staging",
+    "domain": "devops",
+    "thought_process": [
+      "Compare configs between staging and production",
+      "Check environment variables and secrets",
+      "Verify database migrations ran correctly",
+      "Look for scale-dependent bugs (works with 1 pod, fails with 10)",
+      "Check for missing dependencies or version mismatches"
+    ],
+    "common_causes": ["config_drift", "missing_env_vars", "migration_failure", "scale_dependent_bug", "dependency_mismatch"],
+    "diagnostic_tools": ["config_diff", "deployment_logs", "health_checks", "feature_flags"],
+    "resolution_pattern": "Rollback if critical, identify diff, fix forward with proper testing",
+    "prevention": ["infrastructure_as_code", "config_validation", "canary_deployments", "feature_flags"]
+  },
+  {
+    "type": "debugging_scenario",
+    "category": "data",
+    "symptom": "Data inconsistency between services or unexpected null values",
+    "domain": "distributed",
+    "thought_process": [
+      "Identify the source of truth for this data",
+      "Trace the data flow through services",
+      "Check for eventual consistency timing issues",
+      "Look for failed event processing or message loss",
+      "Verify schema compatibility between services"
+    ],
+    "common_causes": ["eventual_consistency_timing", "event_processing_failure", "schema_mismatch", "null_handling"],
+    "diagnostic_tools": ["distributed_tracing", "event_logs", "data_reconciliation", "schema_registry"],
+    "resolution_pattern": "Add data validation, implement reconciliation, fix event processing",
+    "prevention": ["schema_evolution_strategy", "data_contracts", "reconciliation_jobs", "null_safety"]
+  },
+  {
+    "type": "debugging_scenario",
+    "category": "api",
+    "symptom": "API returns 500 errors for some requests but not others",
+    "domain": "backend",
+    "thought_process": [
+      "Check error logs for stack traces - what's the actual exception?",
+      "Compare failing vs successful requests - what's different?",
+      "Look for edge cases in input data (nulls, special characters, size)",
+      "Check for resource exhaustion (file handles, connections)",
+      "Verify downstream dependencies are healthy"
+    ],
+    "common_causes": ["null_pointer", "input_validation_gap", "resource_exhaustion", "downstream_failure"],
+    "diagnostic_tools": ["error_logs", "request_comparison", "apm_traces", "input_fuzzing"],
+    "resolution_pattern": "Add input validation, handle edge cases, improve error handling",
+    "prevention": ["comprehensive_input_validation", "property_based_testing", "defensive_programming"]
+  },
+  {
+    "type": "debugging_scenario",
+    "category": "kubernetes",
+    "symptom": "Pods constantly restarting, CrashLoopBackOff",
+    "domain": "devops",
+    "thought_process": [
+      "Check pod logs: kubectl logs <pod> --previous for crash logs",
+      "Describe pod for events and exit codes",
+      "Exit code 137 = OOMKilled, need more memory",
+      "Exit code 1 = application error, check app logs",
+      "Check liveness probe - might be too aggressive"
+    ],
+    "common_causes": ["oom_killed", "application_crash", "probe_failure", "missing_config", "resource_limits"],
+    "diagnostic_tools": ["kubectl_logs", "kubectl_describe", "kubectl_events", "metrics_server"],
+    "resolution_pattern": "Increase resources, fix application error, tune probes",
+    "prevention": ["proper_resource_requests", "health_check_tuning", "local_testing_with_limits"]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What time is it?",
+    "answer": "I don't have access to the current time as I don't have real-time clock functionality. For the current time, you could check your device's clock or ask a time-enabled assistant. I'd be happy to help with questions related to cybersecurity, software development, or Frostline information that are within my knowledge base.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "What day is it today?",
+    "answer": "I don't have access to the current date as I don't have calendar functionality. For today's date, you could check your device's calendar or ask a date-enabled assistant. I'd be happy to help with questions related to cybersecurity, software development, or Frostline information that are within my knowledge base.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "How do computers work?",
+    "answer": "Computers work through a combination of hardware and software components that process data according to instructions. At the most basic level, computers use binary code (0s and 1s) to represent all data and instructions. The central processing unit (CPU) executes instructions stored in memory, manipulating data through logical and arithmetic operations. Input devices allow data to enter the system, while output devices display results. Storage devices hold data and programs even when power is off. The operating system manages hardware resources and provides services to applications that users interact with. This architecture, based on the von Neumann model, allows computers to perform an incredible variety of tasks through the precise manipulation of binary data.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "Why is the sky blue?",
+    "answer": "While I'm primarily focused on cybersecurity, software development, and Frostline information, I can explain that the sky appears blue due to a phenomenon called Rayleigh scattering. Sunlight contains all colors of the visible spectrum, but when it enters Earth's atmosphere, the air molecules scatter blue light more effectively than other colors because blue light travels in shorter, smaller waves. This scattered blue light comes to us from all directions in the sky, making the sky appear blue during the day. At sunrise and sunset, the light travels through more atmosphere, scattering the blue light away, which is why we see more red and orange colors at those times.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "What's the meaning of life?",
+    "answer": "The meaning of life is a profound philosophical question that has been debated throughout human history, with different perspectives across cultures, religions, and individual viewpoints. While I'm designed to provide information on cybersecurity, software development, and Frostline solutions, I can note that common philosophical approaches to this question include: finding purpose through personal goals and achievements, connection to others and community, pursuit of happiness or virtue, spiritual or religious fulfillment, or creating your own meaning in an objective universe. Many find that the meaning of life isn't a single answer but an ongoing personal journey of discovery and growth.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "How does the internet work?",
+    "answer": "The internet works through a global network of interconnected computers communicating via standardized protocols. At its foundation is TCP/IP (Transmission Control Protocol/Internet Protocol), which breaks data into packets and routes them to their destinations. When you access a website, your device sends a request to a DNS (Domain Name System) server to translate the domain name into an IP address. Your request then travels through multiple routers and switches, often across continents via fiber optic cables or satellite links, until it reaches the server hosting the website. The server processes your request and sends back the requested data, which your browser renders into the webpage you see. This entire process typically happens in milliseconds, creating the seamless experience we associate with the modern internet. The system's distributed architecture provides remarkable resilience, as data can follow multiple paths to reach its destination.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "What is artificial intelligence?",
+    "answer": "Artificial Intelligence (AI) refers to computer systems designed to perform tasks that typically require human intelligence. These include learning from experience, recognizing patterns, understanding language, making decisions, and problem-solving. AI systems use various techniques including machine learning (where algorithms improve through experience), deep learning (using neural networks with multiple layers), natural language processing (understanding and generating human language), and computer vision (interpreting visual information). AI can be categorized as narrow (designed for specific tasks like facial recognition) or general (theoretical systems with human-like cognitive abilities across domains). Modern AI applications include virtual assistants, recommendation systems, autonomous vehicles, and predictive analytics. As AI continues to advance, it presents both significant opportunities for innovation and important ethical considerations regarding privacy, bias, and autonomy.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "How does Wi-Fi work?",
+    "answer": "Wi-Fi works by transmitting data using radio waves, allowing devices to communicate wirelessly with networks. When you connect to Wi-Fi, your device contains a wireless adapter that translates data into radio signals and transmits them via an antenna. These signals are picked up by a router or access point, which decodes the signals and sends the information to the internet through a wired Ethernet connection. The process works in reverse when data comes back from the internet. Wi-Fi uses specific frequency bands (typically 2.4 GHz and 5 GHz) regulated by standards like IEEE 802.11. These standards define protocols for establishing connections, securing data transmission (using encryption like WPA3), and managing signal interference. The range and speed of Wi-Fi depend on factors including the specific standard used (such as 802.11ac or Wi-Fi 6), signal obstacles, distance from the access point, and interference from other devices.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "What is the cloud?",
+    "answer": "\"The cloud\" refers to a network of servers that store and process data over the internet instead of on local devices. When using cloud computing, your applications, services, and data are hosted on remote servers in data centers, allowing you to access them from anywhere with an internet connection. Cloud services typically fall into three main categories: Infrastructure as a Service (IaaS) providing virtualized computing resources, Platform as a Service (PaaS) offering development and deployment environments, and Software as a Service (SaaS) delivering applications over the internet. The cloud offers several advantages including reduced hardware costs, automatic updates, flexible scalability, and enhanced collaboration. Common examples include file storage services (like Dropbox), email providers (like Gmail), streaming platforms (like Netflix), and business applications (like Microsoft 365). Cloud security involves both provider and user responsibilities, with providers handling infrastructure security while users manage access controls and data protection.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "How do smartphones work?",
+    "answer": "Smartphones work by combining multiple technologies into a single handheld device. At their core, smartphones contain a system-on-chip (SoC) that integrates a processor (CPU), graphics processor (GPU), memory, and cellular modem. The operating system (like Android or iOS) manages hardware resources and provides a platform for applications. When you make a call, the phone converts your voice into digital signals that are transmitted over cellular networks using radio frequencies. For internet access, smartphones connect via cellular data networks (3G/4G/5G) or Wi-Fi. The touchscreen uses capacitive technology that detects the electrical properties of your finger to register touches. Various sensors including accelerometers, gyroscopes, and GPS provide spatial awareness and location services. Cameras capture light through lenses onto image sensors, which convert optical information into digital photos and videos. All these components work together, managed by sophisticated software, to create the versatile computing experience we expect from modern smartphones.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "What is cybersecurity?",
+    "answer": "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These attacks typically aim to access, change, or destroy sensitive information, extort money, or interrupt normal business processes. Effective cybersecurity employs multiple layers of defense against threats, including network security (protecting the integrity of networks), application security (keeping software free from threats), information security (protecting data integrity), operational security (processes for handling and protecting data), and end-user education (teaching users to recognize social engineering attacks). Key cybersecurity principles include defense in depth (multiple security layers), least privilege (minimal necessary access), regular updates and patching, strong authentication, encryption, backup and recovery processes, and continuous monitoring. As cyber threats constantly evolve in sophistication, cybersecurity must continually adapt through threat intelligence, security awareness training, and emerging technologies like AI-based threat detection.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "What's the difference between hardware and software?",
+    "answer": "Hardware refers to the physical components of a computer system that you can touch and see, while software consists of the instructions and programs that run on the hardware. Hardware includes components like the central processing unit (CPU), memory (RAM), storage devices (hard drives, SSDs), input devices (keyboard, mouse), output devices (monitor, printer), and motherboard. Software encompasses the operating system (like Windows or macOS) that manages hardware resources, applications (like word processors, web browsers, games) that perform specific tasks, and firmware (software embedded in hardware components). The key relationship between the two is that hardware provides the physical infrastructure needed to execute software instructions. Without software, hardware would be non-functional, and without hardware, software would have nothing to run on. Hardware tends to wear out over time and requires physical replacement, while software can be updated or reinstalled without physical changes.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "How does GPS work?",
+    "answer": "GPS (Global Positioning System) works through a network of approximately 30 satellites orbiting Earth at an altitude of about 20,000 km. These satellites continuously broadcast their position and time using precise atomic clocks. When your GPS receiver (in your phone or navigation device) wants to determine your location, it listens for signals from multiple satellites—typically four or more. The receiver calculates how long each signal took to arrive, and knowing that radio signals travel at the speed of light, it determines the distance to each satellite. Through trilateration (not triangulation), the receiver uses these distances to calculate your precise position on Earth. The system requires at least four satellites to determine latitude, longitude, altitude, and time. Modern GPS can achieve accuracy within a few meters under good conditions. Factors that can affect accuracy include atmospheric conditions, signal blockage from buildings or terrain, and the quality of the receiver. The system was originally developed for military use by the U.S. Department of Defense but is now freely available for civilian applications worldwide.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "How do I create a strong password?",
+    "answer": "To create a strong password, follow these key principles: 1) Length - use at least 12-16 characters; longer passwords are exponentially harder to crack; 2) Complexity - include a mix of uppercase and lowercase letters, numbers, and special characters; 3) Uniqueness - create different passwords for different accounts to prevent credential stuffing attacks; 4) Avoid predictable patterns - don't use sequential numbers, keyboard patterns (like 'qwerty'), or personal information; 5) Consider passphrases - a string of random words can be both strong and memorable (like 'correct-horse-battery-staple'); 6) Use a password manager - these tools can generate and store complex passwords securely; 7) Enable multi-factor authentication (MFA) whenever possible as an additional security layer beyond your password. Avoid common mistakes like using personal information, dictionary words, or reusing passwords across multiple sites. Remember that the best password is one that's difficult for others to guess but possible for you to remember—or safely stored in a password manager.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "How do I protect my online privacy?",
+    "answer": "To protect your online privacy, implement these essential practices: 1) Use strong, unique passwords for each account and consider a password manager to keep track of them; 2) Enable two-factor authentication for all important accounts; 3) Regularly update your operating system, applications, and antivirus software; 4) Be cautious with social media sharing—limit personal information and check privacy settings; 5) Use a VPN (Virtual Private Network) to encrypt your internet connection, especially on public Wi-Fi; 6) Browse in private/incognito mode to prevent local tracking, but remember this doesn't hide your activity from your ISP; 7) Use privacy-focused browsers and search engines that minimize data collection; 8) Review app permissions regularly and limit location tracking; 9) Opt out of data collection when possible and regularly delete cookies; 10) Be wary of phishing attempts and suspicious links; 11) Encrypt sensitive data on your devices; 12) Read privacy policies to understand how your data is used. While no single measure provides complete privacy, combining these approaches significantly enhances your protection against unwanted data collection and potential privacy breaches.",
+    "domain": "common_questions"
+  },
+  {
+    "question": "What is machine learning?",
+    "answer": "Machine learning is a subset of artificial intelligence that enables computer systems to learn and improve from experience without being explicitly programmed. Instead of following specific instructions, machine learning algorithms use statistical techniques to find patterns in data and make decisions with minimal human intervention. The process typically involves training a model on a dataset, where the algorithm learns to identify patterns or make predictions, then applying the trained model to new data. Machine learning approaches include supervised learning (using labeled data to predict outcomes), unsupervised learning (finding hidden patterns in unlabeled data), and reinforcement learning (learning optimal actions through trial and error). Common applications include image and speech recognition, recommendation systems, fraud detection, medical diagnosis, and autonomous vehicles. As datasets grow larger and computing power increases, machine learning techniques have become more sophisticated, particularly with the rise of deep learning, which uses neural networks with multiple layers to process complex patterns in data.",
+    "domain": "common_questions"
+  }
+]

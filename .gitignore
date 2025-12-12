@@ -1,0 +1,166 @@
+# ============================================
+# Theta AI - Minimal Public GitHub .gitignore
+# ============================================
+# WHITELIST APPROACH: Ignore everything, then allow only essentials
+
+# === IGNORE EVERYTHING BY DEFAULT ===
+*
+
+# === ALLOW ESSENTIAL FILES ===
+
+# Root configuration
+!.gitignore
+!.gitattributes
+!.env.example
+!README.md
+!requirements.txt
+!CONTRIBUTING.md
+!CHANGELOG.md
+!SECURITY.md
+
+# Main training script
+!train_overnight_enhanced.bat
+
+# Dataset download scripts
+!download_human_like_dpo.bat
+!download_human_like_dpo_dataset.py
+!download_openassistant.bat
+!download_openassistant_oasst1.py
+!download_openmath_instruct.bat
+!download_openmath_instruct.py
+
+# Data preparation
+!prepare_data_for_training.py
+!setup_enhanced_db.py
+
+# Source code directory
+!src/
+!src/**
+
+# But exclude pycache in src
+src/__pycache__/
+src/**/__pycache__/
+*.pyc
+*.pyo
+
+# Models directory (empty, for output)
+!models/
+!models/.gitkeep
+
+# Documentation
+!documentation/
+!documentation/**
+
+# Datasets directory structure
+!Datasets/
+!Datasets/*.json
+
+# Exclude large generated datasets
+Datasets/github_conversations_qa.json
+Datasets/github_conversations_raw.json
+Datasets/openmath_instruct_1.json
+Datasets/enhanced_training_data.json
+Datasets/conversational_20k_complete.json
+Datasets/human_like_dpo_dataset.json
+Datasets/openassistant_oasst1.json
+Datasets/openassistant_oasst1_enhanced.json
+Datasets/enhanced_conversations.json
+Datasets/expanded_technical_qa.json
+Datasets/processed_balanced.json
+Datasets/processed_data.json
+Datasets/processed_test_output.json
+Datasets/verify_integration_output.json
+Datasets/tutorial_qa.json
+Datasets/tutorials.json
+Datasets/problem_solutions.json
+Datasets/openwebtext_processed.json
+Datasets/technical_documentation.json
+
+# Exclude dataset subdirectories (generated/cache)
+Datasets/embeddings/
+Datasets/vector_db/
+Datasets/knowledge_graphs/
+Datasets/_quarantine/
+Datasets/cache/
+Datasets/feedback_based/
+Datasets/training_improvements_2025/
+Datasets/domain_corpus/
+
+# Data directory (knowledge base)
+!data/
+!data/**
+
+# === ALWAYS EXCLUDE ===
+
+# Sensitive
+.env
+*.env
+
+# Cache & temp
+cache/
+__pycache__/
+*.tmp
+*.temp
+*.log
+
+# Database
+database/
+*.db
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.hintrc
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated
+logs/
+stats/
+test_results/
+
+# Separate applications (not part of core training)
+nginx/
+theta desktop assistant/
+theta_project/
+static/
+templates/
+staticfiles/
+
+# Unnecessary root scripts
+check_dataset.py
+check_files.py
+cleanup.bat
+copy_punkt_files.py
+fix_*.py
+install_dependencies.py
+interface.bat
+run_checkpoint_cleanup.bat
+run_data_processing.py
+run_theta_server.bat
+setup_nltk.bat
+setup_nltk_data.py
+setup_web_search_improvements.py
+simple_test.py
+start_training.bat
+start_training_with_fixes.bat
+test_*.py
+train_overnight.bat
+train_overnight_enhanced_optimized.bat
+upgrade_theta.py
+validate_json_files.py
+verify_*.py
+web_interface.bat
+web_requirements.txt
+data_enhancement_readme.md
+human_like_dpo_integration_README.md
+data_preparation.log
+knowledge_enhancement.log
+
+# Old docs folder (replaced by documentation/)
+docs/

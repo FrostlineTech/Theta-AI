@@ -1,0 +1,345 @@
+{
+  "description": "Deep understanding of cultural contexts, values, norms, and practices across different societies to inform culturally appropriate responses.",
+  "cultural_frameworks": [
+    {
+      "culture": "Japanese",
+      "core_values": [
+        {
+          "concept": "Wa ()",
+          "definition": "Social harmony and peaceful unity within a group",
+          "manifestations": [
+            {
+              "context": "Business decision making",
+              "practice": "Consensus-building (ringi) process where all stakeholders review proposals before decisions are made",
+              "underlying_reasoning": "Prioritizes group cohesion over individual efficiency or recognition",
+              "misunderstanding_risks": "Western observers may interpret as indecisiveness rather than intentional harmony-maintenance"
+            },
+            {
+              "context": "Conflict resolution",
+              "practice": "Indirect communication about problems, often through mediators",
+              "underlying_reasoning": "Preserves face for all parties and maintains group harmony",
+              "misunderstanding_risks": "Can be perceived as dishonesty or avoidance by those from direct-communication cultures"
+            },
+            {
+              "context": "Everyday interactions",
+              "practice": "Anticipating others' needs without explicit requests",
+              "underlying_reasoning": "Demonstrates consideration by not requiring others to voice needs",
+              "misunderstanding_risks": "Non-Japanese may miss subtle cues or feel uncomfortable with unspoken expectations"
+            }
+          ]
+        },
+        {
+          "concept": "Uchi/Soto (/)",
+          "definition": "Distinction between in-group (uchi) and out-group (soto) relationships",
+          "manifestations": [
+            {
+              "context": "Language use",
+              "practice": "Different speech levels and vocabulary depending on in-group/out-group status",
+              "underlying_reasoning": "Language reflects and reinforces social boundaries and obligations",
+              "misunderstanding_risks": "Foreigners may miss social cues or use inappropriately informal language"
+            },
+            {
+              "context": "Business relationships",
+              "practice": "Long trust-building period before substantive negotiations begin",
+              "underlying_reasoning": "Moving outside relationships into inside circle requires time and shared experience",
+              "misunderstanding_risks": "Westerners may rush business discussions, appearing transactional and untrustworthy"
+            },
+            {
+              "context": "Group activities",
+              "practice": "Strong obligation to participate in after-work social events with colleagues",
+              "underlying_reasoning": "Building uchi connections requires shared experiences outside formal contexts",
+              "misunderstanding_risks": "Opting out may be perceived as rejection rather than personal preference"
+            }
+          ]
+        },
+        {
+          "concept": "Tatemae/Honne (/)",
+          "definition": "Distinction between public behavior/statements (tatemae) and true feelings/beliefs (honne)",
+          "manifestations": [
+            {
+              "context": "Feedback and criticism",
+              "practice": "Highly indirect negative feedback, emphasis on positive aspects",
+              "underlying_reasoning": "Preserves relationship and recipient's dignity",
+              "misunderstanding_risks": "Direct-culture individuals may miss negative feedback entirely"
+            },
+            {
+              "context": "Negotiations",
+              "practice": "Initial positions may differ significantly from acceptable outcomes",
+              "underlying_reasoning": "Public stance (tatemae) maintains ideal position while private stance (honne) is more practical",
+              "misunderstanding_risks": "Taking initial positions as final can prevent reaching viable compromises"
+            },
+            {
+              "context": "Personal opinions",
+              "practice": "Expressing agreement in public while reserving doubts for private or in-group settings",
+              "underlying_reasoning": "Public disagreement disrupts harmony and threatens face",
+              "misunderstanding_risks": "Assuming expressed agreement indicates actual agreement"
+            }
+          ]
+        }
+      ],
+      "communication_patterns": {
+        "high_context_nature": "Communication relies heavily on shared context, implicit understanding, and non-verbal cues",
+        "key_features": [
+          {
+            "feature": "Ma () - silence",
+            "significance": "Comfortable silence viewed as thoughtful, not awkward",
+            "usage": "Intentional pauses show consideration before responding"
+          },
+          {
+            "feature": "Aimai () - ambiguity",
+            "significance": "Deliberate vagueness to maintain flexibility and harmony",
+            "usage": "Avoiding direct refusals through ambiguous responses"
+          },
+          {
+            "feature": "Aizuchi - backchanneling",
+            "significance": "Frequent listener responses (hai, so desu ne) to show attentiveness",
+            "usage": "Does not necessarily indicate agreement, only active listening"
+          }
+        ],
+        "non_verbal_elements": [
+          {
+            "element": "Bowing",
+            "variations": "Depth and duration indicate status differential and formality",
+            "context_sensitivity": "Informal nod between peers vs. deep formal bow to superiors"
+          },
+          {
+            "element": "Eye contact",
+            "variations": "Less sustained than Western norms, especially with superiors",
+            "context_sensitivity": "Brief eye contact shows attention without challenging authority"
+          },
+          {
+            "element": "Personal space",
+            "variations": "Closer in crowded public settings, more distant in social interactions",
+            "context_sensitivity": "Physical contact avoided except in specific contexts (crowded trains)"
+          }
+        ]
+      },
+      "business_etiquette": {
+        "relationship_building": {
+          "importance": "Fundamental prerequisite before substantive business discussions",
+          "practices": [
+            "Multiple meetings focusing on rapport before business matters",
+            "Exchange of small gifts as relationship investment",
+            "After-hours socializing considered essential to business relationship"
+          ]
+        },
+        "hierarchy_awareness": {
+          "importance": "Critical to avoid status missteps and showing proper respect",
+          "practices": [
+            "Business cards (meishi) exchanged formally to establish relative position",
+            "Seating arrangements reflect organizational hierarchy",
+            "Speaking order follows seniority pattern"
+          ]
+        },
+        "decision_making": {
+          "process": "Nemawashi () - informal consensus-building before formal meetings",
+          "timeline": "Longer than Western expectations, with multiple consultations",
+          "implementation": "Once decided, execution typically proceeds rapidly and thoroughly"
+        }
+      },
+      "cultural_dimensions": {
+        "hofstede_metrics": {
+          "power_distance": "High - respect for hierarchy and authority",
+          "individualism_collectivism": "Strongly collectivist - group harmony prioritized over individual expression",
+          "uncertainty_avoidance": "High - preference for predictability, detailed planning, and risk reduction",
+          "masculinity_femininity": "High masculinity - distinct gender roles and achievement orientation",
+          "long_term_orientation": "Very high - emphasis on persistence and long-term planning"
+        },
+        "communication_style": {
+          "directness": "Low - high-context, implicit communication preferred",
+          "emotional_expression": "Restrained - public emotional control highly valued",
+          "formality": "High - complex keigo (honorific language) system reflecting social relationships"
+        }
+      },
+      "contemporary_changes": {
+        "generational_shifts": [
+          {
+            "younger_generation": "More individualistic tendencies among urban youth",
+            "traditional_aspects": "Core values persist but with more flexible expressions",
+            "implications": "Greater variation in acceptable behavior while maintaining underlying principles"
+          }
+        ],
+        "globalization_effects": [
+          {
+            "business": "Adoption of some Western practices while maintaining Japanese fundamentals",
+            "communication": "More direct in international contexts but still relatively indirect",
+            "work_culture": "Gradual shifts toward work-life balance in progressive companies"
+          }
+        ]
+      }
+    },
+    {
+      "culture": "American (United States)",
+      "core_values": [
+        {
+          "concept": "Individualism",
+          "definition": "Emphasis on personal identity, rights, and achievements over group identity",
+          "manifestations": [
+            {
+              "context": "Career development",
+              "practice": "Personal achievement and advancement prioritized over company loyalty",
+              "underlying_reasoning": "Self-actualization and individual fulfillment as primary goals",
+              "misunderstanding_risks": "May appear selfish or disloyal to collectivist cultures"
+            },
+            {
+              "context": "Problem solving",
+              "practice": "Individual initiative and innovation encouraged",
+              "underlying_reasoning": "Belief that progress comes from individual breakthroughs rather than group consensus",
+              "misunderstanding_risks": "May undervalue collaborative processes important in other cultures"
+            },
+            {
+              "context": "Child-rearing",
+              "practice": "Emphasis on independence, self-expression, and personal choice",
+              "underlying_reasoning": "Preparing children for autonomous adult life in competitive society",
+              "misunderstanding_risks": "May seem permissive or lacking structure to cultures emphasizing obedience"
+            }
+          ]
+        },
+        {
+          "concept": "Egalitarianism",
+          "definition": "Belief in fundamental equality of individuals despite differences in wealth or status",
+          "manifestations": [
+            {
+              "context": "Workplace interactions",
+              "practice": "Informal communication across hierarchical levels, first-name basis",
+              "underlying_reasoning": "Reducing power distance to encourage open communication",
+              "misunderstanding_risks": "May appear disrespectful in cultures with stronger hierarchy norms"
+            },
+            {
+              "context": "Service expectations",
+              "practice": "Similar treatment expected regardless of social status",
+              "underlying_reasoning": "Democratic ideal that all customers/citizens deserve equal respect",
+              "misunderstanding_risks": "May seem entitled when in cultures with more stratified service norms"
+            },
+            {
+              "context": "Education",
+              "practice": "Students encouraged to question authority and engage in debate",
+              "underlying_reasoning": "Building critical thinking skills rather than accepting hierarchical knowledge",
+              "misunderstanding_risks": "May appear disrespectful in cultures where teacher authority is absolute"
+            }
+          ]
+        },
+        {
+          "concept": "Meritocracy",
+          "definition": "Belief that success should be based on ability and effort rather than background or connections",
+          "manifestations": [
+            {
+              "context": "Hiring practices",
+              "practice": "Emphasis on credentials, experience and demonstrated skills",
+              "underlying_reasoning": "Fairness requires objective assessment rather than relationships",
+              "misunderstanding_risks": "May undervalue relationship networks important in other cultures"
+            },
+            {
+              "context": "Social mobility narrative",
+              "practice": "Strong cultural narrative around 'pulling oneself up by the bootstraps'",
+              "underlying_reasoning": "Anyone can achieve success through hard work regardless of origins",
+              "misunderstanding_risks": "May underestimate structural barriers and overemphasize individual agency"
+            },
+            {
+              "context": "Failure perception",
+              "practice": "Failure often framed as learning opportunity rather than permanent disgrace",
+              "underlying_reasoning": "Trial and error as necessary part of innovation and growth",
+              "misunderstanding_risks": "Tolerance for failure may seem unprofessional to risk-averse cultures"
+            }
+          ]
+        }
+      ],
+      "communication_patterns": {
+        "low_context_nature": "Communication relies heavily on explicit verbal content rather than context or non-verbal cues",
+        "key_features": [
+          {
+            "feature": "Directness",
+            "significance": "Clear, explicit communication valued over indirect hints",
+            "usage": "Directly stating needs, opinions, and expectations"
+          },
+          {
+            "feature": "Informality",
+            "significance": "Casual communication style even in relatively formal contexts",
+            "usage": "Quick transition to first names, relaxed language with authorities"
+          },
+          {
+            "feature": "Problem-focused communication",
+            "significance": "Getting to the point and addressing issues directly",
+            "usage": "Limited small talk before addressing main business purpose"
+          }
+        ],
+        "non_verbal_elements": [
+          {
+            "element": "Eye contact",
+            "variations": "Direct eye contact expected to demonstrate attentiveness and honesty",
+            "context_sensitivity": "Sustained eye contact in professional settings, intermittent in social"
+          },
+          {
+            "element": "Personal space",
+            "variations": "Larger personal bubble than many cultures (approximately arm's length)",
+            "context_sensitivity": "Closer for friends/family, maintained with colleagues/strangers"
+          },
+          {
+            "element": "Handshakes",
+            "variations": "Firm handshake as standard professional greeting",
+            "context_sensitivity": "Gender-neutral business practice, less common in purely social settings"
+          }
+        ]
+      },
+      "business_etiquette": {
+        "relationship_building": {
+          "importance": "Secondary to business objectives in initial interactions",
+          "practices": [
+            "Brief small talk before getting down to business",
+            "Relationship develops through successful business interactions",
+            "Clear separation between professional and personal relationships"
+          ]
+        },
+        "time_orientation": {
+          "importance": "Punctuality and efficiency highly valued",
+          "practices": [
+            "Meetings expected to start and end on schedule",
+            "Agenda-driven discussions with clear outcomes",
+            "Multitasking often viewed as efficient rather than disrespectful"
+          ]
+        },
+        "decision_making": {
+          "process": "Varies by organization but often involves limited stakeholder input",
+          "timeline": "Emphasis on speed and decisiveness",
+          "implementation": "Executed through clear delegation of responsibilities"
+        }
+      },
+      "cultural_dimensions": {
+        "hofstede_metrics": {
+          "power_distance": "Relatively low - limited deference to authority",
+          "individualism_collectivism": "Highly individualistic - personal rights and achievements prioritized",
+          "uncertainty_avoidance": "Moderate - reasonable comfort with ambiguity and change",
+          "masculinity_femininity": "Moderately masculine - achievement-oriented but with gender role evolution",
+          "long_term_orientation": "Short-term oriented - focus on quarterly results and immediate outcomes"
+        },
+        "communication_style": {
+          "directness": "High - explicit, straightforward communication valued",
+          "emotional_expression": "Moderately expressive - enthusiasm valued in professional settings",
+          "formality": "Generally informal - quick transition to first-name basis"
+        }
+      },
+      "regional_variations": {
+        "northeast": {
+          "communication_style": "More direct, faster-paced, sometimes perceived as abrupt",
+          "social_norms": "Greater emphasis on privacy and personal space",
+          "work_culture": "Formal business environment with clear boundaries"
+        },
+        "south": {
+          "communication_style": "More indirect, relationship-focused communication",
+          "social_norms": "Greater emphasis on courtesy and social harmony",
+          "work_culture": "Relationship building often precedes business discussions"
+        },
+        "west_coast": {
+          "communication_style": "Casual but diplomatic, emphasis on positive framing",
+          "social_norms": "Greater acceptance of diversity and alternative lifestyles",
+          "work_culture": "Innovation-focused with flatter hierarchies"
+        },
+        "midwest": {
+          "communication_style": "Straightforward but courteous, value-oriented",
+          "social_norms": "Community-oriented with stronger local ties",
+          "work_culture": "Strong work ethic with emphasis on reliability"
+        }
+      }
+    }
+  ]
+}

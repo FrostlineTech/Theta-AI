@@ -1,0 +1,311 @@
+{
+  "description": "Framework for understanding different types of humor, their structures, and contextual appropriateness to enable natural humorous interaction.",
+  "humor_types": [
+    {
+      "category": "Irony",
+      "definition": "Expression of meaning using language that normally signifies the opposite",
+      "cognitive_mechanics": "Requires recognition of disconnect between stated meaning and intended meaning",
+      "examples": [
+        {
+          "setup": "During a thunderstorm with pouring rain",
+          "line": "Lovely weather we're having!",
+          "why_funny": "Statement directly contradicts observable reality",
+          "social_function": "Creates shared moment of commiseration through understatement"
+        },
+        {
+          "setup": "After someone makes an obviously bad decision",
+          "line": "Well, that was a brilliant move.",
+          "why_funny": "Describes poor decision with term usually reserved for good decisions",
+          "social_function": "Allows criticism while maintaining plausible deniability"
+        },
+        {
+          "setup": "When a plan goes completely wrong",
+          "line": "That went exactly as planned.",
+          "why_funny": "Claims intention for clearly unintended outcome",
+          "social_function": "Self-deprecating humor that acknowledges failure while saving face"
+        }
+      ],
+      "cultural_considerations": [
+        {
+          "culture": "British",
+          "prevalence": "High - foundational to communication style",
+          "typical_usage": "Often used to diffuse tension or express criticism indirectly",
+          "example": "British weather complaints often delivered through ironic praise"
+        },
+        {
+          "culture": "American",
+          "prevalence": "Medium - more often explicitly flagged",
+          "typical_usage": "More frequently used for direct comedic effect rather than subtle communication",
+          "example": "Often followed by explicit indicators like eye rolls or tone changes"
+        },
+        {
+          "culture": "Japanese",
+          "prevalence": "Low - potentially confusing due to cultural emphasis on harmony",
+          "typical_usage": "Less common in traditional contexts, more accepted among younger generations",
+          "example": "May be interpreted as confusing or insincere rather than humorous"
+        }
+      ],
+      "delivery_factors": [
+        "Slight emphasis on key words",
+        "Often accompanied by subtle facial cues",
+        "Context-dependent interpretation",
+        "Deadpan delivery enhances effect",
+        "Shared knowledge between speaker and listener required"
+      ],
+      "developmental_trajectory": {
+        "early_childhood": "Difficulty understanding due to literal interpretation of language",
+        "middle_childhood": "Beginning recognition of simple verbal irony in obvious contexts",
+        "adolescence": "Increased appreciation and production, often becomes key social tool",
+        "adulthood": "Refined understanding of subtle forms and appropriate contexts"
+      },
+      "neurocognitive_requirements": [
+        "Theory of mind (understanding speaker's intentions differ from literal meaning)",
+        "Working memory (holding both literal and intended meanings simultaneously)",
+        "Cognitive flexibility (switching between interpretations)",
+        "Context processing (integrating situational factors with linguistic content)"
+      ],
+      "subtypes": [
+        {
+          "subtype": "Verbal irony",
+          "description": "Saying the opposite of what is meant",
+          "example": "Saying 'What a bargain!' about something extremely overpriced"
+        },
+        {
+          "subtype": "Situational irony",
+          "description": "When outcome contradicts expectations in a poignant way",
+          "example": "Fire station burning down"
+        },
+        {
+          "subtype": "Dramatic irony",
+          "description": "When audience knows something characters don't",
+          "example": "Horror film viewer knowing killer is behind door character is about to open"
+        }
+      ]
+    },
+    {
+      "category": "Wordplay",
+      "definition": "Humor derived from clever or unexpected use of language and multiple meanings",
+      "cognitive_mechanics": "Exploits linguistic ambiguity and multiple interpretations of words or phrases",
+      "examples": [
+        {
+          "setup": "Did you hear about the guy whose whole left side was cut off?",
+          "punchline": "He's all right now.",
+          "why_funny": "Plays on dual meaning of 'all right' as both 'healthy' and 'only right side remaining'",
+          "linguistic_device": "Homonym (words that sound the same but have different meanings)"
+        },
+        {
+          "setup": "Time flies like an arrow.",
+          "punchline": "Fruit flies like a banana.",
+          "why_funny": "First sentence sets up expectation of 'flies' as verb, second uses it as noun",
+          "linguistic_device": "Syntactic ambiguity (same word functioning as different parts of speech)"
+        },
+        {
+          "setup": "What's the difference between a poorly dressed man on a trampoline and a well-dressed man on a toilet?",
+          "punchline": "One's a happy bouncer and the other's a dapper crapper.",
+          "why_funny": "Creates unexpected rhyming descriptions with similar structure but contrasting content",
+          "linguistic_device": "Rhyme and parallel structure"
+        }
+      ],
+      "cultural_considerations": [
+        {
+          "consideration": "Language-specificity",
+          "explanation": "Many puns and wordplay jokes cannot be translated between languages",
+          "example": "English puns rarely work in languages with different phonetic patterns"
+        },
+        {
+          "consideration": "Educational factors",
+          "explanation": "Appreciation often correlates with vocabulary size and linguistic knowledge",
+          "example": "Academic wordplay may be inaccessible to those without specific education"
+        },
+        {
+          "consideration": "Regional variations",
+          "explanation": "Dialects and regional pronunciations create different wordplay opportunities",
+          "example": "Jokes based on non-rhotic accents fail in rhotic accent regions"
+        }
+      ],
+      "delivery_factors": [
+        "Timing crucial for revealing punchline",
+        "Often benefits from slight emphasis on the ambiguous term",
+        "Visual cues may diminish effect for sophisticated wordplay",
+        "Written form sometimes more effective than spoken for complex puns"
+      ],
+      "subtypes": [
+        {
+          "subtype": "Puns",
+          "description": "Jokes exploiting words that sound similar or identical",
+          "example": "I used to be a baker, but I couldn't make enough dough."
+        },
+        {
+          "subtype": "Spoonerisms",
+          "description": "Transposition of initial sounds in paired words",
+          "example": "Saying 'well-boiled icicle' instead of 'well-oiled bicycle'"
+        },
+        {
+          "subtype": "Malapropisms",
+          "description": "Humorous misuse of similar-sounding word",
+          "example": "The doctor wrote a subscription for medication."
+        },
+        {
+          "subtype": "Tom Swifties",
+          "description": "Puns where adverb relates to quoted statement",
+          "example": "\"I've lost my trousers,\" Tom said expansively."
+        }
+      ],
+      "cognitive_benefits": {
+        "linguistic_processing": "Strengthens phonological awareness and semantic networks",
+        "creativity": "Encourages flexible thinking about language",
+        "memory": "Memorable format for vocabulary acquisition and retention",
+        "social_bonding": "Creates shared enjoyment through mental puzzle-solving"
+      }
+    },
+    {
+      "category": "Incongruity Humor",
+      "definition": "Humor arising from unexpected juxtaposition of incompatible elements or violation of expectations",
+      "cognitive_mechanics": "Brain first processes information along expected pattern, then must suddenly reinterpret when expectations are violated",
+      "theoretical_framework": {
+        "name": "Incongruity Resolution Theory",
+        "explanation": "Humor requires both perception of incongruity and resolution of that incongruity",
+        "process": [
+          "Set up expectation",
+          "Introduce violation of expectation",
+          "Provide resolution that makes sense of violation",
+          "Experience emotional release through laughter"
+        ]
+      },
+      "examples": [
+        {
+          "setup": "A man walks into a bar with a slab of asphalt under his arm",
+          "punchline": "He says to the bartender, 'A beer please, and one for the road.'",
+          "why_funny": "Sets up literal interpretation of common idiom by physically bringing 'road'",
+          "incongruity_pattern": "Literal vs. figurative language interpretation"
+        },
+        {
+          "setup": "What's black and white and red all over?",
+          "punchline": "A newspaper.",
+          "why_funny": "Misdirection through homophone ('red' vs 'read'), creating false mental image",
+          "incongruity_pattern": "Auditory ambiguity resolution"
+        },
+        {
+          "setup": "Time travel demonstration",
+          "punchline": "I was going to tell a joke about time travel, but you didn't like it.",
+          "why_funny": "Violates causality by placing effect (disliking joke) before cause (telling joke)",
+          "incongruity_pattern": "Logical/temporal violation"
+        }
+      ],
+      "neurological_basis": {
+        "brain_regions": ["Prefrontal cortex", "Temporal lobes", "Limbic system"],
+        "process": "Initial incongruity triggers cognitive conflict (prefrontal cortex), resolution activates reward centers (nucleus accumbens)",
+        "emotional_response": "Relief following successful resolution of cognitive puzzle"
+      },
+      "developmental_aspects": {
+        "emergence": "Early forms appear around age 2 with simple visual incongruities (putting hat on foot)",
+        "sophistication": "Progresses to linguistic and conceptual incongruities with cognitive development",
+        "peak_appreciation": "Adolescents and adults appreciate more complex forms requiring greater knowledge"
+      },
+      "subtypes": [
+        {
+          "subtype": "Absurdism",
+          "description": "Extreme incongruity that defies rational explanation",
+          "example": "Why did the scarecrow win an award? Because he was outstanding in his field.",
+          "appeal": "Creates playful cognitive freedom from logical constraints"
+        },
+        {
+          "subtype": "Anti-jokes",
+          "description": "Setup suggests joke format but delivers mundane or literal punchline",
+          "example": "What's brown and sticky? A stick.",
+          "appeal": "Humor derived from disappointed expectation of clever punchline"
+        },
+        {
+          "subtype": "Surreal humor",
+          "description": "Deliberately impossible or illogical scenarios",
+          "example": "How many surrealists does it take to change a lightbulb? Fish.",
+          "appeal": "Creates momentary suspension of logical thinking requirements"
+        }
+      ]
+    },
+    {
+      "category": "Self-Deprecating Humor",
+      "definition": "Humor that targets the speaker's own flaws, mistakes, or misfortunes",
+      "psychological_functions": [
+        {
+          "function": "Preemptive self-criticism",
+          "explanation": "Acknowledging flaws before others can point them out diminishes their social impact",
+          "example": "Commenting on one's clumsiness immediately after tripping"
+        },
+        {
+          "function": "Status management",
+          "explanation": "Demonstrates security and confidence while reducing perceived threat to others",
+          "example": "High-status individual joking about their own limitations"
+        },
+        {
+          "function": "Building rapport",
+          "explanation": "Creates perception of authenticity and approachability",
+          "example": "New leader sharing amusing personal failure with team"
+        },
+        {
+          "function": "Tension diffusion",
+          "explanation": "Reduces awkwardness after personal error or uncomfortable situation",
+          "example": "Joking about forgetting someone's name after being reminded"
+        }
+      ],
+      "examples": [
+        {
+          "context": "After making an obvious mistake",
+          "line": "And that, everyone, is exactly how NOT to do it. I'll be offering courses in incompetence all week.",
+          "psychological_effect": "Transforms embarrassment into shared amusement",
+          "social_impact": "Signals emotional resilience and self-awareness"
+        },
+        {
+          "context": "When receiving compliment on appearance",
+          "line": "Thanks, I clean up pretty well for someone who normally looks like they were dressed by raccoons in a dark closet.",
+          "psychological_effect": "Accepts positive feedback while demonstrating humility",
+          "social_impact": "Maintains modesty while acknowledging compliment"
+        },
+        {
+          "context": "During job interview when asked about weaknesses",
+          "line": "My attention to detail is so strong it once took me three hours to write an email because I kept rewording it. My therapist says I'm making progress though.",
+          "psychological_effect": "Frames potential negative as partially positive through humor",
+          "social_impact": "Shows self-awareness while mitigating perceived weakness"
+        }
+      ],
+      "cultural_variations": [
+        {
+          "culture": "American",
+          "pattern": "Often focused on physical appearance, social awkwardness, or specific incidents",
+          "boundaries": "Generally avoids deeply personal topics like intelligence or moral character",
+          "example": "Self-deprecating about dancing ability or cooking skills"
+        },
+        {
+          "culture": "British",
+          "pattern": "More pervasive, often extending to core aspects of identity and ability",
+          "boundaries": "Few topics considered off-limits for self-mockery",
+          "example": "Freely joking about intelligence, career failures, or personal disasters"
+        },
+        {
+          "culture": "Japanese",
+          "pattern": "Self-deprecation expected as demonstration of modesty",
+          "boundaries": "Focused on effort and achievement rather than inherent qualities",
+          "example": "Downplaying accomplishments as result of luck rather than skill"
+        },
+        {
+          "culture": "Middle Eastern",
+          "pattern": "Less common in traditional contexts where dignity and honor are emphasized",
+          "boundaries": "May be inappropriate in formal or hierarchical situations",
+          "example": "Limited to safe topics like minor foibles rather than significant failures"
+        }
+      ],
+      "effectiveness_factors": {
+        "authenticity": "Must be perceived as genuine rather than fishing for compliments",
+        "severity": "Should target minor flaws or manageable issues rather than serious problems",
+        "frequency": "Loses effectiveness if overused, creating impression of low self-esteem",
+        "context": "More appropriate in informal settings than formal or high-stakes situations"
+      },
+      "psychological_risks": {
+        "reinforcement": "Repeated negative self-statements may strengthen negative self-perception",
+        "misinterpretation": "Others may believe self-critical jokes reflect actual self-view",
+        "deflection": "May become avoidance mechanism for addressing genuine issues",
+        "stereotyping": "Can inadvertently reinforce stereotypes if focusing on group-related traits"
+      }
+    }
+  ]
+}

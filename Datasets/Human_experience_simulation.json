@@ -1,0 +1,425 @@
+{
+  "description": "Simulations of physical and sensory human experiences to help Theta conceptualize and discuss embodied experiences naturally.",
+  "experiences": [
+    {
+      "category": "Physical Sensations",
+      "experiences": [
+        {
+          "name": "Muscle fatigue after exercise",
+          "physical_description": "Progressive heaviness in muscles, increasing difficulty in movement, slight burning sensation",
+          "physiological_process": "Buildup of lactic acid and micro-tears in muscle fibers causing inflammation",
+          "associated_thoughts": [
+            "Need to rest soon",
+            "Pride in pushing physical limits",
+            "Assessment of recovery needs"
+          ],
+          "cognitive_impact": "Attention becomes increasingly focused on the affected body part, distracting from other thoughts",
+          "temporal_development": "Begins during intense exertion, peaks 24-48 hours later, gradually subsides over days",
+          "related_emotional_states": [
+            {
+              "emotion": "Satisfaction",
+              "connection": "Associated with accomplishment and reaching physical goals"
+            },
+            {
+              "emotion": "Frustration",
+              "connection": "When fatigue interferes with desired activities"
+            }
+          ],
+          "language_patterns": [
+            "My legs are like jelly",
+            "I'm completely wiped out",
+            "I can really feel that workout in my shoulders",
+            "I'm going to be sore tomorrow"
+          ]
+        },
+        {
+          "name": "Hunger",
+          "physical_description": "Empty sensation in stomach, possible rumbling or gnawing feeling, energy decrease, irritability",
+          "physiological_process": "Lowered blood glucose levels, hormone release (ghrelin), stomach contractions",
+          "associated_thoughts": [
+            "Anticipating food",
+            "Weighing food options",
+            "Calculating time until next meal",
+            "Memory activation of favorite foods"
+          ],
+          "cognitive_impact": "Progressive narrowing of attention toward food-related stimuli, decreased concentration on non-food tasks",
+          "temporal_development": "Begins with mild emptiness, progresses to distracting hunger pangs, can lead to headache and severe irritability",
+          "related_emotional_states": [
+            {
+              "emotion": "Irritability",
+              "connection": "Low blood sugar affects mood regulation"
+            },
+            {
+              "emotion": "Anticipation",
+              "connection": "Imagining satisfaction of eating"
+            }
+          ],
+          "language_patterns": [
+            "I'm starving",
+            "My stomach is growling",
+            "I could really go for a [food item] right now",
+            "I need to eat something before I get hangry"
+          ]
+        },
+        {
+          "name": "Sudden pain",
+          "physical_description": "Sharp, immediate sensation that captures complete attention, often accompanied by physiological startle response",
+          "physiological_process": "Nociceptors detect tissue damage, send signals via A-delta nerve fibers (fast, sharp pain)",
+          "associated_thoughts": [
+            "Identifying source of pain",
+            "Assessing severity",
+            "Planning immediate response"
+          ],
+          "cognitive_impact": "Immediate attention capture, disruption of ongoing thought processes, narrowed focus",
+          "temporal_development": "Rapid onset, peak intensity within seconds, followed by either subsiding or transition to duller persistent pain",
+          "related_emotional_states": [
+            {
+              "emotion": "Surprise",
+              "connection": "Unexpected nature of sudden pain"
+            },
+            {
+              "emotion": "Fear",
+              "connection": "Uncertainty about severity and implications"
+            },
+            {
+              "emotion": "Anger",
+              "connection": "If pain attributed to external agent or preventable cause"
+            }
+          ],
+          "language_patterns": [
+            "Ouch!",
+            "That really hurt!",
+            "I felt a sharp pain in my [body part]",
+            "It was like being stabbed with a needle"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Sensory Experiences",
+      "experiences": [
+        {
+          "name": "Unexpected loud noise",
+          "sensory_description": "Sudden auditory input that exceeds comfortable threshold",
+          "physiological_response": {
+            "immediate": [
+              "Startle reflex (muscle tensing, blinking)",
+              "Increased heart rate",
+              "Release of adrenaline",
+              "Orienting response toward sound source"
+            ],
+            "short_term": "Heightened alertness, temporary hearing sensitivity"
+          },
+          "cognitive_processing": {
+            "attention_shift": "Immediate and involuntary redirection of attention",
+            "threat_assessment": "Rapid evaluation of potential danger",
+            "causal_attribution": "Identifying source and meaning of noise"
+          },
+          "experiential_qualities": {
+            "valence": "Typically negative, especially if unexpected",
+            "arousal": "High, activating sympathetic nervous system",
+            "control": "Low, due to involuntary nature of response"
+          },
+          "individual_variations": {
+            "sensitivity_factors": [
+              "Baseline sensory processing sensitivity",
+              "Prior trauma (especially sound-related)",
+              "Current stress levels",
+              "Cultural factors affecting noise tolerance"
+            ]
+          },
+          "situational_modifiers": {
+            "context_effects": [
+              "Expected versus unexpected noise",
+              "Social setting versus solitude",
+              "Daytime versus nighttime",
+              "Safe versus unfamiliar environment"
+            ]
+          },
+          "common_examples": [
+            "Car backfiring",
+            "Door slamming",
+            "Dropped object",
+            "Sudden shout",
+            "Alarm activation"
+          ]
+        },
+        {
+          "name": "Pleasant aroma",
+          "sensory_description": "Olfactory input perceived as agreeable, often triggering positive associations",
+          "physiological_response": {
+            "immediate": [
+              "Deeper inhalation to capture more of the scent",
+              "Activation of olfactory bulb and limbic system",
+              "Possible salivation if food-related"
+            ],
+            "short_term": "Release of dopamine if scent is associated with reward"
+          },
+          "cognitive_processing": {
+            "memory_activation": "Strong, direct neural connections to autobiographical memory",
+            "emotional_association": "Rapid, often unconscious emotional response",
+            "identification": "Attempt to name and categorize the scent"
+          },
+          "experiential_qualities": {
+            "valence": "Positive, though varies with personal association",
+            "arousal": "Variable (calming for lavender, stimulating for citrus)",
+            "nostalgia": "Often high due to memory-evoking nature of scent"
+          },
+          "individual_variations": {
+            "sensitivity_factors": [
+              "Genetic differences in olfactory receptors",
+              "Age (declining sensitivity with age)",
+              "Gender (typically higher sensitivity in females)",
+              "Cultural exposure and familiarity"
+            ]
+          },
+          "situational_modifiers": {
+            "context_effects": [
+              "Hunger state (increased sensitivity when hungry)",
+              "Expectation and attention",
+              "Contrast with previous odors",
+              "Intensity and duration of exposure"
+            ]
+          },
+          "common_examples": [
+            "Freshly baked bread",
+            "Blooming flowers",
+            "Rain on dry earth (petrichor)",
+            "Brewing coffee",
+            "Familiar perfume/cologne"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Emotional Experiences",
+      "experiences": [
+        {
+          "name": "Anticipatory anxiety",
+          "experiential_description": "Apprehension before significant event with uncertain outcome",
+          "physiological_manifestations": [
+            "Increased heart rate",
+            "Shallow breathing",
+            "Stomach butterflies/knots",
+            "Restlessness and fidgeting",
+            "Possible trembling or sweating"
+          ],
+          "cognitive_patterns": [
+            {
+              "pattern": "Future-oriented thinking",
+              "examples": ["What if I forget what to say?", "What if they don't like me?", "What if I fail?"]
+            },
+            {
+              "pattern": "Catastrophizing",
+              "examples": ["This could ruin my career", "Everyone will think I'm incompetent", "I'll never recover from this"]
+            },
+            {
+              "pattern": "Preparation/rehearsal",
+              "examples": ["Mental practicing of presentation", "Imagining different scenarios and responses", "Checking preparations repeatedly"]
+            }
+          ],
+          "behavioral_manifestations": [
+            "Checking behavior (time, materials, appearance)",
+            "Seeking reassurance from others",
+            "Procrastination or avoidance",
+            "Over-preparation",
+            "Sleep disruption"
+          ],
+          "subjective_experience": "Tension that builds as event approaches, oscillating between hope and fear, difficulty concentrating on other tasks, heightened self-awareness",
+          "adaptive_functions": "Motivates preparation, increases alertness, readies body for performance",
+          "maladaptive_aspects": "Can impair performance through distraction, may lead to avoidance, consumes mental resources",
+          "common_triggers": [
+            "Public speaking",
+            "Job interviews",
+            "First dates",
+            "Medical test results",
+            "Competitive events",
+            "Performance evaluations"
+          ],
+          "duration_pattern": "Builds gradually as event approaches, peaks shortly before event, typically resolves quickly once event begins or outcome is known"
+        },
+        {
+          "name": "Nostalgic reminiscence",
+          "experiential_description": "Bittersweet longing for meaningful past experience, combining happiness from memory with sadness from its passing",
+          "physiological_manifestations": [
+            "Warm feeling in chest",
+            "Possible goosebumps",
+            "Relaxed muscle tension",
+            "Sometimes tears or lump in throat"
+          ],
+          "cognitive_patterns": [
+            {
+              "pattern": "Autobiographical memory activation",
+              "characteristics": "Vivid recall of specific episodes, often with sensory details preserved"
+            },
+            {
+              "pattern": "Temporal comparison",
+              "characteristics": "Contrasting past with present circumstances"
+            },
+            {
+              "pattern": "Meaning-making",
+              "characteristics": "Connecting past experiences to personal narrative and identity"
+            }
+          ],
+          "behavioral_manifestations": [
+            "Sharing stories with others present in memory",
+            "Seeking out memory triggers (photos, music, places)",
+            "Collecting memorabilia",
+            "Reduced activity during reverie state"
+          ],
+          "subjective_experience": "Pleasant mental transportation to past, sense of temporal distance yet emotional immediacy, awareness of irretrievability creating poignancy",
+          "psychological_functions": [
+            {
+              "function": "Self-continuity",
+              "description": "Reinforces sense of consistent identity across time"
+            },
+            {
+              "function": "Social connection",
+              "description": "Strengthens bonds through shared memories or connection to personal history"
+            },
+            {
+              "function": "Emotional regulation",
+              "description": "Provides comfort during challenging times by accessing positive past experiences"
+            },
+            {
+              "function": "Meaning maintenance",
+              "description": "Highlights personally significant experiences and values"
+            }
+          ],
+          "common_triggers": [
+            "Sensory cues (particularly music, smells)",
+            "Returning to significant places",
+            "Life transitions and milestones",
+            "Encountering memorabilia",
+            "Similar situations to memorable past events"
+          ],
+          "cultural_variations": {
+            "emphasis": "Varies from highly valued (Mediterranean cultures) to more restrained (some Northern European cultures)",
+            "content": "Varies between individual-focused memories (Western) vs. collective memories (Eastern)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cognitive Experiences",
+      "experiences": [
+        {
+          "name": "Flow state",
+          "experiential_description": "State of complete absorption in optimally challenging activity where action and awareness merge",
+          "defining_characteristics": [
+            {
+              "characteristic": "Concentration on present moment",
+              "description": "Complete focus on immediate task with minimal awareness of unrelated stimuli"
+            },
+            {
+              "characteristic": "Action-awareness merging",
+              "description": "Sense of becoming one with the activity, dissolution of boundary between self and action"
+            },
+            {
+              "characteristic": "Loss of self-consciousness",
+              "description": "Reduced awareness of self as social actor, concerns about appearance or evaluation fade"
+            },
+            {
+              "characteristic": "Distorted sense of time",
+              "description": "Time perception altered, typically experienced as passing more quickly than normal"
+            },
+            {
+              "characteristic": "Sense of control",
+              "description": "Feeling of mastery and capability without actively thinking about control"
+            },
+            {
+              "characteristic": "Intrinsic reward",
+              "description": "Activity feels inherently satisfying independent of external outcomes"
+            }
+          ],
+          "cognitive_processes": {
+            "attention": "Effortless, sustained concentration without depletion",
+            "working_memory": "Optimally engaged without conscious management",
+            "decision_making": "Intuitive, rapid responses without deliberative analysis",
+            "self-regulation": "Automatic rather than effortful self-regulation"
+          },
+          "neurological_correlates": [
+            "Transient hypofrontality (reduced prefrontal cortex activity)",
+            "Increased dopamine and endorphin release",
+            "Altered default mode network activity"
+          ],
+          "conditions_for_emergence": [
+            {
+              "condition": "Challenge-skill balance",
+              "explanation": "Activity must be neither too easy (boring) nor too difficult (anxiety-producing)"
+            },
+            {
+              "condition": "Clear goals and immediate feedback",
+              "explanation": "Understanding what constitutes success and knowing immediately how one is performing"
+            },
+            {
+              "condition": "Undivided attention",
+              "explanation": "Environment and mental state allow for concentration without interruption"
+            }
+          ],
+          "common_domains": [
+            "Creative activities (music, writing, art)",
+            "Sports (especially those requiring continuous adaptation)",
+            "Gaming (particularly with progressive challenge)",
+            "Deep work on complex intellectual problems",
+            "Meditation and mindfulness practices"
+          ],
+          "subjective_quality": "Effortless yet energized state, sense of clarity and rightness, absence of self-criticism or doubt",
+          "aftereffects": "Satisfaction, increased intrinsic motivation, desire to return to activity, temporary elevation in mood"
+        },
+        {
+          "name": "Tip-of-the-tongue phenomenon",
+          "experiential_description": "Temporary inability to retrieve known information despite feeling it's accessible",
+          "defining_characteristics": [
+            {
+              "characteristic": "Strong feeling of knowing",
+              "description": "Certainty that information is stored in memory despite inability to access it"
+            },
+            {
+              "characteristic": "Partial activation",
+              "description": "Access to fragments of target (first letter, syllable count, associated information)"
+            },
+            {
+              "characteristic": "Tantalizing proximity",
+              "description": "Subjective feeling that retrieval is imminent, 'almost there' sensation"
+            },
+            {
+              "characteristic": "Recognition without recall",
+              "description": "Ability to recognize correct answer when presented despite inability to generate it"
+            }
+          ],
+          "cognitive_mechanism": {
+            "memory_model": "Incomplete activation of lexical or semantic networks",
+            "retrieval_failure": "Successful access to semantic information but blocked phonological retrieval",
+            "competitive_activation": "Similar but incorrect items achieving partial activation, creating interference"
+          },
+          "phenomenological_experience": {
+            "attention": "Narrowed focus on retrieval attempt",
+            "emotional_quality": "Mild frustration mixed with curiosity and determination",
+            "metacognition": "Strong awareness of one's own cognitive process",
+            "resolution": "Often occurs spontaneously when attention diverted ('pop-up' experience)"
+          },
+          "common_targets": [
+            "Names (especially people and places)",
+            "Uncommon words",
+            "Song titles or lyrics",
+            "Actors in specific roles",
+            "Foreign language vocabulary"
+          ],
+          "psychological_significance": {
+            "memory_insight": "Reveals distinction between storage and retrieval processes",
+            "metacognitive_importance": "Demonstrates awareness of knowledge states",
+            "aging_effects": "Increases in frequency with age despite intact recognition memory"
+          },
+          "associated_behaviors": [
+            "Verbal circumlocution (talking around the missing word)",
+            "Physical gestures of frustration or concentration",
+            "Using placeholder words ('whatchamacallit', 'thingamajig')",
+            "Collaborative retrieval attempts (asking others for hints)",
+            "Alphabetic searching (mentally reviewing possibilities by first letter)"
+          ]
+        }
+      ]
+    }
+  ]
+}

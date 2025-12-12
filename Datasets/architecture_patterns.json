@@ -1,0 +1,156 @@
+[
+  {
+    "type": "architecture_pattern",
+    "category": "structural",
+    "name": "Microservices",
+    "description": "Application as collection of loosely coupled, independently deployable services",
+    "when_to_use": ["large_teams", "independent_scaling", "technology_diversity", "frequent_deployments"],
+    "when_to_avoid": ["small_teams", "simple_domain", "tight_latency_requirements", "early_stage_startup"],
+    "components": ["api_gateway", "service_registry", "message_broker", "distributed_tracing"],
+    "tradeoffs": {
+      "pros": ["independent_scaling", "technology_flexibility", "fault_isolation", "team_autonomy"],
+      "cons": ["network_complexity", "data_consistency", "operational_overhead", "debugging_difficulty"]
+    },
+    "implementation_tips": ["start_monolith_first", "define_clear_boundaries", "invest_in_observability"],
+    "related_patterns": ["api_gateway", "saga", "circuit_breaker", "service_mesh"]
+  },
+  {
+    "type": "architecture_pattern",
+    "category": "structural",
+    "name": "Event-Driven Architecture",
+    "description": "Components communicate through events, enabling loose coupling and async processing",
+    "when_to_use": ["real_time_processing", "system_integration", "audit_requirements", "eventual_consistency_ok"],
+    "when_to_avoid": ["simple_crud", "strict_consistency_needed", "synchronous_workflows"],
+    "components": ["event_broker", "event_store", "producers", "consumers", "schema_registry"],
+    "tradeoffs": {
+      "pros": ["loose_coupling", "scalability", "audit_trail", "real_time_capability"],
+      "cons": ["eventual_consistency", "debugging_complexity", "event_ordering", "schema_evolution"]
+    },
+    "implementation_tips": ["design_events_carefully", "handle_idempotency", "plan_for_replay"],
+    "related_patterns": ["cqrs", "event_sourcing", "saga", "outbox"]
+  },
+  {
+    "type": "architecture_pattern",
+    "category": "data",
+    "name": "CQRS (Command Query Responsibility Segregation)",
+    "description": "Separate models for reading and writing data, optimized for each use case",
+    "when_to_use": ["complex_domains", "different_read_write_loads", "multiple_read_views", "event_sourcing"],
+    "when_to_avoid": ["simple_crud", "small_scale", "team_unfamiliar"],
+    "components": ["command_model", "query_model", "synchronization_mechanism", "event_store"],
+    "tradeoffs": {
+      "pros": ["optimized_reads", "scalability", "simplified_models", "flexibility"],
+      "cons": ["complexity", "eventual_consistency", "synchronization_overhead"]
+    },
+    "implementation_tips": ["start_with_same_database", "add_separation_gradually", "handle_sync_failures"],
+    "related_patterns": ["event_sourcing", "materialized_view", "event_driven"]
+  },
+  {
+    "type": "architecture_pattern",
+    "category": "resilience",
+    "name": "Circuit Breaker",
+    "description": "Prevent cascading failures by failing fast when downstream service is unhealthy",
+    "when_to_use": ["external_dependencies", "microservices", "unreliable_networks"],
+    "when_to_avoid": ["critical_path_must_succeed", "no_fallback_available"],
+    "components": ["circuit_state", "failure_counter", "timeout_timer", "health_check"],
+    "states": ["closed_normal", "open_failing_fast", "half_open_testing"],
+    "tradeoffs": {
+      "pros": ["prevents_cascading_failure", "fast_failure", "system_stability"],
+      "cons": ["false_positives", "configuration_complexity", "partial_functionality"]
+    },
+    "implementation_tips": ["tune_thresholds", "implement_fallbacks", "monitor_state_changes"],
+    "related_patterns": ["bulkhead", "retry", "timeout", "fallback"]
+  },
+  {
+    "type": "architecture_pattern",
+    "category": "structural",
+    "name": "API Gateway",
+    "description": "Single entry point for all client requests, handling cross-cutting concerns",
+    "when_to_use": ["microservices", "multiple_clients", "rate_limiting_needed", "auth_centralization"],
+    "when_to_avoid": ["simple_monolith", "single_client", "low_traffic"],
+    "components": ["routing", "authentication", "rate_limiting", "request_transformation", "logging"],
+    "tradeoffs": {
+      "pros": ["centralized_concerns", "simplified_clients", "protocol_translation", "analytics"],
+      "cons": ["single_point_of_failure", "latency", "additional_hop", "complexity"]
+    },
+    "implementation_tips": ["keep_lightweight", "avoid_business_logic", "ensure_high_availability"],
+    "related_patterns": ["backend_for_frontend", "service_mesh", "load_balancer"]
+  },
+  {
+    "type": "architecture_pattern",
+    "category": "data",
+    "name": "Database per Service",
+    "description": "Each microservice owns its data and database, no direct database sharing",
+    "when_to_use": ["microservices", "independent_scaling", "polyglot_persistence"],
+    "when_to_avoid": ["strong_consistency_required", "complex_joins_needed", "small_team"],
+    "components": ["service_database", "api_composition", "saga_coordinator"],
+    "tradeoffs": {
+      "pros": ["loose_coupling", "independent_scaling", "technology_choice", "isolation"],
+      "cons": ["data_consistency", "joins_complexity", "operational_overhead"]
+    },
+    "implementation_tips": ["define_data_ownership", "use_events_for_sync", "plan_for_queries"],
+    "related_patterns": ["saga", "api_composition", "event_sourcing"]
+  },
+  {
+    "type": "architecture_pattern",
+    "category": "messaging",
+    "name": "Saga Pattern",
+    "description": "Manage distributed transactions as a sequence of local transactions with compensations",
+    "when_to_use": ["distributed_transactions", "microservices", "long_running_processes"],
+    "when_to_avoid": ["single_database", "simple_transactions", "strong_consistency_critical"],
+    "components": ["saga_orchestrator", "local_transactions", "compensation_handlers", "saga_log"],
+    "saga_types": ["choreography_event_based", "orchestration_command_based"],
+    "tradeoffs": {
+      "pros": ["distributed_consistency", "loose_coupling", "long_running_support"],
+      "cons": ["complexity", "partial_failures", "compensation_logic", "debugging"]
+    },
+    "implementation_tips": ["design_compensations_first", "make_idempotent", "log_saga_state"],
+    "related_patterns": ["outbox", "event_sourcing", "two_phase_commit"]
+  },
+  {
+    "type": "architecture_pattern",
+    "category": "deployment",
+    "name": "Blue-Green Deployment",
+    "description": "Two identical production environments for zero-downtime deployments",
+    "when_to_use": ["zero_downtime_required", "quick_rollback_needed", "stateless_applications"],
+    "when_to_avoid": ["database_migrations", "stateful_applications", "cost_constraints"],
+    "components": ["blue_environment", "green_environment", "load_balancer", "health_checks"],
+    "tradeoffs": {
+      "pros": ["zero_downtime", "instant_rollback", "production_testing", "reduced_risk"],
+      "cons": ["double_infrastructure", "database_complexity", "session_handling"]
+    },
+    "implementation_tips": ["automate_switching", "handle_database_carefully", "test_rollback"],
+    "related_patterns": ["canary_deployment", "rolling_deployment", "feature_flags"]
+  },
+  {
+    "type": "architecture_pattern",
+    "category": "caching",
+    "name": "Cache-Aside (Lazy Loading)",
+    "description": "Application manages cache population on cache misses",
+    "when_to_use": ["read_heavy_workloads", "data_changes_infrequently", "cache_misses_acceptable"],
+    "when_to_avoid": ["write_heavy", "strict_consistency", "cold_start_problematic"],
+    "components": ["cache", "database", "application_logic"],
+    "flow": ["check_cache", "if_miss_read_db", "populate_cache", "return_data"],
+    "tradeoffs": {
+      "pros": ["simple_implementation", "only_caches_needed_data", "resilient_to_cache_failure"],
+      "cons": ["cache_miss_latency", "stale_data_possible", "cold_start"]
+    },
+    "implementation_tips": ["set_appropriate_ttl", "handle_thundering_herd", "warm_cache_if_needed"],
+    "related_patterns": ["write_through", "write_behind", "refresh_ahead"]
+  },
+  {
+    "type": "architecture_pattern",
+    "category": "security",
+    "name": "Zero Trust Architecture",
+    "description": "Never trust, always verify - authenticate and authorize every request",
+    "when_to_use": ["sensitive_data", "distributed_systems", "cloud_native", "compliance_requirements"],
+    "when_to_avoid": ["isolated_systems", "performance_critical_internal_only"],
+    "components": ["identity_provider", "policy_engine", "micro_segmentation", "continuous_verification"],
+    "principles": ["verify_explicitly", "least_privilege", "assume_breach"],
+    "tradeoffs": {
+      "pros": ["reduced_attack_surface", "compliance", "lateral_movement_prevention"],
+      "cons": ["complexity", "performance_overhead", "implementation_cost"]
+    },
+    "implementation_tips": ["start_with_identity", "implement_gradually", "monitor_everything"],
+    "related_patterns": ["service_mesh", "mutual_tls", "policy_as_code"]
+  }
+]

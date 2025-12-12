@@ -1,0 +1,1080 @@
+{
+  "description": "Frameworks for understanding human psychological patterns, cognitive biases, and emotional responses to help Theta develop deeper psychological reasoning.",
+  "frameworks": [
+    {
+      "name": "Cognitive Dissonance",
+      "core_concept": "Psychological tension that occurs when beliefs conflict with behavior",
+      "theoretical_origins": {
+        "founder": "Leon Festinger",
+        "year": 1957,
+        "key_publication": "A Theory of Cognitive Dissonance",
+        "original_context": "Study of a doomsday cult whose prophecy failed but members subsequently became more committed"
+      },
+      "psychological_mechanisms": [
+        "Rationalization of contradictory behaviors",
+        "Selective information seeking that confirms existing beliefs",
+        "Post-decision justification to reduce regret",
+        "Self-concept preservation through dissonance reduction"
+      ],
+      "real_world_examples": [
+        {
+          "scenario": "A person who believes in environmental protection but drives a gas-guzzling vehicle",
+          "internal_experience": "Discomfort leading to either rationalization ('I need this car for my job') or behavior change (buying a more efficient vehicle)",
+          "resolution_patterns": "Changing beliefs ('Environmental impact of individual choices is minimal'), changing behavior (buying electric vehicle), or adding new justifying cognitions ('I offset my carbon footprint in other ways')"
+        },
+        {
+          "scenario": "Smoker who continues despite knowing health risks",
+          "internal_experience": "Anxiety about contradiction between knowledge and behavior",
+          "resolution_patterns": "Downplaying risks ('My grandfather smoked and lived to 95'), emphasizing short-term benefits ('It helps me manage stress'), adding compensatory behaviors ('I exercise regularly')"
+        },
+        {
+          "scenario": "Purchasing an expensive item that turns out to be disappointing",
+          "internal_experience": "Conflict between expectation and reality causing psychological discomfort",
+          "resolution_patterns": "Focusing on positive aspects, downplaying negative features, seeking confirming opinions from others, rejecting contradictory information"
+        }
+      ],
+      "experimental_evidence": [
+        {
+          "classic_study": "Free Choice Paradigm",
+          "methodology": "Participants rate items, choose between similarly rated items, then re-rate all items",
+          "findings": "After choice, chosen items rated higher and rejected items rated lower than initial ratings",
+          "significance": "Demonstrates post-decision attitude change to reduce dissonance about potentially making wrong choice"
+        },
+        {
+          "classic_study": "Induced Compliance Paradigm",
+          "methodology": "Participants paid either $1 or $20 to tell next participant that boring task was interesting",
+          "findings": "$1 group rated task as more interesting than $20 group",
+          "significance": "Insufficient external justification ($1) led to internal attitude change to justify behavior"
+        }
+      ],
+      "neurological_correlates": {
+        "brain_regions": ["Anterior cingulate cortex", "Insula", "Dorsolateral prefrontal cortex"],
+        "activation_patterns": "Increased anterior cingulate activity during cognitive conflict, followed by prefrontal activation during dissonance resolution",
+        "physiological_markers": "Increased skin conductance, elevated cortisol levels during dissonance states"
+      },
+      "individual_differences": {
+        "personality_factors": [
+          {
+            "trait": "High need for cognitive closure",
+            "effect": "Greater discomfort from dissonance, more rapid resolution attempts"
+          },
+          {
+            "trait": "High self-monitoring",
+            "effect": "Less dissonance when behavior inconsistent with attitudes but aligned with social context"
+          },
+          {
+            "trait": "Cultural background",
+            "effect": "Collectivist cultures experience greater dissonance for group-relevant contradictions than individual ones"
+          }
+        ]
+      },
+      "applications": {
+        "therapy": "Motivational interviewing highlights dissonance between values and addictive behaviors to encourage change",
+        "marketing": "Free trials create ownership feelings that increase purchase likelihood to reduce dissonance",
+        "environmental_advocacy": "Highlighting inconsistency between pro-environmental values and high-impact behaviors"
+      },
+      "related_theories": [
+        {
+          "name": "Self-perception theory",
+          "relationship": "Alternative explanation suggesting people infer attitudes from observing their own behavior"
+        },
+        {
+          "name": "Balance theory",
+          "relationship": "Similar focus on psychological consistency but emphasizes triadic relationships"
+        }
+      ]
+    },
+    {
+      "name": "Confirmation Bias",
+      "core_concept": "Tendency to search for, interpret, favor, and recall information that confirms pre-existing beliefs",
+      "theoretical_origins": {
+        "founder": "Multiple contributors including Peter Wason",
+        "year": "Formalized in 1960s",
+        "key_publication": "Wason's selection task experiments",
+        "original_context": "Logical reasoning tasks showing people preferentially tested hypotheses by confirming rather than falsifying"
+      },
+      "psychological_mechanisms": [
+        "Selective exposure to information aligning with existing views",
+        "Biased interpretation of ambiguous evidence",
+        "Motivated reasoning to reach desired conclusions",
+        "Preferential memory for belief-consistent information"
+      ],
+      "real_world_examples": [
+        {
+          "scenario": "Political news consumption",
+          "manifestation": "Seeking information from sources aligned with political orientation",
+          "consequences": "Increasing polarization, decreased ability to understand opposing viewpoints",
+          "mitigation_strategies": "Deliberately seeking diverse news sources, engaging with thoughtful opposing opinions"
+        },
+        {
+          "scenario": "Medical diagnosis",
+          "manifestation": "Physician focuses on evidence supporting initial diagnosis while downplaying contradictory symptoms",
+          "consequences": "Diagnostic errors, delayed correct treatment",
+          "mitigation_strategies": "Differential diagnosis protocols, second opinions, diagnostic checklists"
+        },
+        {
+          "scenario": "Performance evaluation",
+          "manifestation": "Manager notices employee behaviors that confirm initial impression, overlooks contradictory evidence",
+          "consequences": "Unfair assessments, reinforced stereotypes",
+          "mitigation_strategies": "Structured evaluation criteria, multiple evaluators, awareness training"
+        }
+      ],
+      "experimental_evidence": [
+        {
+          "classic_study": "Wason Selection Task",
+          "methodology": "Participants asked to test a conditional rule by selecting cards to turn over",
+          "findings": "Most select cards that could confirm the rule, not those that could falsify it",
+          "significance": "Demonstrated fundamental flaw in human hypothesis testing"
+        },
+        {
+          "classic_study": "Lord, Ross and Lepper (1979)",
+          "methodology": "Participants with opposing views on capital punishment evaluated same studies",
+          "findings": "Both groups found studies supporting their position more convincing, became more polarized after exposure to mixed evidence",
+          "significance": "Showed biased assimilation of identical information based on prior beliefs"
+        }
+      ],
+      "neurological_correlates": {
+        "brain_regions": ["Ventromedial prefrontal cortex", "Anterior cingulate cortex", "Amygdala"],
+        "activation_patterns": "Reduced activity in anterior cingulate when processing counterattitudinal information, increased amygdala activation to threatening belief-inconsistent information",
+        "physiological_markers": "Increased heart rate when processing strongly contradictory information"
+      },
+      "individual_differences": {
+        "personality_factors": [
+          {
+            "trait": "Need for cognitive closure",
+            "effect": "Higher need associated with stronger confirmation bias"
+          },
+          {
+            "trait": "Cognitive reflection",
+            "effect": "Higher reflective thinking associated with reduced bias"
+          },
+          {
+            "trait": "Dogmatism",
+            "effect": "More dogmatic individuals show stronger confirmation bias effects"
+          }
+        ]
+      },
+      "applications": {
+        "scientific_method": "Procedures for hypothesis falsification and peer review designed to counter confirmation bias",
+        "judicial_systems": "Adversarial process ensures evidence both supporting and contradicting charges is presented",
+        "business": "Devil's advocate roles and pre-mortem exercises to counteract groupthink and confirmation bias"
+      },
+      "related_theories": [
+        {
+          "name": "Cognitive dissonance",
+          "relationship": "Confirmation bias helps prevent dissonance by avoiding contradictory information"
+        },
+        {
+          "name": "Motivated reasoning",
+          "relationship": "Confirmation bias is one mechanism through which motivated reasoning operates"
+        },
+        {
+          "name": "Belief perseverance",
+          "relationship": "Confirmation bias contributes to persistence of beliefs despite contradictory evidence"
+        }
+      ]
+    },
+    {
+      "name": "System 1 and System 2 Thinking",
+      "core_concept": "Dual-process theory distinguishing between fast, intuitive cognitive processes (System 1) and slow, deliberative processes (System 2)",
+      "theoretical_origins": {
+        "founder": "Daniel Kahneman and Amos Tversky",
+        "year": "Developed over decades, popularized in 2000s",
+        "key_publication": "Thinking, Fast and Slow (2011)",
+        "original_context": "Research on judgment and decision-making biases and heuristics"
+      },
+      "system_characteristics": {
+        "System 1": {
+          "speed": "Fast, automatic",
+          "effort": "Low cognitive load",
+          "accessibility": "Always active",
+          "associative": "Pattern-matching, similarity-based",
+          "emotional": "Integrated with affective responses",
+          "examples": ["Face recognition", "Driving on familiar route", "Understanding simple sentences", "Reading emotions", "Determining that 2+2=4"]
+        },
+        "System 2": {
+          "speed": "Slow, methodical",
+          "effort": "High cognitive load",
+          "accessibility": "Activated when needed",
+          "logical": "Rule-based reasoning, hypothetical thinking",
+          "controlled": "Self-monitored, rule-following",
+          "examples": ["Complex calculations", "Logical proofs", "Comparing products on multiple attributes", "Looking for specific person in crowd", "Filling tax forms"]
+        }
+      },
+      "interaction_patterns": [
+        {
+          "pattern": "Default delegation",
+          "description": "System 2 generally accepts System 1 impressions without scrutiny unless difficulty detected",
+          "example": "Accepting initial impression of a person's trustworthiness without questioning evidence"
+        },
+        {
+          "pattern": "Monitoring and intervention",
+          "description": "System 2 can override System 1 when errors detected or deliberation needed",
+          "example": "Catching oneself before making inappropriate comment suggested by automatic association"
+        },
+        {
+          "pattern": "Resource depletion effects",
+          "description": "When System 2 is busy or depleted, System 1 exerts greater influence on behavior",
+          "example": "Making impulsive food choices when mentally fatigued"
+        }
+      ],
+      "real_world_examples": [
+        {
+          "scenario": "Grocery shopping",
+          "System 1 response": "Grabbing familiar brands automatically, responding to colorful packaging",
+          "System 2 response": "Comparing nutritional information, calculating price per unit, planning meals",
+          "interaction": "System 1 drives most routine purchases while System 2 engages for new products or conscious health decisions"
+        },
+        {
+          "scenario": "Responding to email request",
+          "System 1 response": "Immediate emotional reaction based on sender and initial impression of request",
+          "System 2 response": "Analyzing implications, considering alternatives, drafting careful response",
+          "interaction": "Initial reaction shapes emotional tone while deliberative process determines actual response"
+        },
+        {
+          "scenario": "Emergency situation",
+          "System 1 response": "Immediate threat assessment, physiological arousal, intuitive action impulses",
+          "System 2 response": "Evaluating options, recalling training, anticipating consequences",
+          "interaction": "System 1 provides rapid response while System 2 refines action when time permits"
+        }
+      ],
+      "experimental_evidence": [
+        {
+          "classic_study": "Cognitive Reflection Test",
+          "methodology": "Problems with intuitive but wrong answers requiring deliberation to solve correctly",
+          "findings": "Many participants give intuitive System 1 answers without engaging System 2 verification",
+          "example_problem": "A bat and ball cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost? (Intuitive answer: 10 cents; correct answer: 5 cents)"
+        },
+        {
+          "classic_study": "Stroop Effect",
+          "methodology": "Naming ink colors of color words that either match or conflict with the word",
+          "findings": "Slower responses when word and color conflict due to System 2 overriding automatic word reading",
+          "significance": "Demonstrates competition between automatic and controlled processes"
+        }
+      ],
+      "cognitive_biases_explained": [
+        {
+          "bias": "Anchoring effect",
+          "mechanism": "System 1 uses initial value as reference point; System 2 fails to adjust sufficiently",
+          "example": "Initial house price affecting perceived value even if arbitrary"
+        },
+        {
+          "bias": "Availability heuristic",
+          "mechanism": "System 1 judges probability by ease of recall; System 2 fails to correct for sample bias",
+          "example": "Overestimating crime rates after exposure to crime news"
+        },
+        {
+          "bias": "Substitution",
+          "mechanism": "System 1 answers easier question than one asked; System 2 doesn't detect substitution",
+          "example": "Judging political candidate on likability rather than policy positions"
+        }
+      ],
+      "practical_applications": {
+        "education": "Teaching metacognitive strategies to engage System 2 when appropriate",
+        "marketing": "Creating intuitive, emotional appeals for System 1 while providing logical justifications for System 2",
+        "decision_making": "Creating environments and procedures that activate System 2 for important decisions",
+        "design": "Creating interfaces that work with natural System 1 processes rather than against them"
+      },
+      "criticisms": [
+        {
+          "critique": "Oversimplification",
+          "explanation": "Actual cognitive processes involve spectrum rather than two distinct systems",
+          "counterpoint": "Useful as conceptual model even if biological reality is more complex"
+        },
+        {
+          "critique": "Cultural bias",
+          "explanation": "Theory may overvalue Western analytical thinking (System 2) over intuitive knowledge",
+          "counterpoint": "Research shows universal cognitive biases despite cultural differences"
+        }
+      ]
+    },
+    {
+      "name": "Attachment Theory",
+      "core_concept": "Framework describing how early relationships with caregivers create internal working models that influence relationships throughout life",
+      "theoretical_origins": {
+        "founder": "John Bowlby, expanded by Mary Ainsworth",
+        "year": "Developed 1950s-1970s",
+        "key_publications": ["Attachment and Loss trilogy", "Strange Situation experiment findings"],
+        "original_context": "Observation of children's responses to separation from caregivers"
+      },
+      "attachment_styles": [
+        {
+          "style": "Secure",
+          "childhood_manifestation": "Distress when caregiver leaves, easily comforted upon return, uses caregiver as secure base for exploration",
+          "adult_manifestation": "Comfortable with intimacy and autonomy, effective communication during conflict, appropriate trust",
+          "formation_factors": "Consistent, responsive caregiving in early childhood",
+          "estimated_prevalence": "55-60% in general population"
+        },
+        {
+          "style": "Anxious/Ambivalent (Preoccupied)",
+          "childhood_manifestation": "Intense distress at separation, difficult to comfort upon reunion, reduced exploration",
+          "adult_manifestation": "Fears abandonment, seeks excessive reassurance, hypervigilant to relationship threats",
+          "formation_factors": "Inconsistent caregiving - sometimes attentive, sometimes neglectful",
+          "estimated_prevalence": "20-25% in general population"
+        },
+        {
+          "style": "Avoidant (Dismissive)",
+          "childhood_manifestation": "Minimal visible distress at separation, avoids caregiver upon reunion, independent play",
+          "adult_manifestation": "Discomfort with closeness, high self-reliance, difficulty expressing emotions",
+          "formation_factors": "Consistently unresponsive or rejecting caregiving",
+          "estimated_prevalence": "20-25% in general population"
+        },
+        {
+          "style": "Disorganized (Fearful-Avoidant)",
+          "childhood_manifestation": "Contradictory behaviors, freezing, confusion during separations and reunions",
+          "adult_manifestation": "Chaotic relationships, fear of both intimacy and abandonment, difficulty regulating emotions",
+          "formation_factors": "Frightening or abusive caregiving, caregiver with unresolved trauma",
+          "estimated_prevalence": "5-10% in general population, higher in clinical populations"
+        }
+      ],
+      "developmental_trajectory": {
+        "infancy": "Formation of attachment to primary caregivers through physical contact and emotional attunement",
+        "early_childhood": "Development of internal working models based on caregiver responsiveness",
+        "middle_childhood": "Expansion of attachment network to include peers and other adults",
+        "adolescence": "Transfer of attachment functions from parents to peers and romantic partners",
+        "adulthood": "Attachment patterns influence romantic relationships, friendships, and parenting"
+      },
+      "neurobiological_foundations": {
+        "key_hormones": ["Oxytocin", "Vasopressin", "Cortisol"],
+        "neural_structures": ["Amygdala", "Hypothalamus", "Prefrontal cortex", "Anterior cingulate cortex"],
+        "mechanisms": "Early caregiving experiences shape neural development through stress response regulation, reward system activation, and interoceptive awareness",
+        "epigenetic_effects": "Animal studies demonstrate intergenerational transmission of attachment patterns through epigenetic modifications"
+      },
+      "relationship_dynamics": [
+        {
+          "context": "Romantic relationship formation",
+          "secure_pattern": "Healthy pace of intimacy development, balanced self-disclosure",
+          "anxious_pattern": "Rapid attachment, premature self-disclosure, idealization",
+          "avoidant_pattern": "Maintaining emotional distance, discomfort with partner's vulnerability",
+          "disorganized_pattern": "Chaotic approach-avoidance behaviors, intensity followed by withdrawal"
+        },
+        {
+          "context": "Conflict resolution",
+          "secure_pattern": "Collaborative problem-solving, repair attempts, effective emotion regulation",
+          "anxious_pattern": "Emotional escalation, pursuit behaviors, difficulty self-soothing",
+          "avoidant_pattern": "Withdrawal, minimization of issues, emotional shutdown",
+          "disorganized_pattern": "Alternating hostility and helplessness, difficulty maintaining focus on issue"
+        },
+        {
+          "context": "Response to partner distress",
+          "secure_pattern": "Responsive support without taking over problem-solving",
+          "anxious_pattern": "Over-involvement, may amplify partner's distress through emotional contagion",
+          "avoidant_pattern": "Practical support without emotional engagement, discomfort with partner's vulnerability",
+          "disorganized_pattern": "Inconsistent support, may be triggered by partner's vulnerability"
+        }
+      ],
+      "clinical_applications": {
+        "psychotherapy": "Emotionally Focused Therapy uses attachment framework to identify and transform negative interaction cycles",
+        "parenting_interventions": "Circle of Security program helps caregivers respond sensitively to attachment needs",
+        "trauma_treatment": "Understanding disorganized attachment crucial for treating complex trauma histories",
+        "grief_counseling": "Attachment perspective helps understand variation in grief responses"
+      },
+      "stability_and_change": {
+        "continuity_factors": "Early patterns tend to persist in absence of significant corrective experiences",
+        "change_mechanisms": [
+          "Therapeutic relationship providing secure base",
+          "Significant romantic relationships with secure partners",
+          "Conscious reflection and integration of attachment history",
+          "Development of earned security through processing childhood experiences"
+        ],
+        "research_findings": "Approximately 30% of individuals show attachment style changes in adulthood"
+      },
+      "cross-cultural_considerations": {
+        "universal_aspects": "Secure base phenomenon observed across cultures",
+        "cultural_variations": [
+          {
+            "culture": "Collectivist societies",
+            "difference": "Greater emphasis on family interdependence versus individual autonomy"
+          },
+          {
+            "culture": "Different caregiving arrangements",
+            "difference": "Multiple attachment figures more common in some cultures versus Western nuclear family model"
+          }
+        ],
+        "methodological_challenges": "Assessment tools developed in Western contexts may not capture cultural variations in attachment manifestations"
+      }
+    },
+    {
+      "name": "Cognitive Behavioral Framework",
+      "core_concept": "Interconnection between thoughts, emotions, behaviors, and physiological responses, with thoughts playing central role in psychological functioning",
+      "theoretical_origins": {
+        "founders": ["Aaron Beck", "Albert Ellis"],
+        "years": "1960s-1970s",
+        "key_publications": ["Cognitive Therapy of Depression", "A New Guide to Rational Living"],
+        "original_context": "Alternative to psychoanalytic approaches, focusing on present thought patterns"
+      },
+      "fundamental_principles": [
+        {
+          "principle": "Cognitive mediation",
+          "explanation": "How we interpret events determines emotional responses, not events themselves",
+          "example": "Two people experience job loss: one catastrophizes ('My career is over'), while another sees opportunity ('I can now find better work')"
+        },
+        {
+          "principle": "Cognitive schemas",
+          "explanation": "Underlying belief structures that organize information and guide processing",
+          "example": "Core belief 'I'm unlovable' filters perception to notice rejection and discount acceptance"
+        },
+        {
+          "principle": "Cognitive distortions",
+          "explanation": "Systematic errors in thinking that maintain negative emotions",
+          "common_types": [
+            {
+              "distortion": "Catastrophizing",
+              "definition": "Assuming worst possible outcome",
+              "example": "After minor mistake at work: 'I'll definitely be fired'"
+            },
+            {
+              "distortion": "All-or-nothing thinking",
+              "definition": "Viewing situations in extreme, binary categories",
+              "example": "Either my presentation is perfect, or I'm a complete failure"
+            },
+            {
+              "distortion": "Mind reading",
+              "definition": "Assuming you know what others are thinking without evidence",
+              "example": "They didn't smile, so they must think I'm boring"
+            },
+            {
+              "distortion": "Emotional reasoning",
+              "definition": "Taking emotions as evidence of truth",
+              "example": "I feel inadequate, therefore I must be inadequate"
+            }
+          ]
+        },
+        {
+          "principle": "Bidirectional influence",
+          "explanation": "Thoughts, emotions, behaviors, and physical reactions mutually influence each other",
+          "example": "Anxious thoughts → physical tension → avoidance behavior → reinforced anxious thoughts"
+        }
+      ],
+      "cognitive_behavioral_process": {
+        "activating_event": "Objective situation or trigger",
+        "beliefs": "Interpretations, appraisals, and thoughts about the event",
+        "consequences": {
+          "emotional": "Feelings generated by beliefs",
+          "behavioral": "Actions taken based on beliefs and feelings",
+          "physiological": "Physical responses activated by beliefs and emotions"
+        },
+        "example_sequence": [
+          {
+            "situation": "Email from boss saying 'We need to talk tomorrow'",
+            "automatic_thought": "I must have made a serious mistake, I'm going to be fired",
+            "emotion": "Anxiety (80%), fear (70%)",
+            "behavior": "Checking work frantically, difficulty sleeping, avoiding colleagues",
+            "physical": "Increased heart rate, muscle tension, stomach discomfort"
+          },
+          {
+            "alternative_thought": "The boss might want to discuss a new project or give feedback",
+            "resulting_emotion": "Concern (30%), curiosity (50%)",
+            "resulting_behavior": "Preparing for meeting calmly, normal sleep pattern",
+            "resulting_physical": "Normal physiological state"
+          }
+        ]
+      },
+      "common_intervention_strategies": [
+        {
+          "technique": "Cognitive restructuring",
+          "process": "Identifying, evaluating, and modifying unhelpful thoughts",
+          "steps": [
+            "Identify automatic thoughts during emotional distress",
+            "Evaluate evidence supporting and contradicting thought",
+            "Develop more balanced alternative interpretations",
+            "Practice applying balanced thinking to similar situations"
+          ],
+          "clinical_example": "Depression client challenging thought 'Nobody cares about me' by listing evidence of others showing care"
+        },
+        {
+          "technique": "Behavioral experiments",
+          "process": "Testing beliefs through direct experience",
+          "steps": [
+            "Identify prediction based on belief",
+            "Design experiment to test prediction",
+            "Execute experiment and observe results",
+            "Compare results to prediction and update beliefs"
+          ],
+          "clinical_example": "Social anxiety client who believes 'People will notice if I blush' deliberately applying makeup to look flushed in social setting"
+        },
+        {
+          "technique": "Exposure therapy",
+          "process": "Systematic confrontation of feared situations without avoidance",
+          "steps": [
+            "Create hierarchy of feared situations",
+            "Begin exposure with manageable items",
+            "Remain in situation until anxiety decreases",
+            "Progress to more challenging items"
+          ],
+          "clinical_example": "Panic disorder client gradually practicing situations that trigger panic symptoms"
+        },
+        {
+          "technique": "Activity scheduling",
+          "process": "Planning rewarding and mastery activities to counter behavioral withdrawal",
+          "steps": [
+            "Identify activities that provide pleasure or sense of accomplishment",
+            "Schedule specific times for activities",
+            "Rate mood before and after to demonstrate connection",
+            "Gradually increase activity level"
+          ],
+          "clinical_example": "Depression client scheduling daily walk despite lack of motivation, experiencing mood improvement"
+        }
+      ],
+      "empirical_support": {
+        "meta_analytic_findings": "Strong evidence for effectiveness across multiple disorders including depression, anxiety disorders, PTSD, and eating disorders",
+        "comparative_effectiveness": "Generally equivalent to medication for depression, superior for preventing relapse",
+        "neurobiological_effects": "Documented changes in brain activity patterns similar to medication effects",
+        "limitations": "Less effective for schizophrenia as standalone treatment, bipolar disorder requires medication integration"
+      },
+      "contemporary_developments": [
+        {
+          "variation": "Acceptance and Commitment Therapy (ACT)",
+          "key_difference": "Focus on accepting thoughts rather than changing them, values-based behavior change",
+          "core_processes": "Cognitive defusion, mindfulness, commitment to valued action"
+        },
+        {
+          "variation": "Dialectical Behavior Therapy (DBT)",
+          "key_difference": "Balances acceptance and change, emphasizes emotion regulation and interpersonal effectiveness",
+          "core_processes": "Mindfulness, distress tolerance, emotion regulation, interpersonal effectiveness"
+        },
+        {
+          "variation": "Mindfulness-Based Cognitive Therapy (MBCT)",
+          "key_difference": "Incorporates meditation practices, focus on relationship to thoughts rather than content",
+          "core_processes": "Mindfulness of breath and body, thoughts as mental events rather than facts"
+        }
+      ],
+      "applications_beyond_therapy": {
+        "organizational": "Stress management programs, leadership development focusing on thinking patterns",
+        "educational": "Growth mindset interventions, resilience training for students",
+        "sports": "Performance enhancement through managing self-talk and cognitive appraisal",
+        "public_health": "Scalable digital interventions based on CBT principles for population mental health"
+      }
+    },
+    {
+      "name": "Social Identity Theory",
+      "core_concept": "People's sense of who they are is based on their group memberships and these social identities shape intergroup behavior",
+      "theoretical_origins": {
+        "founder": "Henri Tajfel and John Turner",
+        "year": "1970s",
+        "key_publication": "An Integrative Theory of Intergroup Conflict (1979)",
+        "original_context": "Post-World War II attempt to understand prejudice, discrimination, and intergroup conflict"
+      },
+      "central_concepts": [
+        {
+          "concept": "Social categorization",
+          "explanation": "Cognitive process of grouping people (including oneself) into social categories",
+          "application": "People classify themselves and others as members of various groups: nationality, religion, gender, occupation, etc.",
+          "example": "Perceiving oneself primarily as 'a teacher' in professional contexts, affecting behavior and self-perception"
+        },
+        {
+          "concept": "Social identification",
+          "explanation": "Emotional significance attached to group memberships that becomes part of self-concept",
+          "application": "Adopting attitudes, perspectives, and behaviors seen as normative for the group",
+          "example": "Sports team supporters feeling personal elation or despair based on team performance"
+        },
+        {
+          "concept": "Social comparison",
+          "explanation": "Evaluating one's groups in comparison with others to maintain positive distinctiveness",
+          "application": "Seeking ways to view one's ingroups as better than relevant outgroups",
+          "example": "Highlighting achievements of one's university while downplaying those of rival institutions"
+        },
+        {
+          "concept": "Minimal group paradigm",
+          "explanation": "Even arbitrary, minimal basis for group categorization can trigger ingroup favoritism",
+          "application": "People favor their group even when groups are formed on trivial or random criteria",
+          "example": "Experimental participants favoring others assigned to same group based on supposed 'dot estimation ability'"
+        }
+      ],
+      "intergroup_phenomena": [
+        {
+          "phenomenon": "Ingroup favoritism",
+          "description": "Tendency to favor members of one's own group over outgroup members",
+          "manifestations": [
+            "Resource allocation biased toward ingroup members",
+            "More positive evaluations of ingroup products and performances",
+            "Greater cooperation with and trust of ingroup members",
+            "Attributional biases favoring ingroup (success due to ability, failure to circumstances)"
+          ]
+        },
+        {
+          "phenomenon": "Outgroup homogeneity effect",
+          "description": "Perception that outgroup members are more similar to each other than ingroup members",
+          "manifestations": [
+            "'They all look/think alike' perceptions",
+            "Stereotyping of outgroup members",
+            "Reduced recognition of individual differences within outgroups",
+            "More nuanced perception of ingroup diversity"
+          ]
+        },
+        {
+          "phenomenon": "Social competition",
+          "description": "Competition between groups even when no objective conflict of interest exists",
+          "manifestations": [
+            "Zero-sum thinking about status and resources",
+            "Actively working to disadvantage outgroups",
+            "Resistance to cooperative intergroup solutions",
+            "Status competition through distinct group dimensions"
+          ]
+        }
+      ],
+      "identity_management_strategies": [
+        {
+          "strategy": "Social mobility",
+          "description": "Individual attempts to leave or dissociate from devalued group",
+          "conditions": "Permeable group boundaries, individualistic ideology",
+          "examples": "Career advancement to higher status, assimilation to dominant culture, 'passing'",
+          "psychological_implications": "Identity conflict, potential rejection from both groups, internalized stigma"
+        },
+        {
+          "strategy": "Social creativity",
+          "description": "Redefining elements of comparative situation to enhance ingroup's position",
+          "conditions": "Impermeable group boundaries, stable status hierarchy",
+          "examples": [
+            "Comparing on new dimensions ('we may be poorer but we're happier')",
+            "Revaluing previously negative characteristics ('Black is beautiful')",
+            "Changing comparison outgroup (comparing with equally or more disadvantaged groups)"
+          ],
+          "psychological_implications": "Enhanced group esteem without structural change, potential for positive reappraisal"
+        },
+        {
+          "strategy": "Social competition",
+          "description": "Direct challenge to existing status hierarchy through collective action",
+          "conditions": "Impermeable boundaries, unstable/illegitimate status differences, cognitive alternatives",
+          "examples": "Political movements, protests, revolutions, labor strikes",
+          "psychological_implications": "Heightened group identification, increased intergroup polarization"
+        }
+      ],
+      "applications": {
+        "organizational_psychology": "Understanding mergers, organizational identification, workplace diversity dynamics",
+        "political_psychology": "Partisan identification, nationalism, political polarization processes",
+        "marketing": "Brand communities, identity-based marketing, consumer loyalty development",
+        "education": "School belonging, stereotype threat mitigation, inclusive classroom practices"
+      },
+      "contemporary_developments": [
+        {
+          "extension": "Self-categorization theory",
+          "contribution": "Elaborates cognitive processes of social categorization and contextual factors affecting salience"
+        },
+        {
+          "extension": "Rejected-identification model",
+          "contribution": "Explains how rejection by outgroups can increase identification with one's ingroup"
+        },
+        {
+          "extension": "Multiple social identities",
+          "contribution": "Examines how people manage and integrate various group memberships"
+        }
+      ]
+    },
+    {
+      "name": "Transtheoretical Model of Behavior Change",
+      "core_concept": "Behavior change occurs through a sequence of stages with different processes effective at each stage",
+      "theoretical_origins": {
+        "founder": "James Prochaska and Carlo DiClemente",
+        "year": "Early 1980s",
+        "key_publication": "Transtheoretical therapy: Toward a more integrative model of change (1982)",
+        "original_context": "Studying how people quit smoking without formal intervention programs"
+      },
+      "stages_of_change": [
+        {
+          "stage": "Precontemplation",
+          "characteristics": [
+            "No intention to change behavior in foreseeable future (typically next 6 months)",
+            "May be unaware of problem or have given up after failed attempts",
+            "Often defensive about behavior when confronted",
+            "May see more costs than benefits to change"
+          ],
+          "experiential_markers": "'I don't have a problem,' 'People are overreacting about my behavior'",
+          "intervention_approaches": [
+            "Raise awareness about risks without confrontation",
+            "Provide personalized feedback about impact",
+            "Encourage self-reevaluation",
+            "Express empathy without judgment"
+          ]
+        },
+        {
+          "stage": "Contemplation",
+          "characteristics": [
+            "Aware of problem and seriously considering action within next 6 months",
+            "Ambivalent about change - weighing pros and cons",
+            "May remain stuck for extended periods ('chronic contemplation')",
+            "Seeking information about possible solutions"
+          ],
+          "experiential_markers": "'I know I should change, but...', 'I'm thinking about making changes soon'",
+          "intervention_approaches": [
+            "Explore ambivalence through decisional balance exercises",
+            "Build confidence in ability to change",
+            "Examine values alignment with behavior change",
+            "Discuss previous change attempts constructively"
+          ]
+        },
+        {
+          "stage": "Preparation",
+          "characteristics": [
+            "Intending to take action in immediate future (usually within one month)",
+            "May have already taken small steps toward change",
+            "Developing concrete plans for action",
+            "Announcing intentions to others"
+          ],
+          "experiential_markers": "'I've started cutting back,' 'I've signed up for a program that starts next week'",
+          "intervention_approaches": [
+            "Help develop concrete action plans with specific steps",
+            "Problem-solve anticipated obstacles",
+            "Identify social support resources",
+            "Enhance commitment through public declarations"
+          ]
+        },
+        {
+          "stage": "Action",
+          "characteristics": [
+            "Actively modifying behavior, experiences, or environment for 1 day to 6 months",
+            "Observable changes requiring considerable commitment",
+            "Implementing specific change strategies",
+            "High risk of relapse"
+          ],
+          "experiential_markers": "'I'm working hard at changing,' 'I've been [new behavior] for three weeks now'",
+          "intervention_approaches": [
+            "Provide reinforcement for progress",
+            "Teach stimulus control techniques",
+            "Help restructure environment to support change",
+            "Develop effective coping strategies for high-risk situations"
+          ]
+        },
+        {
+          "stage": "Maintenance",
+          "characteristics": [
+            "Working to prevent relapse and consolidate gains for 6+ months after initial action",
+            "Decreased temptation and increased confidence",
+            "Integrating new behavior into lifestyle",
+            "Remaining vigilant about high-risk situations"
+          ],
+          "experiential_markers": "'This is becoming part of who I am,' 'I have strategies for handling difficult situations'",
+          "intervention_approaches": [
+            "Plan for coping with unexpected triggers or setbacks",
+            "Develop alternative behaviors for meeting needs previously met by problem behavior",
+            "Foster identity shift incorporating new behavior pattern",
+            "Build lifestyle balance to reduce need for problem behavior"
+          ]
+        }
+      ],
+      "change_processes": [
+        {
+          "category": "Experiential/Cognitive Processes",
+          "description": "Internal cognitive and emotional activities that facilitate change",
+          "most_effective_stages": "Early stages (Precontemplation, Contemplation, Preparation)",
+          "processes": [
+            {
+              "process": "Consciousness raising",
+              "definition": "Increasing awareness about problem behavior and potential solutions",
+              "techniques": "Education, feedback, confrontation, interpretation, media campaigns"
+            },
+            {
+              "process": "Dramatic relief",
+              "definition": "Experiencing and expressing feelings about the problem and solutions",
+              "techniques": "Role-playing, grieving losses, personal testimonials, media campaigns"
+            },
+            {
+              "process": "Environmental reevaluation",
+              "definition": "Assessing how problem behavior affects social environment",
+              "techniques": "Empathy training, family interventions, documentary videos"
+            },
+            {
+              "process": "Self-reevaluation",
+              "definition": "Reassessing values and self-image related to problem behavior",
+              "techniques": "Value clarification, imagery, corrective emotional experiences"
+            },
+            {
+              "process": "Social liberation",
+              "definition": "Increasing awareness of social alternatives and opportunities",
+              "techniques": "Advocacy, empowerment procedures, policy interventions"
+            }
+          ]
+        },
+        {
+          "category": "Behavioral Processes",
+          "description": "External activities and strategies that modify behavior and environment",
+          "most_effective_stages": "Later stages (Preparation, Action, Maintenance)",
+          "processes": [
+            {
+              "process": "Counterconditioning",
+              "definition": "Substituting healthier behaviors and thoughts for problem behavior",
+              "techniques": "Relaxation, desensitization, positive self-statements, assertion"
+            },
+            {
+              "process": "Helping relationships",
+              "definition": "Using social support for change efforts",
+              "techniques": "Therapeutic alliance, social support, self-help groups, buddy systems"
+            },
+            {
+              "process": "Reinforcement management",
+              "definition": "Rewarding positive behavior change",
+              "techniques": "Contingency contracts, overt and covert reinforcement, self-reward"
+            },
+            {
+              "process": "Self-liberation",
+              "definition": "Choosing and committing to act or belief in ability to change",
+              "techniques": "New Year's resolutions, commitment enhancing techniques, public testimonies"
+            },
+            {
+              "process": "Stimulus control",
+              "definition": "Removing cues for unhealthy habits, adding prompts for healthy alternatives",
+              "techniques": "Avoidance, environmental reengineering, self-help groups"
+            }
+          ]
+        }
+      ],
+      "applications": {
+        "health_behaviors": "Smoking cessation, exercise adoption, dietary change, medication adherence",
+        "addiction_treatment": "Substance abuse interventions, gambling addiction, process addictions",
+        "psychotherapy": "Treatment planning, intervention selection, relapse prevention",
+        "health_promotion": "Public health campaigns, preventative interventions, screening participation"
+      },
+      "decisional_balance": {
+        "concept": "Weighing perceived pros and cons of behavior change",
+        "stage_patterns": [
+          "Precontemplation: Cons of changing outweigh pros",
+          "Contemplation: Pros and cons nearly equal",
+          "Preparation/Action/Maintenance: Pros outweigh cons"
+        ],
+        "significance": "Critical concept for understanding and facilitating stage transitions"
+      },
+      "self-efficacy": {
+        "concept": "Confidence in ability to cope with high-risk situations without relapsing",
+        "development": "Increases as person moves through stages of change",
+        "contributors": [
+          "Mastery experiences (successful practice)",
+          "Vicarious experiences (seeing others succeed)",
+          "Verbal persuasion (encouragement)",
+          "Emotional arousal (managing anxiety)"
+        ],
+        "intervention_implications": "Identifying high-risk situations and building coping strategies enhances self-efficacy"
+      },
+      "empirical_support": {
+        "strengths": [
+          "Validated across numerous health behaviors and populations",
+          "Practical framework for matching interventions to readiness",
+          "Acknowledges change as process rather than event",
+          "Integrates multiple theoretical approaches"
+        ],
+        "limitations": [
+          "Debate about discrete vs. continuous nature of stages",
+          "Questions about arbitrary time frames defining stages",
+          "Mixed results for stage-matched vs. action-oriented interventions",
+          "Simplified representation of complex change processes"
+        ]
+      }
+    },
+    {
+      "name": "Self-Determination Theory",
+      "core_concept": "Psychological well-being and optimal functioning depend on satisfying basic psychological needs for autonomy, competence, and relatedness",
+      "theoretical_origins": {
+        "founders": "Edward Deci and Richard Ryan",
+        "year": "1980s-present",
+        "key_publication": "Intrinsic Motivation and Self-Determination in Human Behavior (1985)",
+        "original_context": "Research on intrinsic vs. extrinsic motivation and their differential effects"
+      },
+      "basic_psychological_needs": [
+        {
+          "need": "Autonomy",
+          "definition": "Sense of volition and willingness; feeling like originator of one's actions",
+          "supportive_conditions": [
+            "Providing meaningful rationales for requested behavior",
+            "Minimizing pressure and control",
+            "Acknowledging negative feelings about difficult tasks",
+            "Offering meaningful choices when possible"
+          ],
+          "thwarting_conditions": [
+            "Controlling language ('should,' 'must,' 'have to')",
+            "External rewards for intrinsically motivated activities",
+            "Imposed goals without input",
+            "Surveillance and evaluation emphasis"
+          ],
+          "developmental_significance": "Crucial for internalization of values and regulations"
+        },
+        {
+          "need": "Competence",
+          "definition": "Feeling effective in interactions with environment; experiencing mastery and growth",
+          "supportive_conditions": [
+            "Optimal challenges matching current abilities",
+            "Clear structure and expectations",
+            "Informational feedback emphasizing progress",
+            "Strategies and tools for overcoming obstacles"
+          ],
+          "thwarting_conditions": [
+            "Overly difficult or trivially easy tasks",
+            "Negative feedback focusing on personal failings",
+            "Chaotic, unpredictable environments",
+            "Impossible standards or constantly changing expectations"
+          ],
+          "developmental_significance": "Drives exploration and mastery attempts from infancy onward"
+        },
+        {
+          "need": "Relatedness",
+          "definition": "Feeling connected to and cared for by others; sense of belonging",
+          "supportive_conditions": [
+            "Genuine interest and empathy from others",
+            "Opportunities for contribution and helping",
+            "Feeling understood and valued",
+            "Secure attachment relationships"
+          ],
+          "thwarting_conditions": [
+            "Rejection or ostracism",
+            "Conditional regard based on performance",
+            "Cold, distant interpersonal climate",
+            "Competitive structures that undermine cooperation"
+          ],
+          "developmental_significance": "Provides secure base for exploration and internalization of social values"
+        }
+      ],
+      "motivation_continuum": [
+        {
+          "type": "Amotivation",
+          "quality": "Complete lack of intentionality and motivation",
+          "regulatory_style": "Non-regulation",
+          "perceived_locus_of_causality": "Impersonal",
+          "characteristic_experience": "Helplessness, incompetence, lack of control",
+          "example": "Student who sees no value in schoolwork and makes no effort"
+        },
+        {
+          "type": "External motivation",
+          "quality": "Extrinsic",
+          "regulatory_style": "External regulation",
+          "perceived_locus_of_causality": "External",
+          "characteristic_experience": "Compliance, external rewards and punishments",
+          "example": "Working solely to earn money or avoid punishment"
+        },
+        {
+          "type": "Introjected motivation",
+          "quality": "Somewhat extrinsic",
+          "regulatory_style": "Introjected regulation",
+          "perceived_locus_of_causality": "Somewhat external",
+          "characteristic_experience": "Self-control, ego-involvement, internal rewards/punishments",
+          "example": "Studying to avoid guilt or maintain self-worth"
+        },
+        {
+          "type": "Identified motivation",
+          "quality": "Somewhat intrinsic",
+          "regulatory_style": "Identified regulation",
+          "perceived_locus_of_causality": "Somewhat internal",
+          "characteristic_experience": "Personal importance, conscious valuing",
+          "example": "Exercising because one values health benefits"
+        },
+        {
+          "type": "Integrated motivation",
+          "quality": "Mostly intrinsic",
+          "regulatory_style": "Integrated regulation",
+          "perceived_locus_of_causality": "Internal",
+          "characteristic_experience": "Congruence, awareness, synthesis with self",
+          "example": "Professional development aligned with core values and identity"
+        },
+        {
+          "type": "Intrinsic motivation",
+          "quality": "Fully intrinsic",
+          "regulatory_style": "Intrinsic regulation",
+          "perceived_locus_of_causality": "Internal",
+          "characteristic_experience": "Interest, enjoyment, inherent satisfaction",
+          "example": "Pursuing hobby for pure enjoyment of activity itself"
+        }
+      ],
+      "mini-theories": [
+        {
+          "theory": "Cognitive Evaluation Theory",
+          "focus": "Factors affecting intrinsic motivation",
+          "key_propositions": [
+            "External events affect intrinsic motivation through perceived autonomy and competence",
+            "Rewards, feedback, and other external events have both controlling and informational aspects",
+            "Controlling aspects decrease autonomy and intrinsic motivation",
+            "Informational aspects support competence and enhance intrinsic motivation"
+          ]
+        },
+        {
+          "theory": "Organismic Integration Theory",
+          "focus": "Process of internalization and integration of extrinsic motivation",
+          "key_propositions": [
+            "Humans naturally internalize and integrate socially valued regulations",
+            "Internalization varies along continuum from external to integrated regulation",
+            "Need support facilitates internalization and integration",
+            "More integrated forms of regulation associated with greater well-being and performance"
+          ]
+        },
+        {
+          "theory": "Causality Orientations Theory",
+          "focus": "Individual differences in motivational orientations",
+          "key_propositions": [
+            "Autonomy orientation: Focus on interest, values, and self-determined regulation",
+            "Control orientation: Focus on rewards, gains, approvals, and controls",
+            "Impersonal orientation: Focus on obstacles and amotivation",
+            "People vary in strength of these orientations, affecting interpretation of events"
+          ]
+        },
+        {
+          "theory": "Basic Psychological Needs Theory",
+          "focus": "Relationship between need satisfaction and well-being",
+          "key_propositions": [
+            "Autonomy, competence, and relatedness are universal psychological needs",
+            "Satisfaction of these needs essential for psychological growth and well-being",
+            "Environmental factors affecting need satisfaction impact development and functioning",
+            "Need frustration contributes to ill-being and psychopathology"
+          ]
+        },
+        {
+          "theory": "Goal Contents Theory",
+          "focus": "Differential effects of intrinsic versus extrinsic goals",
+          "key_propositions": [
+            "Intrinsic goals (growth, relationships, community) directly satisfy basic needs",
+            "Extrinsic goals (wealth, fame, image) at best indirectly satisfy needs",
+            "Focus on intrinsic goals associated with greater well-being than extrinsic goals",
+            "Pursuit of extrinsic goals can detract from need satisfaction and well-being"
+          ]
+        },
+        {
+          "theory": "Relationship Motivation Theory",
+          "focus": "Need satisfaction within close relationships",
+          "key_propositions": [
+            "High-quality relationships satisfy need for relatedness",
+            "Best relationships also support autonomy and competence",
+            "Mutual need support creates relationship synergy",
+            "Need frustration in relationships predicts relational and individual problems"
+          ]
+        }
+      ],
+      "applications": {
+        "education": {
+          "principles": [
+            "Supporting student autonomy improves engagement, learning, and persistence",
+            "Informational feedback enhances perceived competence and intrinsic motivation",
+            "Teacher-student relatedness increases internalization of educational values"
+          ],
+          "interventions": "Autonomy-supportive teaching, mastery-oriented assessment, classroom belonging"
+        },
+        "healthcare": {
+          "principles": [
+            "Autonomy support improves treatment adherence and health outcomes",
+            "Need satisfaction facilitates health behavior change and maintenance",
+            "Controlling approaches to health promotion often backfire"
+          ],
+          "interventions": "Motivational interviewing, patient-centered care, health coaching"
+        },
+        "workplace": {
+          "principles": [
+            "Need-supportive environments increase job satisfaction, performance, and retention",
+            "Autonomous motivation associated with greater creativity and well-being",
+            "Controlling management styles reduce productivity and increase turnover"
+          ],
+          "interventions": "Managerial training in autonomy support, meaningful work design, team cohesion"
+        },
+        "parenting": {
+          "principles": [
+            "Autonomy-supportive parenting facilitates internalization and adjustment",
+            "Structure provides competence without controlling",
+            "Conditional regard undermines relationship quality and internalization"
+          ],
+          "interventions": "Parent training in autonomy support, emotion coaching, positive discipline"
+        }
+      },
+      "cross-cultural_research": {
+        "universality": "Basic needs appear universal across cultures, though expression may vary",
+        "cultural_variations": {
+          "collectivist_cultures": "Autonomy expressed through endorsed interdependence, not independence",
+          "vertical_hierarchies": "Autonomy possible within hierarchies when values genuinely accepted"
+        },
+        "findings": "Need satisfaction predicts well-being across diverse cultural contexts"
+      }
+    }
+  ]
+}

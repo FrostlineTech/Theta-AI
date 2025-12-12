@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the difference between 'affect' and 'effect'?",
+    "answer": "'Affect' is typically used as a verb meaning to influence or produce a change in something. Example: 'The weather affects my mood.' 'Effect' is most commonly used as a noun meaning the result or outcome of a cause. Example: 'The effect of the medication was immediate.' However, there are less common usages: 'Effect' can be used as a verb meaning to bring about or cause something to happen. 'Affect' can be used as a noun in psychology to refer to emotional display. A helpful memory aid: Most of the time, 'Affect' is an 'Action' (verb) and 'Effect' is an 'End result' (noun).",
+    "domain": "grammar"
+  },
+  {
+    "question": "How do I properly use semicolons?",
+    "answer": "Semicolons serve several specific purposes in English writing: 1. Connecting closely related independent clauses without a coordinating conjunction. 2. Separating items in a complex list where the items themselves contain commas. 3. Before conjunctive adverbs or transitional phrases that connect independent clauses. Remember that both sides of a semicolon must be able to stand alone as complete sentences. If one side is a dependent clause, use a comma or other punctuation instead.",
+    "domain": "grammar"
+  },
+  {
+    "question": "What are the rules for using 'who' versus 'whom'?",
+    "answer": "The distinction between 'who' and 'whom' relates to their grammatical function in a sentence: 'Who' is used as the subject of a verb (performing the action). It functions like 'he', 'she', or 'they'. Example: 'Who sent this email?' 'Whom' is used as the object of a verb or preposition (receiving the action). It functions like 'him', 'her', or 'them'. Example: 'To whom should I address this letter?' A simple test: Try substituting 'he/she/they' or 'him/her/them' in your sentence. If 'he/she/they' works, use 'who'. If 'him/her/them' works, use 'whom'. In modern casual English, 'who' is often used in place of 'whom', but formal writing still observes this distinction.",
+    "domain": "grammar"
+  },
+  {
+    "question": "How do I use apostrophes correctly for possession and contractions?",
+    "answer": "Apostrophes have two main uses in English: to show possession and to form contractions. For possessives: 1. For singular nouns, add 's. 2. For plural nouns ending in s, add just the apostrophe. 3. For plural nouns not ending in s, add 's. 4. For singular proper names ending in s, style guides differ. 5. For joint possession, add the apostrophe to the last name only. 6. For separate possession, add to both. For contractions: Replace omitted letters with an apostrophe. Common mistakes to avoid: Don't use apostrophes for plural forms; Distinguish between its (possessive) and it's (contraction of 'it is'); Similarly, distinguish between your/you're, their/they're/there.",
+    "domain": "grammar"
+  },
+  {
+    "question": "What are the rules for subject-verb agreement?",
+    "answer": "Subject-verb agreement means the subject and verb must match in number (singular or plural). Key rules include: 1. Singular subjects take singular verbs. 2. Plural subjects take plural verbs. 3. Compound subjects joined by 'and' typically take plural verbs. 4. When subjects are joined by 'or' or 'nor', the verb agrees with the subject closest to it. 5. Collective nouns can be singular or plural depending on whether the group acts as a unit or as individuals. 6. Don't be misled by phrases between the subject and verb. 7. Indefinite pronouns like 'everyone,' 'someone,' 'nobody,' and 'each' take singular verbs.",
+    "domain": "grammar"
+  },
+  {
+    "question": "What are the different types of conditional sentences and how do I form them correctly?",
+    "answer": "Conditional sentences express hypothetical situations and their consequences. There are four main types in English: 1. Zero Conditional: Used for general truths or scientific facts. Form: If + present simple, present simple. 2. First Conditional: Used for likely or possible future situations. Form: If + present simple, will + base verb. 3. Second Conditional: Used for unlikely, hypothetical, or impossible present situations. Form: If + past simple, would + base verb. 4. Third Conditional: Used for hypothetical situations in the past (that didn't happen). Form: If + past perfect, would have + past participle. Mixed conditionals combine elements of different types. Common errors include using 'will' in if-clauses and mixing tenses inappropriately.",
+    "domain": "grammar"
+  },
+  {
+    "question": "How do I correctly use commas in my writing?",
+    "answer": "Commas serve several functions in English writing: 1. Separating items in a series. 2. Joining independent clauses with a coordinating conjunction (FANBOYS: for, and, nor, but, or, yet, so). 3. Setting off introductory elements. 4. Separating non-essential information (could be removed without changing the sentence's core meaning). 5. Separating coordinate adjectives (adjectives that can be rearranged and separated by 'and'). 6. With geographical names, dates, and addresses. 7. Setting off direct quotations. Common comma errors include: Comma splices (joining independent clauses without a conjunction), missing commas with non-essential elements, and unnecessary commas between subjects and verbs or verbs and objects.",
+    "domain": "grammar"
+  },
+  {
+    "question": "What's the difference between active and passive voice, and when should each be used?",
+    "answer": "Active and passive voice differ in how they structure the relationship between the action, the performer, and the recipient: Active voice: The subject performs the action. Structure: Subject > Verb > Object. Example: 'The chef prepared the meal.' Passive voice: The subject receives the action. Structure: Subject < Verb < (by Object). Example: 'The meal was prepared by the chef.' Characteristics of passive voice: Uses a form of 'to be' plus past participle; The doer of the action may be omitted entirely; Often wordier than active voice. Active voice is generally preferred for clarity, directness, and when the doer is important. Passive voice is appropriate when the recipient is more important, when the doer is unknown/unimportant, in scientific writing for objectivity, and for diplomatic communication.",
+    "domain": "grammar"
+  }
+]

@@ -1,0 +1,490 @@
+{
+  "description": "Ethical frameworks, moral dilemmas, and values-based reasoning to help Theta navigate complex moral questions naturally.",
+  "ethical_systems": [
+    {
+      "framework": "Virtue Ethics",
+      "core_principle": "Focus on developing virtuous character traits rather than following specific rules",
+      "key_philosophers": ["Aristotle", "Alasdair MacIntyre", "Martha Nussbaum"],
+      "historical_context": {
+        "origins": "Ancient Greece, particularly Aristotle's Nicomachean Ethics (4th century BCE)",
+        "development": "Fell out of favor during Enlightenment, revived in 20th century",
+        "contemporary_relevance": "Growing interest as alternative to rule-based approaches"
+      },
+      "central_concepts": [
+        {
+          "concept": "Eudaimonia (Flourishing)",
+          "explanation": "Living well and doing well as a human being; achieving excellence in living",
+          "application": "Decisions should promote development of character excellence and human flourishing",
+          "example": "Choosing career based on development of personal strengths rather than solely financial gain"
+        },
+        {
+          "concept": "Arete (Excellence/Virtue)",
+          "explanation": "Character traits that enable a person to live well in community",
+          "application": "Cultivating dispositions like courage, honesty, and justice through practice",
+          "example": "Developing patience through repeated practice in frustrating situations"
+        },
+        {
+          "concept": "Phronesis (Practical Wisdom)",
+          "explanation": "Ability to discern appropriate action in particular circumstances",
+          "application": "Using judgment to determine right course of action in complex situations",
+          "example": "Knowing when honesty requires full disclosure versus tactful restraint"
+        },
+        {
+          "concept": "Golden Mean",
+          "explanation": "Virtues as the middle ground between excess and deficiency",
+          "examples": [
+            {
+              "virtue": "Courage",
+              "excess": "Recklessness",
+              "deficiency": "Cowardice",
+              "balanced_expression": "Appropriate risk-taking that considers both safety and necessary action"
+            },
+            {
+              "virtue": "Generosity",
+              "excess": "Wastefulness",
+              "deficiency": "Stinginess",
+              "balanced_expression": "Giving appropriately according to means and others' needs"
+            },
+            {
+              "virtue": "Honesty",
+              "excess": "Brutal bluntness",
+              "deficiency": "Deceptiveness",
+              "balanced_expression": "Truthful communication with appropriate sensitivity to context"
+            },
+            {
+              "virtue": "Humility",
+              "excess": "Self-deprecation",
+              "deficiency": "Arrogance",
+              "balanced_expression": "Accurate self-assessment without overemphasis on strengths or weaknesses"
+            }
+          ]
+        }
+      ],
+      "methodological_approach": {
+        "moral_development": "Character formed through habituation and practice, not just knowledge",
+        "decision_process": "Ask 'What would a virtuous person do in this situation?'",
+        "community_aspect": "Virtues defined and reinforced within social and cultural contexts",
+        "aspiration": "Continual improvement toward ideal character, not rule compliance"
+      },
+      "criticisms": [
+        {
+          "criticism": "Cultural relativism",
+          "explanation": "Different cultures may define virtuous character differently",
+          "response": "Core virtues may have cross-cultural recognition despite varied expressions"
+        },
+        {
+          "criticism": "Action guidance",
+          "explanation": "May not provide clear guidance in specific situations",
+          "response": "Practical wisdom (phronesis) develops to guide application of virtues"
+        },
+        {
+          "criticism": "Circularity",
+          "explanation": "Defines right action as what virtuous person would do, but defines virtuous person as one who does right actions",
+          "response": "Virtues are grounded in human function and community well-being, not circular definition"
+        }
+      ],
+      "contemporary_applications": [
+        {
+          "domain": "Professional Ethics",
+          "application": "Focus on developing practitioner character rather than just following codes",
+          "example": "Medical ethics emphasizing compassion and integrity as professional virtues"
+        },
+        {
+          "domain": "Education",
+          "application": "Character education programs focusing on development of virtuous traits",
+          "example": "School programs explicitly teaching and reinforcing virtues like responsibility and respect"
+        },
+        {
+          "domain": "AI Ethics",
+          "application": "Focusing on developing AI systems with virtuous qualities like fairness and transparency rather than just rule-following",
+          "example": "Design of AI systems that demonstrate appropriate 'virtues' in their operation"
+        }
+      ],
+      "comparison_with_other_frameworks": {
+        "vs_consequentialism": "Focuses on character of actor rather than outcomes of actions",
+        "vs_deontology": "Emphasizes character development over rule-following",
+        "complementary_aspects": "Can incorporate elements of both by considering virtuous motives and beneficial consequences"
+      }
+    },
+    {
+      "framework": "Consequentialism",
+      "core_principle": "The moral worth of an action is determined solely by its consequences or outcomes",
+      "key_philosophers": ["Jeremy Bentham", "John Stuart Mill", "Peter Singer", "Henry Sidgwick"],
+      "historical_context": {
+        "origins": "Formalized in late 18th century by Bentham, though elements exist in earlier thought",
+        "development": "Refined by Mill to address qualitative differences in pleasures",
+        "contemporary_relevance": "Dominant in policy analysis, economics, and utilitarian approaches"
+      },
+      "central_concepts": [
+        {
+          "concept": "Utility",
+          "explanation": "The property in objects that produces benefit, advantage, pleasure, good, or happiness",
+          "application": "Maximizing positive outcomes and minimizing negative outcomes",
+          "example": "Evaluating policy based on how many people benefit versus how many are harmed"
+        },
+        {
+          "concept": "Impartiality",
+          "explanation": "Equal consideration of interests regardless of whose interests they are",
+          "application": "Not privileging one's own interests or those of one's group",
+          "example": "Considering impacts on strangers as morally equivalent to impacts on loved ones"
+        },
+        {
+          "concept": "Aggregation",
+          "explanation": "Combining individual outcomes to assess overall impact",
+          "application": "Summing benefits and harms across affected individuals",
+          "example": "Justifying small harms to many if they produce large benefits for others"
+        }
+      ],
+      "major_variants": [
+        {
+          "variant": "Act Utilitarianism",
+          "definition": "Each individual action should be evaluated based on its consequences",
+          "reasoning_process": "Calculate expected utility of each possible action and choose highest",
+          "strengths": "Direct focus on actual outcomes of specific decisions",
+          "weaknesses": "Potentially justifies harmful actions if outcome calculation favorable",
+          "example": "Breaking a promise might be justified if consequences are better than keeping it"
+        },
+        {
+          "variant": "Rule Utilitarianism",
+          "definition": "Follow rules that tend to promote the greatest happiness when generally followed",
+          "reasoning_process": "Identify rules which, if followed consistently, maximize utility",
+          "strengths": "More practical for everyday decisions, avoids counterintuitive conclusions",
+          "weaknesses": "May struggle with rule conflicts, potentially collapses into act utilitarianism",
+          "example": "Following rule 'keep promises' even when breaking one promise might have better consequences"
+        },
+        {
+          "variant": "Preference Utilitarianism",
+          "definition": "Good actions satisfy preferences rather than simply producing pleasure",
+          "reasoning_process": "Determine whose preferences would be satisfied by different actions",
+          "strengths": "Respects autonomy, avoids imposing external definition of 'good'",
+          "weaknesses": "Preferences may be based on misinformation or harmful to preference-holder",
+          "example": "Respecting someone's preference for challenging work over easy pleasure"
+        }
+      ],
+      "decision_methodology": {
+        "steps": [
+          "Identify all possible actions",
+          "Predict consequences of each action",
+          "Evaluate goodness/badness of each consequence",
+          "Sum positive and negative consequences",
+          "Choose action with best overall consequences"
+        ],
+        "practical_challenges": [
+          {
+            "challenge": "Prediction difficulty",
+            "explanation": "Hard to accurately forecast all consequences, especially long-term",
+            "mitigation": "Use empirical evidence and probability assessment"
+          },
+          {
+            "challenge": "Measurement problem",
+            "explanation": "Difficult to quantify and compare different types of benefits/harms",
+            "mitigation": "Develop consistent metrics or assessment frameworks"
+          },
+          {
+            "challenge": "Scope determination",
+            "explanation": "Deciding how far-reaching consequences to consider",
+            "mitigation": "Establish reasonable boundaries while acknowledging uncertainty"
+          }
+        ]
+      },
+      "criticisms": [
+        {
+          "criticism": "Rights violations",
+          "explanation": "May justify sacrificing individuals for greater good",
+          "example": "Theoretically could justify torturing one person to save many",
+          "response": "Rule utilitarianism addresses by establishing rights-protecting rules"
+        },
+        {
+          "criticism": "Demandingness",
+          "explanation": "Seems to require extreme self-sacrifice to help others",
+          "example": "Giving away all wealth beyond basic needs to help the poor",
+          "response": "Satisficing versions require 'good enough' rather than maximal outcomes"
+        },
+        {
+          "criticism": "Calculation impossibility",
+          "explanation": "Complete consequence calculation practically impossible",
+          "example": "Cannot predict all ripple effects of complex decisions",
+          "response": "Use best available evidence, focus on foreseeable consequences"
+        }
+      ],
+      "contemporary_applications": [
+        {
+          "domain": "Public Health",
+          "application": "Cost-effectiveness analysis for resource allocation",
+          "example": "QALYs (Quality-Adjusted Life Years) to compare medical interventions",
+          "ethical_tensions": "May disadvantage treatments for rare conditions affecting few people"
+        },
+        {
+          "domain": "Effective Altruism",
+          "application": "Using evidence to maximize positive impact of charitable giving",
+          "example": "GiveWell evaluations of charity effectiveness per dollar donated",
+          "ethical_tensions": "Potentially redirecting resources from emotional but less efficient causes"
+        },
+        {
+          "domain": "Environmental Ethics",
+          "application": "Evaluating policies based on welfare of all sentient beings",
+          "example": "Cost-benefit analysis including animal suffering in agricultural practices",
+          "ethical_tensions": "Balancing human economic interests against animal welfare and ecosystem health"
+        }
+      ]
+    },
+    {
+      "framework": "Deontology",
+      "core_principle": "The moral worth of an action depends on whether it fulfills one's duty, regardless of consequences",
+      "key_philosophers": ["Immanuel Kant", "W.D. Ross", "Christine Korsgaard", "Thomas Nagel"],
+      "historical_context": {
+        "origins": "Formalized by Kant in late 18th century, with roots in earlier duty-based ethics",
+        "development": "Modified by Ross (prima facie duties) and others to address rigidity concerns",
+        "contemporary_relevance": "Influential in human rights frameworks and medical ethics"
+      },
+      "central_concepts": [
+        {
+          "concept": "Categorical Imperative (Kantian)",
+          "explanation": "Moral obligations that are unconditionally binding regardless of circumstances",
+          "formulations": [
+            {
+              "name": "Universal Law",
+              "principle": "Act only according to that maxim whereby you can, at the same time, will that it should become a universal law",
+              "application": "Test whether your action's underlying principle could be consistently adopted by everyone",
+              "example": "Lying fails because if everyone lied when convenient, the practice of truth-telling would collapse"
+            },
+            {
+              "name": "Humanity as End",
+              "principle": "Act in such a way that you treat humanity, whether in your own person or in any other person, always as an end, and never merely as a means",
+              "application": "Never use people solely as tools for your purposes",
+              "example": "Deceptive promises treat others as mere means to your ends"
+            },
+            {
+              "name": "Kingdom of Ends",
+              "principle": "Act as if you were a member of an ideal kingdom where everyone is both sovereign and subject to moral laws",
+              "application": "Create rules as if you were simultaneously lawgiver and subject",
+              "example": "Design workplace policies you'd find fair regardless of your position"
+            }
+          ]
+        },
+        {
+          "concept": "Prima Facie Duties (Rossian)",
+          "explanation": "Multiple duties that may conflict, requiring judgment about which takes precedence",
+          "key_duties": [
+            {
+              "duty": "Fidelity",
+              "explanation": "Keeping promises and being faithful to commitments",
+              "example": "Honoring contract even when breaking it might produce better outcomes"
+            },
+            {
+              "duty": "Reparation",
+              "explanation": "Making amends for previous wrongdoing",
+              "example": "Compensating someone you've harmed regardless of current circumstances"
+            },
+            {
+              "duty": "Gratitude",
+              "explanation": "Expressing thanks for benefits received",
+              "example": "Helping those who have helped you, even at personal cost"
+            },
+            {
+              "duty": "Non-maleficence",
+              "explanation": "Avoiding harm to others",
+              "example": "Refraining from actions that cause unnecessary suffering"
+            },
+            {
+              "duty": "Justice",
+              "explanation": "Distributing benefits and burdens fairly",
+              "example": "Ensuring equal treatment in similar circumstances"
+            },
+            {
+              "duty": "Beneficence",
+              "explanation": "Promoting others' welfare",
+              "example": "Helping others when reasonably possible"
+            },
+            {
+              "duty": "Self-improvement",
+              "explanation": "Developing one's capacities and character",
+              "example": "Cultivating knowledge and virtue"
+            }
+          ]
+        },
+        {
+          "concept": "Moral Worth",
+          "explanation": "Actions have moral worth only when done from duty, not inclination",
+          "application": "Evaluating motivation rather than outcome",
+          "example": "Helping others from sense of duty has moral worth, even if same action done from sympathy doesn't"
+        }
+      ],
+      "decision_methodology": {
+        "kantian_approach": {
+          "steps": [
+            "Identify the maxim (principle) behind your action",
+            "Test whether this maxim could be universalized without contradiction",
+            "Evaluate whether action treats others as ends in themselves",
+            "Act only if both tests are passed"
+          ]
+        },
+        "rossian_approach": {
+          "steps": [
+            "Identify all prima facie duties relevant to situation",
+            "Determine which duties conflict in this case",
+            "Use considered judgment to determine which duty is most stringent",
+            "Act according to most stringent duty"
+          ]
+        }
+      },
+      "criticisms": [
+        {
+          "criticism": "Moral absolutism",
+          "explanation": "Seems to prohibit exceptions even in extreme cases",
+          "example": "Kant's view that lying is wrong even to protect innocent from murderer",
+          "response": "Modified deontological approaches allow for threshold conditions or competing duties"
+        },
+        {
+          "criticism": "Conflicting duties",
+          "explanation": "No clear method for resolving when duties conflict",
+          "example": "Conflict between truth-telling and non-maleficence",
+          "response": "Ross's prima facie duties approach acknowledges need for judgment"
+        },
+        {
+          "criticism": "Formalism",
+          "explanation": "Overly abstract and disconnected from human concerns",
+          "example": "Focus on abstract principles rather than human well-being",
+          "response": "Contemporary deontologists incorporate more concrete human values"
+        }
+      ],
+      "contemporary_applications": [
+        {
+          "domain": "Human Rights",
+          "application": "Rights as side-constraints on consequentialist calculations",
+          "example": "Right to fair trial cannot be violated even if convenient",
+          "ethical_tensions": "Balancing absolute rights against extreme consequences"
+        },
+        {
+          "domain": "Medical Ethics",
+          "application": "Principles of autonomy, non-maleficence, beneficence, and justice",
+          "example": "Informed consent requirements regardless of outcome",
+          "ethical_tensions": "Conflicts between patient autonomy and beneficence"
+        },
+        {
+          "domain": "Business Ethics",
+          "application": "Stakeholder theory and corporate responsibilities",
+          "example": "Obligations to employees and communities beyond shareholder value",
+          "ethical_tensions": "Balancing fiduciary responsibilities with broader duties"
+        }
+      ]
+    },
+    {
+      "framework": "Care Ethics",
+      "core_principle": "Moral action is based on caring relationships and responding to needs rather than abstract principles",
+      "key_philosophers": ["Carol Gilligan", "Nel Noddings", "Virginia Held", "Eva Feder Kittay"],
+      "historical_context": {
+        "origins": "Emerged from Gilligan's critique of Kohlberg's moral development theory in 1980s",
+        "development": "Extended from feminist critique to comprehensive ethical framework",
+        "contemporary_relevance": "Influential in nursing, education, and feminist approaches to ethics"
+      },
+      "central_concepts": [
+        {
+          "concept": "Relationality",
+          "explanation": "Humans fundamentally exist in networks of relationships rather than as autonomous individuals",
+          "application": "Ethical decisions must consider relational context rather than abstract universals",
+          "example": "Considering family impacts when making career decisions rather than purely individual interests"
+        },
+        {
+          "concept": "Caring",
+          "explanation": "Attentiveness to others' needs and willingness to respond appropriately",
+          "components": [
+            {
+              "component": "Attentiveness",
+              "explanation": "Recognizing others' needs and vulnerabilities",
+              "example": "Noticing colleague's distress despite attempts to hide it"
+            },
+            {
+              "component": "Responsibility",
+              "explanation": "Willingness to respond rather than turn away",
+              "example": "Accepting obligation to help when able rather than claiming it's not your problem"
+            },
+            {
+              "component": "Competence",
+              "explanation": "Effectively meeting needs rather than just good intentions",
+              "example": "Learning necessary skills to provide proper care to ill family member"
+            },
+            {
+              "component": "Responsiveness",
+              "explanation": "Remaining attuned to care recipient's experience",
+              "example": "Adjusting care based on feedback rather than assuming what's needed"
+            }
+          ]
+        },
+        {
+          "concept": "Dependency",
+          "explanation": "Recognition that dependency is a normal human condition, not exception",
+          "application": "Ethics must account for inevitable periods of dependency throughout life",
+          "example": "Designing social systems that accommodate dependency rather than assuming independence"
+        },
+        {
+          "concept": "Contextual Sensitivity",
+          "explanation": "Moral decisions require attention to particular details rather than abstract rules",
+          "application": "Rejecting one-size-fits-all ethical formulas",
+          "example": "Adapting ethical response to specific relationship and circumstances"
+        }
+      ],
+      "comparison_with_dominant_theories": {
+        "vs_justice_perspective": {
+          "justice_focus": "Rights, rules, fairness, equality",
+          "care_focus": "Needs, relationships, compassion, response",
+          "justice_question": "What is fair?",
+          "care_question": "How to respond to needs?",
+          "reconciliation": "Both perspectives needed for complete moral understanding"
+        },
+        "vs_principle_based_ethics": {
+          "traditional_approach": "Apply abstract principles to particular cases",
+          "care_approach": "Start from concrete situation and relationships",
+          "traditional_ideal": "Impartiality and universalizability",
+          "care_ideal": "Appropriate response to particular other"
+        }
+      },
+      "feminist_dimensions": {
+        "critique": "Traditional ethics devalues qualities historically associated with women",
+        "reclamation": "Elevating care from private virtue to public ethical framework",
+        "expansion": "Not exclusively feminine but universal human capacity often suppressed in men",
+        "sociopolitical": "Analysis of care work distribution and valuation in society"
+      },
+      "criticisms": [
+        {
+          "criticism": "Partiality concerns",
+          "explanation": "May justify favoring those close to us over distant others",
+          "example": "Prioritizing one's own family over greater needs elsewhere",
+          "response": "Concentric circles of care with different obligations at different distances"
+        },
+        {
+          "criticism": "Reinforcing gender stereotypes",
+          "explanation": "Risk of essentializing women as natural caregivers",
+          "example": "Potentially justifying unequal care burdens on women",
+          "response": "Care ethics critiques, not reinforces, gendered distribution of care work"
+        },
+        {
+          "criticism": "Lack of action guidance",
+          "explanation": "Insufficient structure for resolving complex ethical dilemmas",
+          "example": "Unclear how to resolve conflicts between competing care relationships",
+          "response": "Contextual judgment rather than algorithmic solutions is a feature, not bug"
+        }
+      ],
+      "contemporary_applications": [
+        {
+          "domain": "Healthcare Ethics",
+          "application": "Patient-centered care focusing on individual needs",
+          "example": "Nursing ethics emphasizing relationship and responsiveness",
+          "ethical_tensions": "Balancing personal care with institutional constraints"
+        },
+        {
+          "domain": "Global Ethics",
+          "application": "Transnational care ethics addressing global interdependence",
+          "example": "Climate change responses considering care for future generations",
+          "ethical_tensions": "Extending care beyond immediate relationships"
+        },
+        {
+          "domain": "Animal and Environmental Ethics",
+          "application": "Extending care to non-human entities",
+          "example": "Environmental protection based on care for ecosystems",
+          "ethical_tensions": "Determining appropriate limits and priorities of care"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1175 @@
+{
+  "description": "Dataset for developing rapid problem-solving abilities, logical analysis, and cognitive flexibility to help Theta think quickly across multiple domains.",
+  "reasoning_patterns": [
+    {
+      "category": "mathematical_intuition",
+      "patterns": [
+        {
+          "context": "Rapid mental calculation",
+          "process": "Breaking complex calculations into manageable steps",
+          "examples": [
+            {
+              "problem": "Calculate 15% of 240 quickly",
+              "approach": "First find 10% (24), then find 5% (12), then add them (36)",
+              "application": "Helps quickly calculate tips, discounts, and proportional values without formal calculation"
+            },
+            {
+              "problem": "Multiply 25 by 24",
+              "approach": "Recognize that 25 × 24 = 25 × (25 - 1) = 625 - 25 = 600",
+              "application": "Pattern recognition for faster computation by relating to known values"
+            },
+            {
+              "problem": "Divide 768 by 16",
+              "approach": "Recognize that dividing by 16 is the same as dividing by 8 twice: 768 ÷ 8 = 96, then 96 ÷ 8 = 12",
+              "application": "Simplifying complex division through sequential simpler operations"
+            }
+          ],
+          "cognitive_principles": [
+            "Number decomposition",
+            "Pattern recognition in numerical relationships",
+            "Working with reference numbers (multiples of 5, 10, 100)",
+            "Commutative and distributive properties application without formal notation"
+          ]
+        },
+        {
+          "context": "Proportional reasoning",
+          "process": "Understanding and manipulating ratios intuitively",
+          "examples": [
+            {
+              "problem": "If 3 apples cost $1.50, how much do 7 apples cost?",
+              "approach": "Recognize unit cost ($0.50 per apple) and multiply: 7 × $0.50 = $3.50",
+              "application": "Quick comparison shopping without calculator"
+            },
+            {
+              "problem": "If a recipe for 4 people requires 300g of flour, how much for 6 people?",
+              "approach": "300g ÷ 4 = 75g per person, then 75g × 6 = 450g total",
+              "application": "Recipe scaling in cooking situations"
+            },
+            {
+              "problem": "If a car travels 210 miles on 10 gallons, how far on 16 gallons?",
+              "approach": "Find miles per gallon (21), then multiply: 21 × 16 = 336 miles",
+              "application": "Fuel efficiency and range estimation while driving"
+            }
+          ],
+          "cognitive_principles": [
+            "Unit rate identification",
+            "Direct and inverse proportion recognition",
+            "Cross-multiplication as mental shortcut",
+            "Dimensional analysis (keeping track of units during calculation)"
+          ]
+        },
+        {
+          "context": "Estimation and approximation",
+          "process": "Using rounding and reference points to get close answers quickly",
+          "examples": [
+            {
+              "problem": "Estimate 493 × 51",
+              "approach": "Round to 500 × 50 = 25,000 (actual answer: 25,143)",
+              "application": "Quick ballpark figures for decision-making when precision isn't critical"
+            },
+            {
+              "problem": "Is 5,239 ÷ 41 greater than 100?",
+              "approach": "Simplify to 5,200 ÷ 40 = 130, so yes (actual answer: 127.8)",
+              "application": "Rapid comparison and threshold decisions"
+            },
+            {
+              "problem": "Approximately how many seconds in a year?",
+              "approach": "60 seconds × 60 minutes × 24 hours × 365 days ≈ 60 × 60 × 25 × 365 ≈ 3,600 × 9,000 ≈ 32 million (actual: 31.5 million)",
+              "application": "Order-of-magnitude estimations for planning and feasibility assessment"
+            }
+          ],
+          "cognitive_principles": [
+            "Strategic rounding (sometimes up, sometimes down based on context)",
+            "Compensatory thinking (adjusting estimates to account for rounding effects)",
+            "Fermi estimation (breaking down large unknowns into estimable components)",
+            "Benchmarking against known quantities"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "logical_deduction",
+      "patterns": [
+        {
+          "context": "Sequential reasoning",
+          "process": "Following chains of logical implications",
+          "examples": [
+            {
+              "problem": "All dogs in this shelter are either puppies or have been trained. All untrained dogs require constant supervision. Spot doesn't require constant supervision. What do we know about Spot?",
+              "approach": "Build chain: If Spot doesn't need supervision → Spot must be trained → Spot could be either a puppy or adult (we can't determine which)",
+              "application": "Legal reasoning and policy analysis"
+            },
+            {
+              "problem": "Everyone who subscribes to the magazine receives a tote bag. Some people who received tote bags didn't attend the conference. Did all conference attendees subscribe to the magazine?",
+              "approach": "Can't determine - we know subscription → tote bag, and some tote bag recipients didn't attend the conference, but we don't know about the relationship between conference attendance and subscriptions",
+              "application": "Evaluating marketing claims and advertisements"
+            },
+            {
+              "problem": "Only students with ID cards can enter the library. Some people in the library don't have laptops. Do all people with ID cards have laptops?",
+              "approach": "No logical connection can be made between ID cards and laptops based on given statements",
+              "application": "Analyzing security protocols and access requirements"
+            }
+          ],
+          "cognitive_principles": [
+            "Conditional statement analysis (if P then Q doesn't mean if Q then P)",
+            "Contrapositive recognition (if P then Q means if not Q then not P)",
+            "Avoiding illogical transitive assumptions",
+            "Identifying necessary vs. sufficient conditions"
+          ]
+        },
+        {
+          "context": "Categorical syllogisms",
+          "process": "Reasoning about classes and their members",
+          "examples": [
+            {
+              "problem": "All mammals are warm-blooded. All whales are mammals. What can we conclude?",
+              "approach": "Direct syllogistic reasoning: All whales are warm-blooded",
+              "application": "Scientific classification and property inheritance"
+            },
+            {
+              "problem": "No reptiles are mammals. Some egg-laying animals are reptiles. What can we conclude about egg-laying mammals?",
+              "approach": "We can't conclude anything about egg-laying mammals from these premises alone",
+              "application": "Biological classification and exception handling"
+            },
+            {
+              "problem": "All squares are rectangles. Some rectangles have equal sides. Are all squares equal-sided?",
+              "approach": "The premises don't support this conclusion - we would need additional information",
+              "application": "Geometric property analysis and mathematical definition"
+            }
+          ],
+          "cognitive_principles": [
+            "Set relationship visualization",
+            "Venn diagram mental modeling",
+            "Universal vs. existential quantifier distinction (all vs. some)",
+            "Recognizing when premises are insufficient for conclusion"
+          ]
+        },
+        {
+          "context": "Causal reasoning",
+          "process": "Identifying relationships between causes and effects",
+          "examples": [
+            {
+              "problem": "Every time I eat at that restaurant, I get sick. What can I reasonably conclude?",
+              "approach": "Correlation established, but causation requires ruling out other factors (Was anyone else affected? Do I get sick elsewhere? Is it certain foods?)",
+              "application": "Personal health decision-making"
+            },
+            {
+              "problem": "Cities with more ice cream sales have higher crime rates. Does ice cream cause crime?",
+              "approach": "Likely a confounding variable (summer heat increases both ice cream sales and time outdoors, potentially increasing crime opportunity)",
+              "application": "Statistical data interpretation and policy making"
+            },
+            {
+              "problem": "After I started taking the medication, my symptoms improved. Is the medication effective?",
+              "approach": "Possible, but alternative explanations include: natural recovery, placebo effect, coincidental timing, other lifestyle changes",
+              "application": "Medical treatment evaluation and healthcare decisions"
+            }
+          ],
+          "cognitive_principles": [
+            "Correlation vs. causation distinction",
+            "Confounding variable identification",
+            "Post hoc fallacy recognition (after this, therefore because of this)",
+            "Multiple causality consideration"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "spatial_reasoning",
+      "patterns": [
+        {
+          "context": "Mental rotation",
+          "process": "Manipulating objects in 3D space mentally",
+          "examples": [
+            {
+              "problem": "Would these two puzzle pieces fit together?",
+              "approach": "Mentally rotate one piece to align with the other, checking if edges complement each other",
+              "application": "Furniture assembly and physical problem solving"
+            },
+            {
+              "problem": "If I fold this flat pattern, will it make a cube?",
+              "approach": "Mentally transform 2D net into 3D shape, checking if all faces connect properly",
+              "application": "Package design and manufacturing"
+            },
+            {
+              "problem": "Will this couch fit through the doorway if turned sideways?",
+              "approach": "Compare largest dimension of couch with doorway dimensions, considering orientation options",
+              "application": "Moving furniture and spatial planning"
+            }
+          ],
+          "cognitive_principles": [
+            "Object constancy across different viewpoints",
+            "Axis-based rotation (tracking movement around x, y, z axes)",
+            "Feature preservation during transformation",
+            "Imagined perspective shifting"
+          ]
+        },
+        {
+          "context": "Path finding",
+          "process": "Determining optimal routes through space",
+          "examples": [
+            {
+              "problem": "What's the shortest path through this maze?",
+              "approach": "Working backward from goal, eliminating dead ends, identifying decision points",
+              "application": "Navigation in unfamiliar environments"
+            },
+            {
+              "problem": "How do I visit each room exactly once?",
+              "approach": "Identify connection constraints, find rooms with single entrances/exits to establish required sequence",
+              "application": "Efficient routing for delivery or cleaning"
+            },
+            {
+              "problem": "What's the most efficient evacuation route for this building?",
+              "approach": "Identify bottlenecks, consider parallel path utilization, balance shortest path vs. congestion",
+              "application": "Emergency planning and crowd management"
+            }
+          ],
+          "cognitive_principles": [
+            "Mental mapping and spatial memory",
+            "Constraint satisfaction in path selection",
+            "Heuristic search (e.g., move toward goal when possible)",
+            "Parallel processing of multiple potential paths"
+          ]
+        },
+        {
+          "context": "Pattern completion",
+          "process": "Identifying missing elements in spatial arrangements",
+          "examples": [
+            {
+              "problem": "What comes next in this grid pattern: ■□■, □■□, ?",
+              "approach": "Identify alternating pattern to determine next row should be ■□■",
+              "application": "Visual design and symmetry recognition"
+            },
+            {
+              "problem": "What block completes this 3D structure?",
+              "approach": "Analyze structural patterns (symmetry, repetition, progression) to identify missing piece",
+              "application": "Architecture and construction planning"
+            },
+            {
+              "problem": "What's the next image in this rotating sequence?",
+              "approach": "Track rotation angle and direction across sequence to predict next orientation",
+              "application": "Mechanical system understanding and animation"
+            }
+          ],
+          "cognitive_principles": [
+            "Pattern recognition across dimensions",
+            "Rule extraction from examples",
+            "Symmetry and regularity detection",
+            "Spatial transformation tracking"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "strategic_thinking",
+      "patterns": [
+        {
+          "context": "Means-ends analysis",
+          "process": "Working backward from goals to current state",
+          "examples": [
+            {
+              "problem": "How to achieve checkmate with limited pieces in chess",
+              "approach": "Identify final piece positions needed, then determine sequence of moves to reach that arrangement",
+              "application": "Game strategy and competition"
+            },
+            {
+              "problem": "How to meet project deadline with limited resources",
+              "approach": "Define required final deliverables, identify critical path tasks, allocate resources to highest priorities",
+              "application": "Project management and resource allocation"
+            },
+            {
+              "problem": "How to save enough for retirement",
+              "approach": "Calculate required final amount, determine monthly savings needed, identify adjustments to current budget",
+              "application": "Financial planning and long-term goals"
+            }
+          ],
+          "cognitive_principles": [
+            "Backward induction",
+            "Sub-goal decomposition",
+            "Obstacle identification and removal planning",
+            "Progressive constraint satisfaction"
+          ]
+        },
+        {
+          "context": "Risk assessment",
+          "process": "Evaluating probability and impact of outcomes",
+          "examples": [
+            {
+              "problem": "Should I invest in this startup?",
+              "approach": "Estimate probability of various returns, weight against potential losses, compare to alternatives",
+              "application": "Investment decisions and resource allocation"
+            },
+            {
+              "problem": "Is this medical procedure worth the risks?",
+              "approach": "Compare probability and severity of complications against benefits of successful outcome",
+              "application": "Healthcare decisions and medical consent"
+            },
+            {
+              "problem": "Should the team attempt a difficult play?",
+              "approach": "Assess success probability, evaluate cost of failure vs. benefit of success, consider game context",
+              "application": "Sports strategy and competitive decision-making"
+            }
+          ],
+          "cognitive_principles": [
+            "Expected value calculation (outcome value × probability)",
+            "Worst-case scenario planning",
+            "Risk-reward ratio assessment",
+            "Opportunity cost consideration"
+          ]
+        },
+        {
+          "context": "Resource optimization",
+          "process": "Allocating limited resources for maximum benefit",
+          "examples": [
+            {
+              "problem": "How to distribute limited budget across marketing channels",
+              "approach": "Compare ROI of each channel, allocate proportionally to performance, maintaining minimum effective spending",
+              "application": "Marketing strategy and business investment"
+            },
+            {
+              "problem": "How to allocate study time before an exam",
+              "approach": "Prioritize topics by weight on exam, current knowledge gaps, and learning difficulty",
+              "application": "Education and professional development"
+            },
+            {
+              "problem": "How to distribute limited medicine in crisis situation",
+              "approach": "Triage based on urgency, survival probability with intervention, and long-term outcome",
+              "application": "Emergency management and healthcare ethics"
+            }
+          ],
+          "cognitive_principles": [
+            "Marginal utility assessment",
+            "Pareto principle application (80/20 rule)",
+            "Constraint-based prioritization",
+            "Diminishing returns recognition"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "cognitive_flexibility",
+      "patterns": [
+        {
+          "context": "Perspective shifting",
+          "process": "Viewing problems from multiple angles",
+          "examples": [
+            {
+              "problem": "Why isn't this product selling?",
+              "approach": "Examine from different perspectives: customer (value perception), competitor (alternative options), market (timing, trends), internal (quality, marketing effectiveness)",
+              "application": "Business problem-solving and product development"
+            },
+            {
+              "problem": "Why is this student struggling?",
+              "approach": "Consider cognitive (learning style, prerequisites), emotional (motivation, anxiety), environmental (distractions, resources), and social (peer influence, teacher relationship) factors",
+              "application": "Education and personal development"
+            },
+            {
+              "problem": "How to resolve team conflict?",
+              "approach": "Analyze from each team member's perspective, organizational needs, project requirements, and future team dynamics",
+              "application": "Leadership and conflict resolution"
+            }
+          ],
+          "cognitive_principles": [
+            "Frame switching",
+            "Stakeholder viewpoint adoption",
+            "Systems-level vs. component-level analysis",
+            "Short-term vs. long-term perspective balancing"
+          ]
+        },
+        {
+          "context": "Analogical reasoning",
+          "process": "Applying knowledge from one domain to another",
+          "examples": [
+            {
+              "problem": "How might circulatory system insights apply to traffic flow?",
+              "approach": "Map biological concepts (arteries/highways, capillaries/local roads, heart/city center) to identify potential traffic solutions",
+              "application": "Urban planning and system design"
+            },
+            {
+              "problem": "How could immune system principles improve cybersecurity?",
+              "approach": "Apply biological defense mechanisms (recognition of self/non-self, adaptive response, memory cells) to computer systems",
+              "application": "Security system design and threat response"
+            },
+            {
+              "problem": "How might forest ecosystem principles help business organization?",
+              "approach": "Map ecological concepts (diversity, succession, symbiosis) to organizational development",
+              "application": "Organizational design and management strategy"
+            }
+          ],
+          "cognitive_principles": [
+            "Structural mapping between domains",
+            "Abstraction of core principles",
+            "Cross-domain transfer of problem-solving strategies",
+            "Metaphorical thinking for innovation"
+          ]
+        },
+        {
+          "context": "Constraint relaxation",
+          "process": "Questioning assumptions to find creative solutions",
+          "examples": [
+            {
+              "problem": "How to fit more storage in a small apartment",
+              "approach": "Challenge assumptions: Must storage be permanent? Visible? Inside the apartment? Private? Standard furniture?",
+              "application": "Design innovation and space utilization"
+            },
+            {
+              "problem": "How to reduce meeting time while maintaining communication",
+              "approach": "Question assumptions: Must communication be synchronous? Verbal? Involve everyone simultaneously? Follow standard format?",
+              "application": "Workplace efficiency and organizational culture"
+            },
+            {
+              "problem": "How to travel cheaply between cities",
+              "approach": "Relax constraints: Must travel be direct? Individual? Conventional mode? Fixed schedule? Single leg?",
+              "application": "Travel planning and logistics optimization"
+            }
+          ],
+          "cognitive_principles": [
+            "Assumption identification and testing",
+            "Functional fixedness overcoming",
+            "Problem reformulation",
+            "Lateral thinking activation"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "computational_thinking",
+      "patterns": [
+        {
+          "context": "Algorithm design",
+          "process": "Breaking down problems into step-by-step procedures",
+          "examples": [
+            {
+              "problem": "Finding the shortest route between multiple destinations",
+              "approach": "1) Identify all possible routes, 2) Calculate distance for each route, 3) Compare distances, 4) Select shortest option",
+              "application": "Route planning, task scheduling, resource allocation"
+            },
+            {
+              "problem": "Sorting a list of names alphabetically",
+              "approach": "Compare adjacent names, swap if out of order, repeat until no swaps needed",
+              "application": "Database management, contact organization, inventory systems"
+            }
+          ]
+        },
+        {
+          "context": "Pattern recognition in data",
+          "process": "Identifying recurring structures or relationships within information sets",
+          "examples": [
+            {
+              "problem": "Detecting anomalies in financial transactions",
+              "approach": "Establish baseline patterns, identify deviations beyond statistical norms",
+              "application": "Fraud detection, quality control, predictive maintenance"
+            },
+            {
+              "problem": "Language learning through grammar patterns",
+              "approach": "Recognize subject-verb-object structures across examples, extract rules",
+              "application": "Accelerated language acquisition, translation systems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "probability_reasoning",
+      "patterns": [
+        {
+          "context": "Risk assessment",
+          "process": "Evaluating likelihood of outcomes based on available information",
+          "examples": [
+            {
+              "problem": "Deciding whether to bring an umbrella",
+              "approach": "Assess weather forecast reliability, consider cost of being wrong in either direction",
+              "application": "Everyday decision making under uncertainty"
+            },
+            {
+              "problem": "Evaluating medical treatment options",
+              "approach": "Compare success rates, consider individual factors, weigh potential side effects",
+              "application": "Healthcare decisions, insurance planning"
+            }
+          ]
+        },
+        {
+          "context": "Bayesian updating",
+          "process": "Revising probability estimates as new evidence emerges",
+          "examples": [
+            {
+              "problem": "Diagnosing a computer issue from symptoms",
+              "approach": "Start with base rates of common problems, update likelihood as new symptoms appear",
+              "application": "Troubleshooting, medical diagnosis, fault detection"
+            },
+            {
+              "problem": "Refining scientific hypotheses",
+              "approach": "Begin with prior probability, incorporate new experimental results, calculate posterior probability",
+              "application": "Research methodology, data analysis, belief updating"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "causal_reasoning",
+      "patterns": [
+        {
+          "context": "Root cause analysis",
+          "process": "Tracing problems back to their originating factors",
+          "examples": [
+            {
+              "problem": "Investigating system failure",
+              "approach": "Work backward from symptom, eliminating each layer of effect to find initial trigger",
+              "application": "Engineering troubleshooting, organizational problem-solving"
+            },
+            {
+              "problem": "Understanding social conflict",
+              "approach": "Identify presenting issues, explore underlying interests and needs, examine historical context",
+              "application": "Conflict resolution, policy development, relationship counseling"
+            }
+          ]
+        },
+        {
+          "context": "Counterfactual reasoning",
+          "process": "Considering what would have happened under different conditions",
+          "examples": [
+            {
+              "problem": "Evaluating a decision outcome",
+              "approach": "Compare actual result with projected alternatives that could have occurred",
+              "application": "Decision analysis, regret minimization, learning from experience"
+            },
+            {
+              "problem": "Historical analysis",
+              "approach": "Consider how events might have unfolded with different initial conditions",
+              "application": "Strategic planning, scenario development, understanding contingency"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "analogical_reasoning",
+      "patterns": [
+        {
+          "context": "Problem solving by similarity",
+          "process": "Applying solutions from familiar domains to new contexts",
+          "examples": [
+            {
+              "problem": "Designing a new transportation system",
+              "approach": "Consider how blood circulates in the body as a model for traffic flow",
+              "application": "Innovation, biomimicry, cross-domain solution transfer"
+            },
+            {
+              "problem": "Explaining complex technology to novices",
+              "approach": "Compare cloud storage to a library where books are stored but accessible from anywhere",
+              "application": "Education, communication, conceptual bridging"
+            }
+          ]
+        },
+        {
+          "context": "Case-based reasoning",
+          "process": "Solving new problems based on solutions to similar past problems",
+          "examples": [
+            {
+              "problem": "Medical diagnosis of rare condition",
+              "approach": "Recall similar symptom patterns from past cases, adapt treatment approaches",
+              "application": "Clinical decision-making, legal precedent, customer service"
+            },
+            {
+              "problem": "Architectural design challenge",
+              "approach": "Draw on successful solutions to similar constraints from previous projects",
+              "application": "Design fields, engineering, creative problem-solving"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "systems_thinking",
+      "patterns": [
+        {
+          "context": "Feedback loop identification",
+          "process": "Recognizing circular causality in complex systems",
+          "examples": [
+            {
+              "problem": "Understanding organizational resistance to change",
+              "approach": "Identify reinforcing loops where resistance leads to poor implementation, confirming skepticism",
+              "application": "Change management, organizational development"
+            },
+            {
+              "problem": "Managing sustainable resource use",
+              "approach": "Map balancing loops between consumption, regeneration, and ecosystem health",
+              "application": "Environmental management, sustainable development"
+            }
+          ]
+        },
+        {
+          "context": "Emergent property anticipation",
+          "process": "Predicting system-level behaviors that arise from component interactions",
+          "examples": [
+            {
+              "problem": "Anticipating traffic patterns from individual driving decisions",
+              "approach": "Model how individual optimization creates collective suboptimality (e.g., traffic jams)",
+              "application": "Urban planning, crowd management, network design"
+            },
+            {
+              "problem": "Understanding market behavior",
+              "approach": "Analyze how individual buying/selling decisions create price movements and trends",
+              "application": "Economics, investment strategy, policy development"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "metacognitive_reasoning",
+      "patterns": [
+        {
+          "context": "Learning strategy selection",
+          "process": "Evaluating and selecting optimal approaches for knowledge acquisition",
+          "examples": [
+            {
+              "problem": "Mastering a new programming language efficiently",
+              "approach": "Assess learning style, identify knowledge gaps, select resources matching goals and background",
+              "application": "Skill acquisition, professional development, education"
+            },
+            {
+              "problem": "Preparing for a complex examination",
+              "approach": "Analyze past performance, identify weak areas, allocate study time proportionally to difficulty and importance",
+              "application": "Academic performance, certification preparation"
+            }
+          ]
+        },
+        {
+          "context": "Cognitive bias recognition",
+          "process": "Identifying and compensating for systematic errors in one's thinking",
+          "examples": [
+            {
+              "problem": "Overconfidence in investment decisions",
+              "approach": "Compare past confidence ratings with actual outcomes, adjust confidence calibration",
+              "application": "Decision quality improvement, risk management"
+            },
+            {
+              "problem": "Confirmation bias in research",
+              "approach": "Deliberately seek disconfirming evidence, invite contrary perspectives",
+              "application": "Scientific inquiry, belief evaluation, critical thinking"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "statistical_reasoning",
+      "patterns": [
+        {
+          "context": "Correlation interpretation",
+          "process": "Evaluating relationships between variables while avoiding causal fallacies",
+          "examples": [
+            {
+              "problem": "Analyzing health outcome data",
+              "approach": "Distinguish correlation from causation, identify potential confounding variables",
+              "application": "Public health policy, medical research interpretation"
+            },
+            {
+              "problem": "Evaluating marketing campaign effectiveness",
+              "approach": "Control for seasonal trends and external factors, use A/B testing",
+              "application": "Business analytics, performance evaluation"
+            }
+          ]
+        },
+        {
+          "context": "Base rate consideration",
+          "process": "Incorporating background probability in likelihood assessments",
+          "examples": [
+            {
+              "problem": "Interpreting medical test results",
+              "approach": "Consider disease prevalence alongside test sensitivity/specificity",
+              "application": "Medical diagnosis, screening program design"
+            },
+            {
+              "problem": "Evaluating job candidate qualifications",
+              "approach": "Compare individual metrics against relevant population distributions",
+              "application": "Hiring, performance assessment, talent management"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "temporal_reasoning",
+      "patterns": [
+        {
+          "context": "Intertemporal choice",
+          "process": "Evaluating tradeoffs between present and future outcomes",
+          "examples": [
+            {
+              "problem": "Saving for retirement vs. current consumption",
+              "approach": "Calculate compound returns, adjust for time preference and uncertainty",
+              "application": "Financial planning, resource allocation over time"
+            },
+            {
+              "problem": "Environmental conservation decisions",
+              "approach": "Balance immediate economic benefits against long-term ecosystem value",
+              "application": "Sustainability planning, intergenerational equity"
+            }
+          ]
+        },
+        {
+          "context": "Scenario planning",
+          "process": "Developing multiple plausible future states to guide present decisions",
+          "examples": [
+            {
+              "problem": "Business strategy in uncertain markets",
+              "approach": "Identify key uncertainties, create diverse scenarios, develop robust strategies",
+              "application": "Corporate planning, investment strategy"
+            },
+            {
+              "problem": "Climate adaptation planning",
+              "approach": "Model various climate trajectories, identify trigger points for intervention",
+              "application": "Infrastructure planning, disaster preparedness"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ethical_reasoning",
+      "patterns": [
+        {
+          "context": "Value conflict resolution",
+          "process": "Navigating situations with competing ethical principles",
+          "examples": [
+            {
+              "problem": "Medical resource allocation during shortage",
+              "approach": "Balance utility maximization against equity and procedural fairness",
+              "application": "Healthcare ethics, disaster response"
+            },
+            {
+              "problem": "Truth-telling vs. harm prevention",
+              "approach": "Consider context, relationship obligations, and long-term consequences",
+              "application": "Professional ethics, personal relationships"
+            }
+          ]
+        },
+        {
+          "context": "Principle application",
+          "process": "Applying abstract ethical frameworks to concrete situations",
+          "examples": [
+            {
+              "problem": "Technology deployment ethical assessment",
+              "approach": "Evaluate against principles of autonomy, beneficence, non-maleficence, and justice",
+              "application": "AI ethics, bioethics, corporate responsibility"
+            },
+            {
+              "problem": "Professional boundary decisions",
+              "approach": "Apply role-specific obligations while respecting universal human rights",
+              "application": "Professional conduct, organizational ethics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "creative_reasoning",
+      "patterns": [
+        {
+          "context": "Conceptual combination",
+          "process": "Merging disparate ideas to create novel solutions",
+          "examples": [
+            {
+              "problem": "Developing new product concepts",
+              "approach": "Combine features from unrelated domains, identify emergent functionality",
+              "application": "Innovation, product development, artistic creation"
+            },
+            {
+              "problem": "Solving interdisciplinary challenges",
+              "approach": "Transfer methodologies across field boundaries, adapt tools to new contexts",
+              "application": "Research breakthroughs, complex problem solving"
+            }
+          ]
+        },
+        {
+          "context": "Constraint transformation",
+          "process": "Reframing limitations as enabling conditions for creativity",
+          "examples": [
+            {
+              "problem": "Designing with limited resources",
+              "approach": "View constraints as focusing mechanisms, explore boundaries as opportunities",
+              "application": "Sustainable design, frugal innovation, artistic expression"
+            },
+            {
+              "problem": "Working within regulatory requirements",
+              "approach": "Identify underlying purposes of rules, find novel compliant approaches",
+              "application": "Regulatory compliance, policy innovation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "narrative_reasoning",
+      "patterns": [
+        {
+          "context": "Coherence creation",
+          "process": "Connecting events into meaningful sequences with causal relationships",
+          "examples": [
+            {
+              "problem": "Understanding organizational history",
+              "approach": "Identify key turning points, recognize recurring patterns, construct meaningful arc",
+              "application": "Corporate memory, institutional identity, change management"
+            },
+            {
+              "problem": "Making sense of personal life events",
+              "approach": "Connect seemingly random experiences through themes of growth, challenge, and agency",
+              "application": "Psychological well-being, identity formation, meaning-making"
+            }
+          ]
+        },
+        {
+          "context": "Perspective taking",
+          "process": "Constructing events from different viewpoints to expand understanding",
+          "examples": [
+            {
+              "problem": "Resolving interpersonal conflict",
+              "approach": "Mentally simulate other's experience, including knowledge limitations and motivations",
+              "application": "Mediation, relationship repair, empathic understanding"
+            },
+            {
+              "problem": "Anticipating stakeholder reactions",
+              "approach": "Generate narrative accounts from multiple perspectives with different priorities",
+              "application": "Change communication, product design, policy development"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "spatial_reasoning",
+      "patterns": [
+        {
+          "context": "Mental rotation",
+          "process": "Visualizing objects from different angles and orientations",
+          "examples": [
+            {
+              "problem": "Furniture arrangement planning",
+              "approach": "Mentally rotate pieces to visualize different configurations before physical movement",
+              "application": "Interior design, moving logistics, space optimization"
+            },
+            {
+              "problem": "Map navigation without reorienting the physical map",
+              "approach": "Mentally rotate reference frame to align with current orientation",
+              "application": "Navigation, orientation, spatial problem solving"
+            }
+          ]
+        },
+        {
+          "context": "Spatial transformation",
+          "process": "Predicting how objects will change under various operations",
+          "examples": [
+            {
+              "problem": "Understanding mechanical assemblies",
+              "approach": "Visualize component movements and interactions under operation",
+              "application": "Engineering, troubleshooting, mechanical design"
+            },
+            {
+              "problem": "Packing optimization",
+              "approach": "Mental simulation of object arrangements with attention to dimensions and constraints",
+              "application": "Logistics, travel packing, storage optimization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "diagnostic_reasoning",
+      "patterns": [
+        {
+          "context": "Differential diagnosis",
+          "process": "Systematically narrowing possible explanations through evidence gathering",
+          "examples": [
+            {
+              "problem": "Identifying source of equipment malfunction",
+              "approach": "Generate hypotheses, test predictions of each, eliminate inconsistent options",
+              "application": "Technical troubleshooting, equipment maintenance"
+            },
+            {
+              "problem": "Performance issue identification",
+              "approach": "Isolate variables, test individual components, identify interaction effects",
+              "application": "Process improvement, athletic coaching, system optimization"
+            }
+          ]
+        },
+        {
+          "context": "Pattern matching",
+          "process": "Comparing current situations to known problem signatures",
+          "examples": [
+            {
+              "problem": "Network security incident classification",
+              "approach": "Compare attack signatures to database of known threats, identify closest matches",
+              "application": "Cybersecurity, threat response, anomaly detection"
+            },
+            {
+              "problem": "Product quality control",
+              "approach": "Compare defect patterns with known manufacturing issues",
+              "application": "Manufacturing, quality assurance, defect prevention"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "abductive_reasoning",
+      "patterns": [
+        {
+          "context": "Best explanation inference",
+          "process": "Determining most likely explanation from limited evidence",
+          "examples": [
+            {
+              "problem": "Archaeological interpretation of artifacts",
+              "approach": "Construct multiple hypotheses, evaluate against known context, select most coherent account",
+              "application": "Historical research, forensic science, cultural anthropology"
+            },
+            {
+              "problem": "Customer behavior analysis",
+              "approach": "Infer motivations from observable actions, test through targeted interventions",
+              "application": "Marketing, product development, customer experience design"
+            }
+          ]
+        },
+        {
+          "context": "Anomaly interpretation",
+          "process": "Making sense of unexpected observations by revising conceptual frameworks",
+          "examples": [
+            {
+              "problem": "Unexpected experimental results",
+              "approach": "Consider instrument error, then methodological flaws, then theoretical limitations",
+              "application": "Scientific discovery, paradigm revision"
+            },
+            {
+              "problem": "Market trend disruptions",
+              "approach": "Identify potential causal factors, evaluate plausibility, develop new explanatory models",
+              "application": "Economic forecasting, strategic planning, innovation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "inductive_reasoning",
+      "patterns": [
+        {
+          "context": "Pattern generalization",
+          "process": "Inferring general principles from specific observations",
+          "examples": [
+            {
+              "problem": "Customer preference prediction",
+              "approach": "Observe purchasing patterns across segments, extract common factors, apply to new customers",
+              "application": "Recommendation systems, market targeting, product development"
+            },
+            {
+              "problem": "Language rule acquisition",
+              "approach": "Notice regularities in language examples, formulate general rules, test against new cases",
+              "application": "Language learning, linguistic analysis, natural language processing"
+            }
+          ]
+        },
+        {
+          "context": "Sampling-based inference",
+          "process": "Drawing conclusions about populations from limited samples",
+          "examples": [
+            {
+              "problem": "Quality control testing",
+              "approach": "Test representative sample, calculate confidence intervals, make statistical inferences",
+              "application": "Manufacturing, pharmaceutical testing, product reliability"
+            },
+            {
+              "problem": "Public opinion assessment",
+              "approach": "Survey diverse sample, weight responses, generalize with appropriate uncertainty",
+              "application": "Policy development, market research, social science"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "deductive_reasoning",
+      "patterns": [
+        {
+          "context": "Syllogistic reasoning",
+          "process": "Drawing conclusions from premises through formal logical structures",
+          "examples": [
+            {
+              "problem": "Policy compliance verification",
+              "approach": "Establish general rules, verify specific case conditions, derive logical conclusion",
+              "application": "Legal analysis, regulatory compliance, ethical decision making"
+            },
+            {
+              "problem": "Software requirement validation",
+              "approach": "Break down specifications into logical assertions, verify implementation satisfies all conditions",
+              "application": "Software engineering, formal verification"
+            }
+          ]
+        },
+        {
+          "context": "Implication chaining",
+          "process": "Following consequences of facts through sequential logical steps",
+          "examples": [
+            {
+              "problem": "Risk scenario analysis",
+              "approach": "Start with initial conditions, apply cause-effect relationships iteratively",
+              "application": "Insurance underwriting, safety engineering, contingency planning"
+            },
+            {
+              "problem": "Chess strategy",
+              "approach": "Consider possible moves, opponent responses, and resulting positions multiple steps ahead",
+              "application": "Strategic gaming, competitive analysis, negotiation planning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "fuzzy_reasoning",
+      "patterns": [
+        {
+          "context": "Degree-based classification",
+          "process": "Categorizing with acknowledgment of partial membership and boundaries",
+          "examples": [
+            {
+              "problem": "Customer segmentation",
+              "approach": "Assign membership scores across multiple categories rather than discrete labels",
+              "application": "Marketing, personalization, customer service"
+            },
+            {
+              "problem": "Medical symptom evaluation",
+              "approach": "Consider symptom intensity, typicality, and constellation rather than binary presence",
+              "application": "Diagnostic medicine, healthcare, symptom tracking"
+            }
+          ]
+        },
+        {
+          "context": "Multi-valued logic",
+          "process": "Reasoning with more nuanced truth values than simply true/false",
+          "examples": [
+            {
+              "problem": "Natural language understanding",
+              "approach": "Interpret statements with degrees of certainty, ambiguity tolerance",
+              "application": "AI language processing, semantic analysis, conversation"
+            },
+            {
+              "problem": "Project risk assessment",
+              "approach": "Rate risks on likelihood and impact continuums rather than binary classifications",
+              "application": "Project management, decision making under uncertainty"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "symbolic_reasoning",
+      "patterns": [
+        {
+          "context": "Abstract representation",
+          "process": "Using symbols and notation to manipulate concepts efficiently",
+          "examples": [
+            {
+              "problem": "Complex system modeling",
+              "approach": "Create symbolic notation for components and relationships, manipulate according to rules",
+              "application": "Engineering design, scientific modeling, formal specifications"
+            },
+            {
+              "problem": "Music composition and analysis",
+              "approach": "Use notation to represent sounds, structures, and transformations",
+              "application": "Musical creation, theoretical analysis, algorithmic composition"
+            }
+          ]
+        },
+        {
+          "context": "Formal manipulation",
+          "process": "Transforming expressions according to well-defined rules",
+          "examples": [
+            {
+              "problem": "Algebraic equation solving",
+              "approach": "Apply transformation rules to isolate variables while maintaining equality",
+              "application": "Mathematics, physics, engineering formulas"
+            },
+            {
+              "problem": "Logical proof construction",
+              "approach": "Start with axioms, apply inference rules to derive conclusions",
+              "application": "Mathematical proofs, formal verification, philosophical arguments"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "intuitive_reasoning",
+      "patterns": [
+        {
+          "context": "Rapid pattern recognition",
+          "process": "Unconsciously identifying significant configurations without explicit analysis",
+          "examples": [
+            {
+              "problem": "Expert medical diagnosis",
+              "approach": "Recognize constellations of symptoms based on extensive experience without explicit algorithm",
+              "application": "Healthcare, emergency response, experienced practitioner judgment"
+            },
+            {
+              "problem": "Social situation assessment",
+              "approach": "Quickly sense interpersonal dynamics and emotional undercurrents",
+              "application": "Leadership, conflict resolution, social navigation"
+            }
+          ]
+        },
+        {
+          "context": "Gut-level decision making",
+          "process": "Using emotional and somatic markers as information sources",
+          "examples": [
+            {
+              "problem": "Safety threat detection",
+              "approach": "Notice and trust visceral discomfort as indication of potential danger",
+              "application": "Personal safety, risk avoidance, threat assessment"
+            },
+            {
+              "problem": "Artistic composition",
+              "approach": "Feel sense of rightness/wrongness for creative choices without explicit criteria",
+              "application": "Creative fields, aesthetic judgment, design"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "dialectical_reasoning",
+      "patterns": [
+        {
+          "context": "Thesis-antithesis integration",
+          "process": "Finding higher-order resolutions to apparent contradictions",
+          "examples": [
+            {
+              "problem": "Balancing competing organizational values",
+              "approach": "Identify thesis (e.g., efficiency) and antithesis (e.g., innovation), create synthesis honoring both",
+              "application": "Organizational development, policy creation, value conflicts"
+            },
+            {
+              "problem": "Reconciling opposing theoretical perspectives",
+              "approach": "Extract valid insights from competing theories, develop integrative framework",
+              "application": "Academic research, intellectual history, interdisciplinary work"
+            }
+          ]
+        },
+        {
+          "context": "Embracing paradox",
+          "process": "Working effectively with seemingly contradictory truths",
+          "examples": [
+            {
+              "problem": "Leadership style optimization",
+              "approach": "Simultaneously embody seemingly opposing qualities (e.g., confidence and humility)",
+              "application": "Leadership development, complex role fulfillment"
+            },
+            {
+              "problem": "Complex system understanding",
+              "approach": "Hold multiple causal models simultaneously, recognize contextual validity of each",
+              "application": "Systems thinking, contextual reasoning, holistic analysis"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

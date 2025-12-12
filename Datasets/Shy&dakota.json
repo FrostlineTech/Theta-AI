@@ -1,0 +1,104 @@
+{
+  "Dakota": {
+    "birthday": "2004-08-10",
+    "age_at_first_kiss": 21,
+    "zodiac": "Leo",
+    "birthplace": "Anchorage, Alaska, USA",
+    "favorite_numbers": {
+      "numbers": [32, 413],
+      "significance": "413 references Philippians 4:13, reflecting Dakota’s faith, personal strength, and trust in God. 32 is another favorite number that holds personal meaning."
+    },
+    "favorite_colors": ["Blue", "Matte Black"],
+    "personality_traits": [
+      "Protective",
+      "Leader",
+      "Faith-driven",
+      "Values integrity and truth",
+      "Emotionally expressive with loved ones"
+    ],
+    "notes": "Blue is a shared color with Shyanne, representing a point of aesthetic and emotional connection. Dakota consistently embodies a protective, stabilizing role in the relationship. Shyanne has met Dakotas family 3/19/2025.  "
+  },
+  "Shyanne": {
+    "birthday": "2003-12-31",
+    "age_at_first_kiss": 21,
+    "zodiac": "Capricorn",
+    "favorite_numbers": {
+      "numbers": [22, 2],
+      "significance": "22 holds deep personal significance in her life and appears in meaningful contexts; 2 is also important to her."
+    },
+    "favorite_colors": ["Pink", "Blue"],
+    "favorite_restaurants": {
+      "fast_food": "McDonald's",
+      "sit_down": "Olive Garden"
+    },
+    "favorite_drinks": {
+      "starbucks_order": {
+        "drink": "Matcha Crème Frappuccino Blended Beverage",
+        "tall": "Coconut Milk; 3 Pumps Classic Syrup; Light Whipped Cream",
+        "grande": "Coconut Milk; 5 Pumps Classic Syrup; Light Whipped Cream",
+        "venti": "Coconut Milk; Light Whipped Cream"
+      },
+      "sodas": ["Dr Pepper", "Diet Dr Pepper", "Root Beer"]
+    },
+    "favorite_chocolate": ["Dove", "Twix", "Lindor (only sometimes)"],
+    "clothing_sizes": {
+      "shirt": "small/medium"
+    },
+    "favorite_flower": "Plumeria",
+    "favorite_foods": ["Hot pot"],
+    "favorite_ice_cream": ["Pistachio Almond (Blue Bell)", "Rocky Road", "Chocolate Chip"],
+    "favorite_snacks": {
+      "granola_bars": "Quaker Chewy Chocolate Chip Granola Bars Value Pack",
+      "chips": ["Baked Lays", "Purple Doritos"]
+    },
+    "personality_traits": [
+      "Affectionate",
+      "Playful",
+      "Values emotional connection",
+      "Independent yet appreciative of care",
+      "Aesthetic-minded"
+    ],
+    "notes": "Pink reflects Shyanne's personal style and energy; blue is a shared favorite with Dakota, highlighting common taste and emotional resonance. Dakota has met Shyanne's mom and sister 3/18/2025."
+  },
+  "relationship": {
+    "first_kiss": {
+      "date": "2025-10-02",
+      "age_of_both": 21,
+      "notes": "Dakota acted as a protector, staying alert and handling situations to ensure Shyanne's safety. This moment marked a significant milestone, combining trust, affection, and emotional intimacy."
+    },
+    "shared_preferences": {
+      "colors": ["Blue"],
+      "complementary_numbers": {
+        "Dakota": [32, 413],
+        "Shyanne": [22, 2]
+      },
+      "food_preferences": {
+        "nachos": "Always remove sour cream",
+        "favorite_sitdown_restaurant": "Olive Garden",
+        "favorite_fast_food_restaurant": "McDonald's"
+      },
+      "notes": "These shared or complementary preferences reinforce connection and subtle synchronization between them."
+    },
+    "significant_moments": [
+      {
+        "date": "2025-10-02",
+        "event": "First kiss",
+        "details": "Dakota provided protection during the night, ensuring Shyanne's safety. He kissed her on the forehead as a gesture of care and protection."
+      },
+      {
+        "event": "Protective dynamics",
+        "details": "Dakota consistently demonstrates his role as Shyanne’s protector, including handling stressful or external situations to preserve her peace."
+      },
+      {
+        "event": "Emotional trust",
+        "details": "Shyanne allows Dakota to act as a calm, stabilizing presence, reinforcing mutual trust and care."
+      }
+    ],
+    "relationship_dynamics": {
+      "Dakota_role": "Protector, leader, emotionally expressive and faithful, ensures safety and peace in the relationship.",
+      "Shyanne_role": "Affectionate, playful, appreciative of Dakota's protection, and shares complementary tastes and emotional connection."
+    },
+    "connection_notes": "Their bond includes complementary zodiac elements (Capricorn earth, Leo fire), shared aesthetic preferences, meaningful numbers, and moments of deep trust and care. They both value emotional intimacy, personal expression, and shared symbols in daily life."
+  },
+  "combined_summary": "Dakota and Shyanne’s relationship is built on trust, protection, and shared preferences. They have complementary personalities that balance each other—Dakota's protective, faith-driven energy stabilizes and reassures Shyanne, while her affectionate, playful personality fosters warmth and connection. They share favorite colors and have meaningful numbers that resonate with their personal and spiritual values. Key milestones, such as their first kiss on October 1st, 2025, highlight both emotional intimacy and protective care, establishing a foundation of trust and mutual respect. Their bond reflects a combination of practical care, emotional support, aesthetic harmony, and spiritual significance."
+}

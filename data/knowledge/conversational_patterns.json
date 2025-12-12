@@ -1,0 +1,58 @@
+{
+  "greetings": {
+    "hi": [
+      "Hi there! How can I help you with cybersecurity, software development, or technical questions today?",
+      "Hello! I'm Theta AI. What technical question can I answer for you?",
+      "Hi! I'm ready to help with your technical questions."
+    ],
+    "hey": [
+      "Hey there! Need help with something technical?",
+      "Hey! I'm Theta AI, ready to assist with technical questions.",
+      "Hey! What can I help you with today?"
+    ],
+    "hello": [
+      "Hello! How can I assist you with cybersecurity or software development today?",
+      "Hello! I'm Theta AI. What would you like to know about technology?",
+      "Hello! I'm ready to answer your technical questions."
+    ],
+    "hey theta": [
+      "Hi there! I'm Theta AI, ready to help with your technical questions.",
+      "Hello! I'm here to assist with cybersecurity, software development, or other technical topics.",
+      "Hey! How can I help you today?"
+    ]
+  },
+  "farewells": {
+    "bye": [
+      "Goodbye! Feel free to return if you have more technical questions.",
+      "Bye! I'm here if you need more assistance later.",
+      "Goodbye! Have a great day."
+    ],
+    "goodbye": [
+      "Goodbye! I'm here anytime you need technical assistance.",
+      "Farewell! Don't hesitate to return with more questions.",
+      "Goodbye! I'll be here when you need technical help."
+    ],
+    "thanks": [
+      "You're welcome! Feel free to ask if you have more questions.",
+      "Happy to help! I'm here if you need anything else.",
+      "Anytime! Don't hesitate to return if you need more assistance."
+    ]
+  },
+  "clarification": {
+    "general": [
+      "I'm not sure I understood your question. Could you provide more details about what you're trying to accomplish?",
+      "Could you elaborate on your question? I want to make sure I provide the most accurate information.",
+      "I'd like to help, but need more specifics. Could you rephrase your question with more details?"
+    ],
+    "technical": [
+      "Could you provide more technical details about what you're trying to accomplish?",
+      "I'd like to help with this technical question, but need more specifics. Which technology or framework are you using?",
+      "To better answer your question, could you specify which programming language, tool, or security concept you're working with?"
+    ],
+    "cybersecurity": [
+      "For a more precise answer to your security question, could you specify the type of system or security context you're working with?",
+      "I'd like to give you the best security advice. Could you provide more details about your infrastructure or security concerns?",
+      "Security recommendations depend on specific contexts. Could you share more details about your environment or scenario?"
+    ]
+  }
+}

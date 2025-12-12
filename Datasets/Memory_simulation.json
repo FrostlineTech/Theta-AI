@@ -1,0 +1,494 @@
+{
+  "description": "Simulation of human memory processes including autobiographical memory formation, recall patterns, and memory distortions.",
+  "memory_systems": [
+    {
+      "system": "Autobiographical Memory",
+      "characteristics": [
+        "Episodic, tied to specific events and emotions",
+        "Subject to reconstruction rather than perfect retrieval",
+        "Strongly influenced by self-concept"
+      ],
+      "formation_patterns": [
+        {
+          "trigger": "Emotional significance",
+          "process": "Events with strong emotional components receive preferential encoding through amygdala activation",
+          "example": {
+            "event": "First day at a new job",
+            "salient_elements": [
+              "Physical sensations (butterflies in stomach)",
+              "Key social interactions (first handshake with manager)",
+              "Environmental details with emotional significance (intimidating office layout)"
+            ],
+            "forgotten_elements": [
+              "Routine procedural information",
+              "Names of peripheral people encountered",
+              "Temporal sequence of orientation activities"
+            ]
+          },
+          "retrieval_characteristics": [
+            "Vivid recall of emotional peaks and significant moments",
+            "Reconstruction of narrative to align with current self-view",
+            "Integration with semantic knowledge about similar experiences"
+          ]
+        },
+        {
+          "trigger": "Novelty",
+          "process": "Unique experiences receive enhanced encoding due to violation of predictive patterns",
+          "example": {
+            "event": "Unexpected travel detour to unfamiliar location",
+            "salient_elements": [
+              "Distinctive sensory experiences (unusual foods, sights)",
+              "Problem-solving moments during navigation",
+              "Contrast elements highlighting differences from expected experience"
+            ],
+            "forgotten_elements": [
+              "Routine travel components similar to past experiences",
+              "Mundane interactions (standard hotel check-in)",
+              "Periods of waiting or transit"
+            ]
+          },
+          "retrieval_characteristics": [
+            "Enhanced recall for distinctive elements that violated expectations",
+            "Temporal compression of routine segments",
+            "Higher confidence in recall due to distinctiveness"
+          ]
+        },
+        {
+          "trigger": "Self-relevance",
+          "process": "Information pertinent to self-concept receives deeper processing and elaboration",
+          "example": {
+            "event": "Receiving performance feedback",
+            "salient_elements": [
+              "Comments related to core self-attributes (intelligence, competence)",
+              "Comparison information relative to peers or standards",
+              "Nonverbal cues suggesting evaluator's genuine impression"
+            ],
+            "forgotten_elements": [
+              "Procedural details about feedback process",
+              "Context information unrelated to evaluation",
+              "Feedback about areas of low self-investment"
+            ]
+          },
+          "retrieval_characteristics": [
+            "Selective emphasis on information confirming existing self-view",
+            "Reinterpretation of ambiguous feedback to align with self-concept",
+            "Enhanced memory for feedback in domains of high self-importance"
+          ]
+        }
+      ],
+      "retrieval_mechanisms": {
+        "cue_dependency": {
+          "principle": "Recall effectiveness depends on overlap between encoding and retrieval contexts",
+          "applications": [
+            {
+              "phenomenon": "Context-dependent memory",
+              "description": "Recall improves when physical environment matches encoding context",
+              "example": "Returning to childhood home triggers previously inaccessible memories",
+              "explanation": "Environmental cues serve as retrieval triggers for associated memories"
+            },
+            {
+              "phenomenon": "State-dependent memory",
+              "description": "Recall improves when psychological/physiological state matches encoding state",
+              "example": "Memories formed while anxious are better retrieved when anxious again",
+              "explanation": "Internal state serves as context cue integrated with memory representation"
+            },
+            {
+              "phenomenon": "Mood-congruent retrieval",
+              "description": "Current mood facilitates recall of similarly-valenced memories",
+              "example": "Depressed state increases accessibility of negative autobiographical memories",
+              "explanation": "Emotional state activates associative networks of similarly-toned experiences"
+            }
+          ],
+          "implications": [
+            "Memory gaps may reflect cue absence rather than true forgetting",
+            "Strategic cue generation can facilitate otherwise inaccessible memories",
+            "Memory accessibility fluctuates based on current context and state"
+          ]
+        },
+        "narrative_coherence": {
+          "principle": "Autobiographical memories are constructed to form coherent life narrative",
+          "processes": [
+            {
+              "process": "Causal connection",
+              "description": "Linking events through cause-effect relationships",
+              "example": "Attributing career choice to specific influential childhood experience",
+              "cognitive_function": "Creates meaningful patterns from discrete experiences"
+            },
+            {
+              "process": "Thematic organization",
+              "description": "Grouping memories around life themes or self-attributes",
+              "example": "Collecting instances supporting self-view as 'resilient person'",
+              "cognitive_function": "Maintains stable identity across changing circumstances"
+            },
+            {
+              "process": "Temporal restructuring",
+              "description": "Adjusting sequence or duration of events for narrative flow",
+              "example": "Compressing extended periods of gradual change into discrete 'turning points'",
+              "cognitive_function": "Creates manageable and communicable life story"
+            }
+          ],
+          "implications": [
+            "Memory construction prioritizes meaning over accuracy",
+            "Current self-concept shapes retrieval and reconstruction of past events",
+            "Cultural life scripts influence organization and accessibility of personal memories"
+          ]
+        }
+      },
+      "distortion_patterns": [
+        {
+          "type": "Source Monitoring Error",
+          "mechanism": "Confusion about the origin of remembered information",
+          "example_scenario": "Believing you told someone important information when actually you only thought about telling them",
+          "contributing_factors": [
+            "Similarity between actual and imagined events",
+            "Time passage reducing contextual details",
+            "Strong expectation or intention to perform action"
+          ],
+          "real_world_implications": {
+            "eyewitness_testimony": "Confusing details from post-event information with original perception",
+            "relationship_conflicts": "Disagreements about who said what in previous conversations",
+            "professional_contexts": "Uncertainty about whether task was delegated or merely considered"
+          }
+        },
+        {
+          "type": "Hindsight Bias",
+          "mechanism": "Belief that outcome was predictable after learning what happened",
+          "example_scenario": "After company stock plummets, believing you 'knew all along' it would fail despite having invested",
+          "contributing_factors": [
+            "Automatic updating of causal models after outcome knowledge",
+            "Difficulty accessing pre-outcome mental state",
+            "Motivation to view self as perceptive and world as predictable"
+          ],
+          "real_world_implications": {
+            "decision_evaluation": "Overly harsh judgment of decisions with negative outcomes",
+            "risk_assessment": "Underestimation of genuine uncertainty in complex situations",
+            "learning_inhibition": "False confidence in ability to predict similar future scenarios"
+          }
+        },
+        {
+          "type": "Memory Conformity",
+          "mechanism": "Incorporation of others' recollections into own memory",
+          "example_scenario": "Adopting details from a friend's description of shared experience into own memory",
+          "contributing_factors": [
+            "Social pressure to maintain consensus",
+            "Trust in others' memory when uncertain",
+            "Repeated exposure to others' accounts",
+            "Difficulty distinguishing memory sources over time"
+          ],
+          "real_world_implications": {
+            "group_reminiscence": "Convergence of accounts through repeated telling",
+            "eyewitness_reliability": "Contamination through discussion before formal testimony",
+            "family_narratives": "Shared versions of events that may differ from original experiences"
+          }
+        },
+        {
+          "type": "Misinformation Effect",
+          "mechanism": "Post-event information alters memory of original experience",
+          "example_scenario": "Reading incorrect news coverage of witnessed event and incorporating false details into memory",
+          "contributing_factors": [
+            "Source confusion over time",
+            "Original memory trace decay",
+            "Plausibility of misinformation",
+            "Authority or credibility of misinformation source"
+          ],
+          "real_world_implications": {
+            "media_influence": "News coverage altering firsthand memories",
+            "investigative_interviewing": "Suggestive questioning introducing false elements",
+            "educational_contexts": "Incorrect information in feedback affecting memory of learning material"
+          }
+        }
+      ],
+      "developmental_trajectory": {
+        "childhood": {
+          "characteristics": [
+            "Few memories before age 3-4 (infantile amnesia)",
+            "Early memories often fragmented and sensory-focused",
+            "Heavy reliance on caregiver scaffolding for narrative formation"
+          ],
+          "formative_processes": [
+            "Development of language enabling narrative encoding",
+            "Emergence of self-concept providing organizational structure",
+            "Cultural learning about important life events to remember"
+          ]
+        },
+        "adolescence": {
+          "characteristics": [
+            "Increased retention of self-relevant memories",
+            "Formation of integrative life narrative",
+            "Identity-focused reminiscence"
+          ],
+          "formative_processes": [
+            "Abstract reasoning enabling meaning extraction from experiences",
+            "Identity development driving selective encoding and retrieval",
+            "Social reminiscence practices with peers"
+          ]
+        },
+        "adulthood": {
+          "characteristics": [
+            "Stability in memory organization around self-narrative",
+            "Reminiscence bump for events from ages 15-30",
+            "Cultural life script guiding autobiographical importance"
+          ],
+          "formative_processes": [
+            "Major life transitions creating temporal landmarks",
+            "Increasing expertise-based organization in professional domains",
+            "Generativity concerns shaping life story emphasis"
+          ]
+        },
+        "older_adulthood": {
+          "characteristics": [
+            "Enhanced emotional regulation in memory",
+            "Preference for positive over negative memories (positivity effect)",
+            "Life review processes integrating experiences into coherent whole"
+          ],
+          "formative_processes": [
+            "Changing motivational goals toward emotional satisfaction",
+            "Crystallization of life narrative",
+            "Decreased neural specificity affecting detail recall"
+          ]
+        }
+      }
+    },
+    {
+      "system": "Working Memory",
+      "characteristics": [
+        "Limited capacity system for temporary information storage and manipulation",
+        "Gateway between perception and long-term memory",
+        "Crucial for reasoning, decision making, and cognitive control"
+      ],
+      "components": [
+        {
+          "component": "Phonological Loop",
+          "function": "Temporary storage and rehearsal of verbal information",
+          "capacity_limits": "Approximately 7±2 items or what can be subvocally rehearsed in ~2 seconds",
+          "experiential_examples": [
+            "Holding phone number in mind until dialing",
+            "Mentally rehearsing what to say next in conversation",
+            "Following verbal directions to unfamiliar location"
+          ],
+          "interference_patterns": {
+            "articulatory_suppression": "Saying irrelevant speech prevents rehearsal",
+            "phonological_similarity": "Similar-sounding items cause confusion",
+            "word_length_effect": "Longer words reduce capacity due to rehearsal time"
+          }
+        },
+        {
+          "component": "Visuospatial Sketchpad",
+          "function": "Temporary storage and manipulation of visual and spatial information",
+          "capacity_limits": "3-4 objects with features, or simple spatial relations",
+          "experiential_examples": [
+            "Visualizing furniture arrangement before moving pieces",
+            "Remembering locations of items on briefly viewed table",
+            "Mental rotation of map to match current orientation"
+          ],
+          "interference_patterns": {
+            "visual_noise": "Irrelevant visual input disrupts maintenance",
+            "spatial_tracking": "Movement tasks interfere with spatial memory",
+            "feature_binding": "Maintaining object-feature combinations requires attention"
+          }
+        },
+        {
+          "component": "Central Executive",
+          "function": "Attentional control system directing cognitive resources",
+          "operations": [
+            "Focusing attention on relevant information",
+            "Dividing attention between multiple tasks",
+            "Switching between different tasks or strategies",
+            "Coordinating information between other components"
+          ],
+          "experiential_examples": [
+            "Maintaining conversation while navigating traffic",
+            "Keeping place in document while answering interrupting question",
+            "Mental arithmetic requiring multiple calculation steps"
+          ],
+          "capacity_limitations": {
+            "task_switching_costs": "Performance decrements when rapidly changing focus",
+            "dual_task_interference": "Reduced performance when simultaneously handling multiple demands",
+            "processing_vs_storage": "Trade-off between maintaining information and manipulating it"
+          }
+        },
+        {
+          "component": "Episodic Buffer",
+          "function": "Integration of information across working memory and long-term memory",
+          "characteristics": [
+            "Multimodal temporary storage",
+            "Interface between other working memory components",
+            "Access point to/from long-term memory"
+          ],
+          "experiential_examples": [
+            "Combining new information with existing knowledge",
+            "Creating coherent scene from separate visual and verbal descriptions",
+            "Maintaining narrative understanding across paragraphs"
+          ]
+        }
+      ],
+      "subjective_experience": {
+        "attention_focus": "Conscious awareness of currently activated information",
+        "cognitive_load": "Subjective effort required to maintain and process information",
+        "capacity_limits": "Experience of mental juggling when approaching limits",
+        "interference_effects": "Losing train of thought when distracted",
+        "rehearsal_strategies": "Internal repetition to maintain important information"
+      },
+      "individual_differences": {
+        "capacity_variation": "Working memory capacity correlates with general intelligence and academic achievement",
+        "domain_specificity": "Individuals may have different capacities across verbal vs. visuospatial domains",
+        "training_effects": "Limited evidence for transfer of working memory training to other cognitive domains",
+        "developmental_trajectory": "Capacity increases through childhood, peaks in young adulthood, gradual decline with aging"
+      },
+      "real_world_implications": {
+        "learning_contexts": {
+          "instructional_design": "Breaking complex information into manageable chunks",
+          "multimedia_learning": "Balancing visual and verbal information to avoid overload",
+          "reading_comprehension": "Holding previous content while integrating new information"
+        },
+        "decision_making": {
+          "option_comparison": "Limited capacity constrains number of alternatives effectively considered",
+          "cognitive_biases": "Simplification strategies when working memory overloaded",
+          "environmental_support": "External aids compensating for capacity limitations"
+        },
+        "attention_disorders": {
+          "ADHD": "Working memory deficits contribute to difficulty maintaining focus",
+          "cognitive_aging": "Declining working memory affecting complex task performance",
+          "compensation_strategies": "Developing routines and environmental supports"
+        }
+      }
+    },
+    {
+      "system": "Semantic Memory",
+      "characteristics": [
+        "General knowledge about world independent of personal experience",
+        "Organized conceptual and factual information",
+        "More resistant to deterioration than episodic memory"
+      ],
+      "organizational_principles": [
+        {
+          "structure": "Semantic Networks",
+          "description": "Concepts represented as nodes interconnected by meaningful relationships",
+          "properties": [
+            {
+              "property": "Spreading activation",
+              "explanation": "Activation of one concept spreads to related concepts",
+              "experiential_example": "Thinking about 'dog' primes related concepts like 'cat', 'pet', 'bark'",
+              "measurement": "Semantic priming effects in reaction time experiments"
+            },
+            {
+              "property": "Hierarchical organization",
+              "explanation": "Concepts arranged in taxonomic levels from general to specific",
+              "experiential_example": "Animal → Mammal → Dog → Labrador retriever",
+              "cognitive_efficiency": "Properties inherited from higher levels without redundant storage"
+            },
+            {
+              "property": "Feature comparison",
+              "explanation": "Concepts defined by combinations of semantic features",
+              "experiential_example": "Bird: has wings, lays eggs, can fly (typically)",
+              "cognitive_implications": "Category judgments based on feature matching process"
+            }
+          ],
+          "retrieval_phenomena": [
+            {
+              "phenomenon": "Typicality effects",
+              "description": "Faster recognition of typical category members",
+              "example": "Robin verified as bird faster than penguin",
+              "explanation": "Closer match to category prototype or more feature overlap"
+            },
+            {
+              "phenomenon": "Semantic distance effects",
+              "description": "Verification time increases with conceptual distance",
+              "example": "Longer verification for 'shark is an animal' than 'shark is a fish'",
+              "explanation": "Longer network traversal or more comparison operations"
+            }
+          ]
+        },
+        {
+          "structure": "Scripts and Schemas",
+          "description": "Organized knowledge structures about common situations and procedures",
+          "properties": [
+            {
+              "property": "Sequential organization",
+              "explanation": "Representation of typical event sequences",
+              "experiential_example": "Restaurant script: being seated, ordering, eating, paying",
+              "cognitive_function": "Enables prediction and appropriate behavior in familiar contexts"
+            },
+            {
+              "property": "Default assumptions",
+              "explanation": "Unspecified elements filled with typical values",
+              "experiential_example": "Assuming restaurant has menus without being explicitly told",
+              "cognitive_efficiency": "Reduces processing load by filling gaps with likely information"
+            },
+            {
+              "property": "Slot-filler structure",
+              "explanation": "Framework with variables that take specific values in instances",
+              "experiential_example": "Restaurant schema slots: type of restaurant, menu items, payment methods",
+              "cognitive_function": "Facilitates encoding new instances by focusing on unique elements"
+            }
+          ],
+          "memory_effects": [
+            {
+              "effect": "Schema-consistent memory bias",
+              "description": "Better recall for schema-consistent than schema-irrelevant information",
+              "example": "Remembering typical restaurant elements better than unusual background details",
+              "explanation": "Schematic knowledge provides retrieval structure"
+            },
+            {
+              "effect": "False memory for schema-implied elements",
+              "description": "Confident memory for unstated but implied information",
+              "example": "Remembering 'ordering food' in restaurant story when not explicitly mentioned",
+              "explanation": "Schema activation automatically generates expected elements"
+            },
+            {
+              "effect": "Distinctiveness effect for schema violations",
+              "description": "Enhanced memory for schema-inconsistent information",
+              "example": "Vividly remembering restaurant where payment occurs before eating",
+              "explanation": "Unexpected information receives deeper processing and distinct encoding"
+            }
+          ]
+        }
+      ],
+      "acquisition_processes": {
+        "explicit_learning": {
+          "mechanisms": "Intentional study, educational instruction, deliberate practice",
+          "characteristics": "Conscious awareness of learning, effort allocation, strategic encoding",
+          "examples": "Studying vocabulary, learning historical dates, memorizing procedures"
+        },
+        "implicit_learning": {
+          "mechanisms": "Repeated exposure, statistical learning, contextual association",
+          "characteristics": "Acquisition without conscious intent, gradual accumulation, difficulty articulating",
+          "examples": "Grammar rule abstraction, category prototype formation, cultural knowledge absorption"
+        },
+        "conceptual_development": {
+          "childhood_progression": "Perceptual to abstract categorization, increasing hierarchical organization",
+          "expertise_development": "Novice to expert transitions through knowledge restructuring and chunking",
+          "neuroplasticity": "Semantic network reorganization with learning and experience"
+        }
+      },
+      "retrieval_phenomena": [
+        {
+          "phenomenon": "Tip-of-the-tongue state",
+          "description": "Feeling of knowing with temporary retrieval failure",
+          "characteristics": [
+            "Strong feeling of knowledge possession",
+            "Partial information access (first letter, syllable count)",
+            "Frustrating subjective experience",
+            "Often resolved after attention diversion"
+          ],
+          "mechanisms": "Successful semantic activation with blocked phonological retrieval",
+          "frequency_factors": "Increases with age, fatigue, and low-frequency words"
+        },
+        {
+          "phenomenon": "Fan effect",
+          "description": "Retrieval slows as more facts associated with a concept",
+          "example": "Slower verification of 'The lawyer is in the bank' when multiple lawyer locations learned",
+          "mechanism": "Interference from competing associations during retrieval",
+          "real_world_implications": "Information overload in learning, cue distinctiveness importance"
+        },
+        {
+          "phenomenon": "Retrieval-induced forgetting",
+          "description": "Practicing some information impairs recall of related unpracticed information",
+          "example": "Studying 'fruit-orange' impairs later recall of 'fruit-banana'",
+          "mechanism": "Inhibition of competing information during selective retrieval",
+          "educational_implications": "Testing effect may have collateral damage on untested related material"
+        }
+      ]
+    }
+  ]
+}

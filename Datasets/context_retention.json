@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What are common programming languages for web development?",
+    "answer": "Common programming languages for web development include: HTML and CSS for structure and styling, JavaScript for client-side functionality, Python (with frameworks like Django and Flask), PHP (powers WordPress and Facebook), Ruby (with Ruby on Rails), Java (with Spring), and TypeScript (typed JavaScript). Backend frameworks include Express.js (Node.js), Laravel (PHP), and ASP.NET (C#). For database interaction, SQL is common, while GraphQL is growing in popularity for API development. The best choice depends on your project requirements, team expertise, and performance needs.",
+    "domain": "programming"
+  },
+  {
+    "question": "How does React compare to Angular?",
+    "answer": "React and Angular differ in several key aspects. React is a library focused on UI components with a virtual DOM for efficient rendering, while Angular is a complete framework with more built-in functionality. React uses JSX (JavaScript XML) and one-way data binding, whereas Angular uses TypeScript and two-way data binding. React has a smaller learning curve and file size, offering more flexibility but requiring additional libraries for full applications. Angular provides a more opinionated, comprehensive solution with built-in routing, forms, and HTTP client. React is often preferred for lightweight applications and progressive enhancement, while Angular suits enterprise-scale applications requiring consistent architecture.",
+    "domain": "programming"
+  },
+  {
+    "question": "What's the difference between HTTP and HTTPS?",
+    "answer": "HTTP (Hypertext Transfer Protocol) and HTTPS (HTTP Secure) differ primarily in security. HTTP transfers data in plaintext, making it vulnerable to eavesdropping and man-in-the-middle attacks. HTTPS encrypts data using TLS/SSL, creating a secure channel for data transmission. HTTPS uses port 443 by default (versus HTTP's port 80) and requires a valid SSL/TLS certificate issued by a trusted Certificate Authority. Modern browsers mark HTTP sites as 'Not Secure' while HTTPS sites display a padlock icon. HTTPS also provides authentication of the accessed website and improves SEO rankings as search engines favor secure sites.",
+    "domain": "web_development"
+  },
+  {
+    "question": "What are common network security threats?",
+    "answer": "Common network security threats include: malware (viruses, worms, ransomware, spyware), phishing attacks that trick users into revealing sensitive information, man-in-the-middle attacks intercepting communications, denial-of-service attacks overwhelming systems, SQL injection exploiting database vulnerabilities, cross-site scripting inserting malicious code into websites, zero-day exploits targeting undiscovered vulnerabilities, insider threats from authorized users, and advanced persistent threats (APTs) that maintain long-term unauthorized access. These threats continually evolve, requiring layered security approaches including firewalls, intrusion detection, encryption, user education, and regular security assessments.",
+    "domain": "cybersecurity"
+  },
+  {
+    "question": "What's the difference between RAM and ROM?",
+    "answer": "RAM (Random Access Memory) and ROM (Read-Only Memory) differ in several key aspects. RAM is volatile, temporary storage used for running programs and calculations, losing its data when power is turned off. ROM is non-volatile, permanent storage containing essential startup instructions that persists without power. RAM allows both reading and writing operations at high speeds, while traditional ROM can only be read (though variants like PROM, EPROM, and EEPROM offer different write capabilities). RAM typically has larger capacity but higher cost per gigabyte. In computers, RAM serves as working memory for active processes, while ROM stores the BIOS/UEFI firmware needed for system initialization.",
+    "domain": "hardware"
+  },
+  {
+    "question": "Can you explain cloud service models?",
+    "answer": "Cloud service models represent different levels of service offered by cloud providers. Infrastructure as a Service (IaaS) provides virtualized computing resources over the internet, giving users control over operating systems, storage, and deployed applications while the provider manages the physical infrastructure (examples: AWS EC2, Azure VMs). Platform as a Service (PaaS) offers hardware and software tools over the internet, typically for application development, handling the underlying infrastructure while users manage applications and data (examples: Heroku, Google App Engine). Software as a Service (SaaS) delivers fully-functional applications over the internet on a subscription basis, with the provider managing everything from infrastructure to applications (examples: Microsoft 365, Salesforce). Function as a Service (FaaS) enables serverless computing where code runs in response to events without managing server infrastructure (examples: AWS Lambda, Azure Functions).",
+    "domain": "cloud_computing"
+  },
+  {
+    "question": "What are the benefits of containerization?",
+    "answer": "Containerization offers numerous benefits for application deployment: consistency across environments (development, testing, production), portability across different platforms and cloud providers, efficiency through shared OS resources with minimal overhead, rapid deployment with lightweight images, scalability for microservices architectures, isolation to prevent conflicts between applications, version control for both application and dependencies, improved resource utilization compared to virtual machines, simplified continuous integration/deployment pipelines, and enhanced security through isolation boundaries. Popular containerization technologies include Docker for creating and running containers and Kubernetes for orchestrating container deployment, scaling, and management in production environments.",
+    "domain": "cloud_computing"
+  },
+  {
+    "question": "What is SQL injection and how to prevent it?",
+    "answer": "SQL injection is a code injection technique where attackers insert malicious SQL statements into input fields that are directly included in SQL queries. It can allow unauthorized access to databases, enabling attackers to view, modify, or delete data. Prevention methods include: parameterized queries (prepared statements) that separate SQL code from data, input validation to reject suspicious patterns, using stored procedures instead of dynamic SQL, implementing least privilege principles for database accounts, employing ORM (Object-Relational Mapping) frameworks that handle SQL safely, escaping special characters in inputs, using web application firewalls to detect attack patterns, and regular security testing including automated scanning and penetration testing to identify vulnerabilities before they can be exploited.",
+    "domain": "cybersecurity"
+  },
+  {
+    "question": "What's the difference between machine learning and deep learning?",
+    "answer": "Machine learning (ML) and deep learning are related but distinct AI approaches. Machine learning is a broader field focused on algorithms that improve through experience, using statistical methods to find patterns in data, often requiring feature engineering (manual identification of relevant data features). Deep learning is a specialized subset of ML using neural networks with many layers (hence 'deep'), capable of automatic feature extraction from raw data. ML encompasses various algorithms including decision trees, random forests, and SVMs, suitable for structured data with moderate dataset sizes. Deep learning excels with unstructured data (images, text, audio) and massive datasets but requires significant computational resources and training data. ML models are generally more interpretable, while deep learning offers superior performance for complex tasks like image recognition and natural language processing but functions more as a 'black box.'",
+    "domain": "data_science"
+  },
+  {
+    "question": "What is CI/CD in software development?",
+    "answer": "CI/CD (Continuous Integration/Continuous Delivery or Deployment) is a set of practices that automates the software delivery process. Continuous Integration involves frequently merging code changes into a central repository, followed by automated building and testing to detect integration issues early. Continuous Delivery extends this by ensuring code is always in a deployable state through additional automated testing. Continuous Deployment goes further by automatically releasing validated changes to production. These practices reduce integration problems, improve software quality through consistent testing, enable faster releases with shorter feedback loops, and decrease manual overhead in the deployment process. Popular CI/CD tools include Jenkins, GitLab CI, GitHub Actions, CircleCI, and Azure DevOps, which automate building, testing, and deployment pipelines triggered by code changes.",
+    "domain": "programming"
+  }
+]

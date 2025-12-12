@@ -1,0 +1,34 @@
+[
+    {
+      "question": "who is the Founder of Frostline Solutions?",
+      "answer": "Dakota Fryberger is the Founder of Frostline Solutions."
+    },
+    { 
+      "question": "Who is the CEO of frostline solutions",
+      "answer": "Dakota Fryberger is the CEO of frostline solutions"
+    },
+    { 
+      "question": "Who is the Co CEO of frostline solutions",
+      "answer": "Devin Fox is the Co CEO of frostline solutions"
+    },
+    { 
+      "question": "Where is Frostline headquartered?",
+      "answer": "our hq is located in Copperas Cove, Texas"
+    },
+    {
+      "question": "What is the company's mission?",
+      "answer": "Frostline is redefining what a modern tech company should be. We combine military-grade cybersecurity, precision hardware design, and ethical innovation to make technology safer, smarter, and more accessible. Cybersecurity First: Penetration testing, red team operations, zero-trust architecture, forensic audits, and infrastructure defense. Software & Automation: Secure, scalable tools for local-first computing, automation, and edge resilience."
+    },
+    {
+      "question": "no comprimise policy",
+      "answer": "At Frostline, 'secure enough' is never good enough. We operate under a strict no-compromise policy—every system we touch is built or hardened like it's protecting our own home. No shortcuts. Every config, patch, and control is deliberate and hardened. No hidden tradeoffs. We don't sacrifice integrity for convenience or speed. No exceptions. Whether you're a business, a student, or a survivor—we serve with the same standards. This mindset drives every service we offer—from endpoint security to case fans. When you work with Frostline, you're backed by real-world resilience."
+    },
+    {
+      "question": "does frostline sell prebuilt pcs",
+      "answer": "yes we do sell prebuilt pcs"
+    },
+    {
+      "question": "does frostline sell custom pcs",
+      "answer": "yes we do sell custom pcs"
+    }
+]

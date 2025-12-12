@@ -1,0 +1,46 @@
+[
+  {
+    "question": "How do I troubleshoot slow computer performance?",
+    "answer": "To troubleshoot slow computer performance: 1) Check running processes in Task Manager to identify resource-intensive applications, 2) Scan for malware/viruses, 3) Clear temporary files and browser cache, 4) Ensure you have sufficient free disk space, 5) Check for and install system updates, 6) Consider upgrading hardware components like RAM or switching to SSD if using an older HDD, 7) Disable unnecessary startup programs, and 8) Defragment your hard drive if using a traditional HDD."
+  },
+  {
+    "question": "What is the difference between RAM and storage?",
+    "answer": "RAM (Random Access Memory) is temporary, volatile memory used by your computer to run active programs and processes. It's much faster than storage but loses data when power is turned off. Storage (like SSDs or HDDs) is permanent, non-volatile memory where your files, applications, and operating system are stored long-term. While RAM typically ranges from 4GB to 64GB in modern computers, storage usually ranges from 128GB to several terabytes."
+  },
+  {
+    "question": "How do I set up a secure Wi-Fi network?",
+    "answer": "To set up a secure Wi-Fi network: 1) Use WPA3 encryption (or at minimum WPA2), 2) Create a strong, unique password at least 12 characters long, 3) Change the default router login credentials, 4) Update router firmware regularly, 5) Enable the router's firewall, 6) Use a non-default SSID and consider hiding it, 7) Enable MAC address filtering for known devices, 8) Create a separate guest network for visitors, and 9) Disable WPS (Wi-Fi Protected Setup) as it can be vulnerable to attacks."
+  },
+  {
+    "question": "How do I recover deleted files?",
+    "answer": "To recover deleted files: 1) Check the Recycle Bin/Trash first, 2) Use file recovery software like Recuva, TestDisk, or Disk Drill if the files aren't there, 3) Restore from a previous backup if available (Windows File History, macOS Time Machine, or other backup solutions), 4) Check cloud storage if the files were synced, 5) For critical data recovery where software solutions fail, consider professional data recovery services. For best results, stop using the storage device immediately after deletion to prevent overwriting the data."
+  },
+  {
+    "question": "What is the difference between a hub, switch, and router?",
+    "answer": "A hub is the simplest networking device that connects multiple devices in a network, broadcasting all incoming data to every connected device without filtering. A switch is more intelligent, forwarding data only to the specific device it's intended for, making it more efficient and secure than a hub. A router connects different networks together (like your home network to the internet) and provides additional features like DHCP, NAT, and firewall protection. Modern home 'routers' typically combine router, switch, and wireless access point functions."
+  },
+  {
+    "question": "How do I protect my computer from malware?",
+    "answer": "To protect your computer from malware: 1) Install reputable antivirus/anti-malware software and keep it updated, 2) Keep your operating system and all software updated with security patches, 3) Be cautious with email attachments and links, 4) Download software only from official sources, 5) Use a firewall, 6) Browse safely and avoid suspicious websites, 7) Use strong, unique passwords and consider a password manager, 8) Enable two-factor authentication where available, 9) Regular backups of important data, and 10) Consider using browser extensions that block potentially malicious content."
+  },
+  {
+    "question": "How do I improve my internet connection speed?",
+    "answer": "To improve internet connection speed: 1) Position your router centrally and away from interference sources, 2) Use a wired Ethernet connection for critical devices when possible, 3) Upgrade to a modern router supporting newer Wi-Fi standards, 4) Check for bandwidth-heavy applications and users on your network, 5) Secure your Wi-Fi from unauthorized users, 6) Restart your modem and router periodically, 7) Contact your ISP to ensure you're getting the speed you pay for, 8) Consider upgrading your internet plan, 9) Use a mesh network system for larger spaces, and 10) Try adjusting your router's channel settings to avoid interference."
+  },
+  {
+    "question": "What is the difference between HDD and SSD storage?",
+    "answer": "HDD (Hard Disk Drive) uses magnetic storage with mechanical moving parts (spinning disks and read/write heads) to store data. It's typically cheaper per gigabyte but slower, noisier, more fragile, and consumes more power. SSD (Solid State Drive) uses flash memory chips with no moving parts, making it significantly faster (5-20x), more durable, quieter, and energy-efficient. SSDs have quicker boot times, faster file transfers, and better random access performance, but historically cost more per gigabyte, though this price gap has narrowed in recent years."
+  },
+  {
+    "question": "How do I safely clean my computer hardware?",
+    "answer": "To safely clean computer hardware: 1) Power off and unplug the device completely, 2) For dust removal, use compressed air in short bursts, holding cans upright, 3) Clean screens with microfiber cloths, slightly dampened if necessary with a 50/50 water/isopropyl alcohol mixture, 4) Never spray liquid directly onto any component, 5) For keyboards, use compressed air, keyboard cleaning gel, or cotton swabs with isopropyl alcohol, 6) For cooling fans and heatsinks, use compressed air and soft brushes, 7) Clean ports with compressed air or very carefully with cotton swabs, and 8) Allow components to dry completely before reconnecting power."
+  },
+  {
+    "question": "What should I do if my computer won't boot?",
+    "answer": "If your computer won't boot: 1) Check power connections and ensure the power supply is working, 2) Listen for beep codes or check diagnostic lights, 3) Disconnect non-essential peripherals, 4) Try booting in Safe Mode, 5) Check monitor connections if there's power but no display, 6) For Windows, try Startup Repair or System Restore from recovery options, 7) For persistent issues, check hardware: test RAM, verify the hard drive isn't failing, ensure CPU cooling is adequate, 8) As a last resort, reinstall the operating system (after backing up data if possible), and 9) If these steps fail, consult with IT support as hardware replacement may be needed."
+  },
+  {
+    "question": "How often should I replace my computer?",
+    "answer": "Computer replacement frequency depends on usage patterns and needs. For business environments, 3-5 years is typical for workstations, while home users might extend to 5-7 years. Signs it's time to replace include: inability to run current software, security update ineligibility, hardware failures, significant slowdowns that upgrades can't fix, and repair costs approaching replacement value. For maximum longevity: buy quality components initially, perform regular maintenance, upgrade components when possible (RAM, storage, graphics), and keep software optimized. Cloud-based services and lighter operating systems can also extend a computer's useful life."
+  }
+]

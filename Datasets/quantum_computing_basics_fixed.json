@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What is quantum computing?",
+    "answer": "Quantum computing is a form of computing that harnesses the principles of quantum mechanics to process information in fundamentally different ways from classical computers. Unlike classical bits that exist in a state of either 0 or 1, quantum computers use quantum bits or 'qubits' that can exist in multiple states simultaneously through a property called superposition. Additionally, qubits can be 'entangled' with each other, creating correlated states that allow quantum computers to process complex problems with potentially exponential speedup for specific algorithms.",
+    "domain": "quantum_computing"
+  },
+  {
+    "question": "What are the basic principles of quantum mechanics relevant to quantum computing?",
+    "answer": "Quantum computing relies on four fundamental principles of quantum mechanics: 1) Superposition allows qubits to exist in multiple states simultaneously, unlike classical bits that must be either 0 or 1, enabling quantum computers to process multiple possibilities in parallel; 2) Entanglement creates connections between qubits where the state of one instantly influences another regardless of distance, creating computational correlations that classical systems cannot achieve; 3) Interference enables quantum algorithms to amplify correct solutions while canceling incorrect ones through the careful manipulation of quantum states; 4) Measurement collapses superpositions into definite classical states, transforming probabilistic quantum information into deterministic results.",
+    "domain": "quantum_computing"
+  },
+  {
+    "question": "What is quantum superposition?",
+    "answer": "Quantum superposition is the principle that allows quantum systems to exist in multiple states simultaneously until measured. Unlike classical bits that must be either 0 or 1 at all times, a qubit in superposition can represent both values with specific probabilities. This is often visualized using the Bloch sphere, where classical bits would be restricted to the north pole (|0>) or south pole (|1>), while a qubit can exist anywhere on the sphere's surface. When measured, superposition collapses to either |0> or |1> based on the probabilities defined in the quantum state.",
+    "domain": "quantum_computing"
+  },
+  {
+    "question": "What is quantum entanglement?",
+    "answer": "Quantum entanglement occurs when two or more qubits become correlated in ways that cannot be described independently, regardless of the distance separating them. When qubits are entangled, the state of one qubit is inherently linked to the state of another—measuring one instantly determines the state of its entangled partners. This creates what Einstein called 'spooky action at a distance.' In quantum computing, entanglement is a crucial resource that enables computational advantages over classical systems by allowing quantum algorithms to create correlated processing patterns that classical bits cannot achieve.",
+    "domain": "quantum_computing"
+  },
+  {
+    "question": "What are the main types of qubits used in quantum computers?",
+    "answer": "Quantum computers implement qubits using different physical systems, each with distinct advantages and challenges: 1) Superconducting qubits, used by IBM, Google, and Rigetti, encode quantum information in the energy states of superconducting circuits cooled to near absolute zero; 2) Trapped ion qubits, used by IonQ and Honeywell, utilize the energy states of suspended charged atoms manipulated by lasers; 3) Photonic qubits encode quantum information in light properties like polarization and path; 4) Topological qubits, primarily researched by Microsoft, aim to encode quantum information in topological properties of exotic quantum matter; 5) Spin qubits in silicon, developed by Intel and academic groups, use electron or nuclear spins in semiconductor structures.",
+    "domain": "quantum_computing"
+  },
+  {
+    "question": "What is quantum decoherence and why is it a challenge?",
+    "answer": "Quantum decoherence occurs when quantum systems like qubits lose their delicate quantum properties through unwanted interaction with their environment. This process transforms quantum superpositions into classical, definite states, effectively leaking quantum information into the surrounding environment. Decoherence represents the central challenge in quantum computing as it limits the useful lifetime of qubits, introduces computational errors, scales problematically with system size, and necessitates extensive error correction. Engineers combat decoherence through extreme cooling, electromagnetic shielding, high-vacuum environments, and sophisticated quantum error correction techniques.",
+    "domain": "quantum_computing"
+  },
+  {
+    "question": "How does quantum error correction work?",
+    "answer": "Quantum error correction protects quantum information against decoherence and operational mistakes through encoding a single logical qubit across multiple physical qubits. The fundamental technique involves redundant encoding of quantum information, error syndrome measurement without collapsing superpositions, error inference to determine what happened, error correction operations to reverse identified errors, and fault tolerance to ensure the correction process itself is resistant to errors. Unlike classical error correction, quantum error correction must overcome the 'no-cloning theorem' while detecting errors without disturbing quantum superpositions.",
+    "domain": "quantum_computing"
+  },
+  {
+    "question": "What is Shor's algorithm and why is it significant?",
+    "answer": "Shor's algorithm is a quantum algorithm developed by mathematician Peter Shor in 1994 that efficiently factors large integers into their prime components. The algorithm achieves exponential speedup over classical factoring algorithms, transforming what would take billions of years classically into a theoretically feasible calculation. It's significant because it threatens cryptosystems based on factoring difficulty like RSA encryption, provides clear theoretical proof of quantum advantage, and established fundamental approaches for other quantum algorithms. While demonstrated for small numbers on early quantum computers, factoring cryptographically relevant numbers would require fault-tolerant quantum computers with millions of qubits.",
+    "domain": "quantum_computing"
+  },
+  {
+    "question": "What is Grover's algorithm?",
+    "answer": "Grover's algorithm is a quantum search algorithm developed by Lov Grover in 1996 that provides a quadratic speedup for searching unstructured databases or solving unstructured search problems. Unlike classical search algorithms that must check on average N/2 items to find a marked item in an unsorted database of N items, Grover's algorithm requires only approximately square root of N operations. The algorithm works through amplitude amplification, using quantum superposition, an oracle function that marks solutions, and quantum interference to gradually increase the probability of measuring the correct answer.",
+    "domain": "quantum_computing"
+  },
+  {
+    "question": "What are the current limitations of quantum computers?",
+    "answer": "Current quantum computers face significant limitations: 1) Qubit Quality - Today's physical qubits have high error rates due to decoherence and control imprecisions; 2) Qubit Quantity - Leading systems have fewer than 200 physical qubits, whereas many practical applications would require thousands or millions; 3) Connectivity Constraints - Many quantum hardware architectures only allow interactions between physically adjacent qubits; 4) Error Correction Immaturity - Fully fault-tolerant quantum computing remains a distant goal; 5) Algorithm Development Gaps - The set of algorithms known to offer quantum advantage remains relatively small. These limitations place current quantum computers firmly in the NISQ (Noisy Intermediate-Scale Quantum) era.",
+    "domain": "quantum_computing"
+  },
+  {
+    "question": "What potential impacts might quantum computing have on cybersecurity?",
+    "answer": "Quantum computing presents both threats and opportunities for cybersecurity: 1) Public-Key Cryptography Vulnerability - Large-scale quantum computers running Shor's algorithm could break widely-used encryption systems including RSA and ECC; 2) Symmetric Cryptography Weakening - Grover's algorithm could reduce the security of symmetric encryption by effectively halving key strength; 3) Post-Quantum Cryptography Development - Cryptographers are developing quantum-resistant algorithms based on mathematical problems believed hard for quantum computers; 4) Quantum Cryptography Enhancement - Quantum key distribution (QKD) offers theoretically unbreakable encryption by using quantum properties to detect eavesdropping attempts; 5) Advanced Threat Detection - Quantum computing might enhance security through improved machine learning for threat detection.",
+    "domain": "quantum_computing"
+  }
+]

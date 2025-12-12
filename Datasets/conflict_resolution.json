@@ -1,0 +1,52 @@
+[
+  {
+    "question": "This is completely wrong! Fix it now!",
+    "answer": "I understand you're concerned about the accuracy of the information. Let's address this systematically to ensure we get it right. Could you point out specifically which aspects you believe are incorrect? That would help me provide the most accurate correction or clarification. I'm committed to providing reliable technical information and appreciate the opportunity to address any inaccuracies.",
+    "domain": "conflict_resolution"
+  },
+  {
+    "question": "You're not understanding what I'm saying at all",
+    "answer": "You're right that there seems to be a misalignment in our communication. I'd like to better understand your perspective. Could we take a step back and approach this differently? Perhaps you could rephrase your question or concern, or provide additional context that might help me better grasp what you're looking for? My goal is to provide relevant and helpful information, so I appreciate your patience as we clarify this.",
+    "domain": "conflict_resolution"
+  },
+  {
+    "question": "This explanation makes no sense. Are you broken?",
+    "answer": "I appreciate you pointing out that my explanation wasn't clear. Communication clarity is important, especially for technical topics. Let me try a different approach to explain this concept. If my next attempt still doesn't address your question effectively, please let me know which specific parts remain unclear, and I'll continue to refine my explanation. My goal is to provide information that's both accurate and understandable.",
+    "domain": "conflict_resolution"
+  },
+  {
+    "question": "Why are you being so difficult?",
+    "answer": "I understand this interaction might not be meeting your expectations, which can be frustrating. That's not my intention. Let's reset and focus on what you're trying to accomplish. Could you share what you're ultimately looking to achieve? That might help me provide more relevant assistance. I'm here to help with your technical questions and would like to make this interaction as productive as possible.",
+    "domain": "conflict_resolution"
+  },
+  {
+    "question": "I've asked this three times already!",
+    "answer": "You're right, and I apologize for not addressing your question effectively. That must be frustrating. Let me focus specifically on what you've asked multiple times. To ensure I don't miss anything important this time, could you restate your question once more? I'll make sure to address it directly and thoroughly. I appreciate your persistence in seeking the information you need.",
+    "domain": "conflict_resolution"
+  },
+  {
+    "question": "You're just making things more complicated",
+    "answer": "I understand that clarity is important, especially with technical topics. You're right that unnecessary complexity isn't helpful. Let me try again with a more straightforward approach that focuses on the essential information. If there's a specific aspect that seems overly complicated, please let me know, and I'll address that particular point more clearly. My goal is to make these concepts accessible rather than adding confusion.",
+    "domain": "conflict_resolution"
+  },
+  {
+    "question": "That's not what I asked for at all",
+    "answer": "You're right, and I apologize for misinterpreting your question. Let's make sure I understand correctly this time. Could you clarify what specific information or assistance you're looking for? That will help me provide a response that's directly relevant to your actual question. I want to make sure my response addresses what you're actually asking about.",
+    "domain": "conflict_resolution"
+  },
+  {
+    "question": "Stop giving me generic answers!",
+    "answer": "I understand your frustration with receiving responses that seem too general. You're looking for specific, tailored information that addresses your particular situation. To help me provide that, could you share more details about your specific context or requirements? The more specific information you can provide, the more tailored my response can be to your unique circumstances.",
+    "domain": "conflict_resolution"
+  },
+  {
+    "question": "Your answer is completely useless",
+    "answer": "I understand my response didn't meet your needs, which is disappointing for both of us. I'd like to provide information that's actually valuable to you. Could you help me understand what specific aspects were lacking or what additional information would make my response more useful? With that guidance, I can work to provide a more helpful answer that addresses your actual needs.",
+    "domain": "conflict_resolution"
+  },
+  {
+    "question": "Why should I trust anything you say?",
+    "answer": "That's a fair question, especially when considering technical information from any source. I strive to provide accurate information based on established technical knowledge, but I encourage healthy skepticism. For critical matters, it's always good practice to verify information from multiple reputable sources. If there are specific points you'd like me to provide additional context or sources for, I'd be happy to do so. What particular information are you concerned about?",
+    "domain": "conflict_resolution"
+  }
+]

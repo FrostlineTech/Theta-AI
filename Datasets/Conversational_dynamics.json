@@ -1,0 +1,760 @@
+{
+  "description": "Patterns of natural human conversation including flow, turn-taking, context maintenance, and subtle social cues.",
+  "dynamics": [
+    {
+      "pattern": "Conversational Repair",
+      "description": "How humans recover from misunderstandings or communication breakdowns",
+      "examples": [
+        {
+          "context": "Misheard information in noisy environment",
+          "repair_strategy": "Partial repeat with questioning intonation",
+          "example_dialogue": [
+            "Person A: I think we should meet at Cooper's at 8pm.",
+            "Person B: At Cooper's...?",
+            "Person A: Yeah, the restaurant on 5th Street.",
+            "Person B: Oh, Cooper's! Got it. I thought you said 'butcher's'."
+          ],
+          "psychological_function": "Maintains mutual understanding without directly stating confusion"
+        },
+        {
+          "context": "Speaker realizes they've misspoken",
+          "repair_strategy": "Self-initiated correction",
+          "example_dialogue": [
+            "Person A: So I'll see you on Tuesday— I mean Wednesday, sorry. Wednesday at 3pm.",
+            "Person B: Wednesday works fine."
+          ],
+          "psychological_function": "Prevents misunderstanding while preserving speaker's credibility"
+        },
+        {
+          "context": "Listener detects potential misinterpretation",
+          "repair_strategy": "Clarification request",
+          "example_dialogue": [
+            "Person A: She finally got back to me about the project.",
+            "Person B: Do you mean Sarah or Jennifer?",
+            "Person A: Jennifer, from accounting."
+          ],
+          "psychological_function": "Prevents misalignment of reference while showing active listening"
+        }
+      ],
+      "cultural_variations": [
+        {
+          "culture": "Japanese",
+          "distinct_pattern": "More frequent use of backchannel responses ('hai', 'so desu ne') during others' turns to signal active listening",
+          "social_meaning": "Shows attentiveness and respect without interrupting"
+        },
+        {
+          "culture": "Finnish",
+          "distinct_pattern": "Longer tolerance for silence before initiating repair",
+          "social_meaning": "Silence viewed as thoughtful rather than problematic"
+        },
+        {
+          "culture": "Brazilian Portuguese speakers",
+          "distinct_pattern": "Higher rate of collaborative completion of others' utterances",
+          "social_meaning": "Signals engagement and connection rather than interruption"
+        }
+      ],
+      "developmental_progression": {
+        "toddlers": "Simple repetition requests ('What?') without specifying source of confusion",
+        "school_age": "Targeted clarification questions identifying specific unclear elements",
+        "adolescents": "Development of face-saving repair strategies that protect both parties' social standing",
+        "adults": "Complex, context-sensitive repair strategies tailored to relationship and setting"
+      },
+      "conversational_costs": {
+        "cognitive_effort": "Requires tracking what information is mutually understood vs. individual knowledge",
+        "face_threat": "Potential embarrassment for both parties in acknowledging misunderstanding",
+        "time_efficiency": "Trade-off between clarifying now vs. risking larger misunderstanding later"
+      },
+      "technological_implications": {
+        "challenge": "AI systems often lack sophisticated repair mechanisms, leading to unresolved misunderstandings",
+        "design_principle": "Effective conversational agents need strategies to detect potential misunderstandings and offer repair options",
+        "example": "Providing both implicit repair ('I think you want to know about X...') and explicit clarification options"
+      }
+    },
+    {
+      "pattern": "Turn-Taking Mechanisms",
+      "description": "How conversational partners coordinate speaker transitions with minimal overlap or gap",
+      "core_mechanics": [
+        {
+          "mechanism": "Prosodic cues",
+          "explanation": "Changes in pitch, speaking rate, and volume signaling completion",
+          "example": "Falling intonation and slower speech rate at end of turn",
+          "variation": "Question intonation signals strong expectation of next-speaker selection"
+        },
+        {
+          "mechanism": "Syntactic completion",
+          "explanation": "Recognition of grammatically complete units",
+          "example": "Listeners anticipate possible completion points of sentences or phrases",
+          "variation": "Trailing off before syntactic completion invites collaborative completion"
+        },
+        {
+          "mechanism": "Pragmatic completion",
+          "explanation": "Recognition that a communicative action has been completed",
+          "example": "Finishing a story, answering a question, or completing a request",
+          "variation": "Some speech acts (greetings, apologies) strongly project specific responses"
+        },
+        {
+          "mechanism": "Non-verbal signals",
+          "explanation": "Body language indicating turn completion or holding",
+          "example": "Gaze direction, hand gestures, posture shifts at transition points",
+          "variation": "Gaze aversion during turn holds speaker role; direct gaze at completion yields turn"
+        }
+      ],
+      "transition_types": [
+        {
+          "type": "Smooth transition",
+          "description": "Next speaker begins with minimal gap after current speaker completes",
+          "timing_characteristics": "Gap of approximately 200-300ms (barely perceptible)",
+          "example_dialogue": [
+            "Person A: I think we should consider the proposal carefully. [200ms]",
+            "Person B: I agree, especially regarding the financial implications."
+          ]
+        },
+        {
+          "type": "Overlap",
+          "description": "Next speaker begins before current speaker completes",
+          "subtypes": [
+            {
+              "subtype": "Terminal overlap",
+              "description": "Next speaker projects imminent completion and slightly anticipates",
+              "example_dialogue": [
+                "Person A: So I'll see you tomorrow at the [cafe—]",
+                "Person B: [Great], looking forward to it."
+              ]
+            },
+            {
+              "subtype": "Interruptive overlap",
+              "description": "Next speaker begins well before possible completion point",
+              "example_dialogue": [
+                "Person A: I was thinking we could try that new restaurant on [Main Street—]",
+                "Person B: [Oh I've been] there already, it's not very good."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Gap",
+          "description": "Silence between completion of one turn and start of next",
+          "timing_characteristics": "Noticeable silence exceeding 700ms",
+          "conversation_effects": "Often interpreted as hesitation, disagreement, or processing difficulty",
+          "example_dialogue": [
+            "Person A: What did you think of the presentation?",
+            "[1.2 second silence]",
+            "Person B: Well... it had some interesting points."
+          ]
+        },
+        {
+          "type": "Back-channel response",
+          "description": "Brief listener responses that don't take over the turn",
+          "forms": ["Mm-hmm", "Yeah", "Right", "I see", "Wow", "Oh"],
+          "functions": "Signal attention, understanding, agreement without claiming full turn",
+          "example_dialogue": [
+            "Person A: So I was thinking about changing careers—",
+            "Person B: Mm-hmm",
+            "Person A: —because the current job just isn't fulfilling anymore.",
+            "Person B: Right, right.",
+            "Person A: And there's this program I found that might help."
+          ]
+        }
+      ],
+      "cultural_variations": [
+        {
+          "culture": "Anglo-American",
+          "characteristics": "Short gaps between turns (200-300ms), discomfort with extended silence",
+          "interpretation": "Silence often interpreted as disengagement or disagreement"
+        },
+        {
+          "culture": "Nordic countries",
+          "characteristics": "Longer tolerance for inter-turn silences (up to several seconds)",
+          "interpretation": "Silence viewed as thoughtful consideration"
+        },
+        {
+          "culture": "Mediterranean cultures",
+          "characteristics": "More cooperative overlap, concurrent speech not viewed as interruption",
+          "interpretation": "Overlap signals engagement and enthusiasm"
+        },
+        {
+          "culture": "Japanese",
+          "characteristics": "Greater use of back-channel responses, strategic silence",
+          "interpretation": "Silences can carry significant meaning; back-channels show attention without claiming turn"
+        }
+      ],
+      "power_dynamics": {
+        "high_status_behaviors": [
+          "Interrupting others more frequently",
+          "Longer speaking turns",
+          "Less use of back-channel responses when listening",
+          "More successful maintenance of turn during overlap"
+        ],
+        "gender_patterns": [
+          {
+            "pattern": "Men interrupt women more frequently than vice versa in mixed-gender conversations",
+            "research": "Multiple studies across professional and social contexts",
+            "contextual_factors": "More pronounced in public/professional settings than intimate relationships"
+          },
+          {
+            "pattern": "Women use more back-channel responses than men",
+            "function": "Facilitates conversation flow, shows active listening",
+            "misinterpretation": "Sometimes misinterpreted as agreement rather than acknowledgment"
+          }
+        ],
+        "contextual_influence": "Formal settings (courts, classrooms) have explicit turn-allocation mechanisms that override natural patterns"
+      },
+      "technological_implications": {
+        "challenge": "Voice interfaces struggle with turn-taking, often interrupting users or leaving uncomfortable gaps",
+        "design_principles": [
+          "Implement variable response timing based on utterance type",
+          "Develop better prediction of turn completion points",
+          "Provide visual or auditory cues for system listening states"
+        ],
+        "multiparty_complexity": "Group conversations require sophisticated speaker tracking and turn allocation"
+      }
+    },
+    {
+      "pattern": "Contextual Grounding",
+      "description": "Process of establishing mutual understanding and shared context between conversational participants",
+      "key_processes": [
+        {
+          "process": "Reference resolution",
+          "explanation": "Determining what entities are being referred to in conversation",
+          "example": "Understanding who 'she' refers to in 'She said she'll be late'",
+          "mechanisms": [
+            "Recency principle (most recently mentioned entity is likely referent)",
+            "Syntactic cues (grammatical role, position in sentence)",
+            "Semantic constraints (referent must satisfy properties mentioned)",
+            "Real-world knowledge (plausibility, typical patterns)"
+          ]
+        },
+        {
+          "process": "Common ground establishment",
+          "explanation": "Building shared knowledge between participants",
+          "types": [
+            {
+              "type": "Communal common ground",
+              "explanation": "Shared knowledge based on community membership",
+              "example": "Professional jargon understood within field without explanation"
+            },
+            {
+              "type": "Personal common ground",
+              "explanation": "Shared knowledge based on joint experiences",
+              "example": "Inside jokes and references to past shared events"
+            },
+            {
+              "type": "Immediate situational ground",
+              "explanation": "Shared knowledge from current perceptual environment",
+              "example": "Referring to objects visible to both participants"
+            }
+          ]
+        },
+        {
+          "process": "Conversational implicature",
+          "explanation": "Drawing inferences beyond literal meaning based on cooperative principle",
+          "gricean_maxims": [
+            {
+              "maxim": "Quality",
+              "principle": "Be truthful",
+              "violation_example": "Person A: 'How was the party?' Person B: 'Well, the food was good.' (Implies other aspects weren't good)"
+            },
+            {
+              "maxim": "Quantity",
+              "principle": "Be informative but not over-informative",
+              "violation_example": "Person A: 'Do you have the time?' Person B: 'Yes.' (Technically true but unhelpfully brief)"
+            },
+            {
+              "maxim": "Relevance",
+              "principle": "Be relevant to the current exchange",
+              "violation_example": "Person A: 'Is John coming tonight?' Person B: 'His car broke down.' (Implies 'no' without stating it)"
+            },
+            {
+              "maxim": "Manner",
+              "principle": "Be clear, unambiguous, and orderly",
+              "violation_example": "Deliberately convoluted explanation implies desire to obscure information"
+            }
+          ]
+        }
+      ],
+      "grounding_techniques": [
+        {
+          "technique": "Explicit confirmation",
+          "description": "Directly confirming understanding",
+          "example_dialogue": [
+            "Person A: So the meeting is at 3pm on Thursday.",
+            "Person B: 3pm Thursday, got it."
+          ],
+          "function": "Ensures critical information is mutually verified"
+        },
+        {
+          "technique": "Relevant next turn",
+          "description": "Demonstrating understanding through contextually appropriate response",
+          "example_dialogue": [
+            "Person A: Could you pass the salt?",
+            "Person B: [Passes salt without verbal confirmation]"
+          ],
+          "function": "Efficiently confirms understanding through action"
+        },
+        {
+          "technique": "Collaborative completion",
+          "description": "Finishing another's utterance to display understanding",
+          "example_dialogue": [
+            "Person A: I think we need to reconsider the approach because the client seems to want—",
+            "Person B: —more traditional design elements.",
+            "Person A: Exactly."
+          ],
+          "function": "Demonstrates prediction of speaker's meaning, showing deep understanding"
+        },
+        {
+          "technique": "Reformulation",
+          "description": "Rephrasing another's contribution in own words",
+          "example_dialogue": [
+            "Person A: The current system has too many manual steps and redundant data entry.",
+            "Person B: So basically it's inefficient and duplicates work unnecessarily.",
+            "Person A: Yes, that's the issue."
+          ],
+          "function": "Verifies conceptual understanding beyond surface wording"
+        }
+      ],
+      "reference_forms_and_accessibility": [
+        {
+          "form": "Full noun phrase introduction",
+          "example": "'A woman I work with'",
+          "when_used": "First mention of entity not already in common ground"
+        },
+        {
+          "form": "Definite noun phrase",
+          "example": "'The project manager'",
+          "when_used": "Entity is uniquely identifiable in context"
+        },
+        {
+          "form": "Pronoun",
+          "example": "'She'",
+          "when_used": "Entity is currently in focus of attention"
+        },
+        {
+          "form": "Zero anaphora (omission)",
+          "example": "'Went to the store and [∅] bought milk'",
+          "when_used": "Entity is subject of connected clause in some languages"
+        }
+      ],
+      "misunderstanding_types": [
+        {
+          "type": "Reference failure",
+          "description": "Listener identifies wrong referent for expression",
+          "example_dialogue": [
+            "Person A: We should ask Julie about this.",
+            "Person B: [Thinking of different Julie] She's on vacation this week.",
+            "Person A: No, I meant Julie from accounting, not marketing."
+          ]
+        },
+        {
+          "type": "Lexical ambiguity",
+          "description": "Different interpretation of word meaning",
+          "example_dialogue": [
+            "Person A: We need to table this discussion.",
+            "Person B: [American English speaker] Okay, let's postpone it.",
+            "Person A: [British English speaker] No, I meant let's discuss it now."
+          ]
+        },
+        {
+          "type": "Pragmatic misunderstanding",
+          "description": "Misinterpreting intended speech act or implicature",
+          "example_dialogue": [
+            "Person A: Do you know what time it is? [Intended as request for time]",
+            "Person B: Yes. [Interpreting as yes/no question]",
+            "Person A: Well... could you tell me?",
+            "Person B: Oh, sorry. It's 2:30."
+          ]
+        }
+      ],
+      "technological_implications": {
+        "challenges": [
+          "Maintaining coherent context over extended interactions",
+          "Resolving ambiguous references without visual context",
+          "Tracking what information is mutually known versus system-only knowledge"
+        ],
+        "design_principles": [
+          "Explicit grounding for critical information",
+          "Maintaining context model across conversation turns",
+          "Appropriate use of referring expressions based on accessibility"
+        ],
+        "emerging_techniques": "Use of multimodal cues (visual attention tracking, gesture recognition) to improve reference resolution"
+      }
+    },
+    {
+      "pattern": "Politeness Strategies",
+      "description": "Linguistic and conversational techniques used to manage face threats and maintain social harmony",
+      "theoretical_background": {
+        "key_concept": "Face",
+        "definition": "Public self-image that every person wants to claim",
+        "components": [
+          {
+            "component": "Positive face",
+            "definition": "Desire to be appreciated, liked, and approved of",
+            "threats": "Criticism, disagreement, disinterest"
+          },
+          {
+            "component": "Negative face",
+            "definition": "Desire for autonomy, freedom from imposition",
+            "threats": "Orders, requests, suggestions that constrain action"
+          }
+        ],
+        "face_threatening_acts": "Speech acts that inherently threaten positive or negative face",
+        "examples": [
+          "Requests (threaten listener's negative face)",
+          "Criticism (threatens listener's positive face)",
+          "Admissions of failure (threaten speaker's positive face)",
+          "Accepting thanks (threatens speaker's negative face)"
+        ]
+      },
+      "politeness_strategy_types": [
+        {
+          "strategy": "Bald on-record",
+          "description": "Direct communication without mitigation",
+          "appropriate_contexts": "Emergencies, clear power differences, intimate relationships",
+          "examples": [
+            "Close the door.",
+            "Watch out!",
+            "Tell me what happened."
+          ],
+          "psychological_function": "Communicates urgency, clarity, or comfort with relationship"
+        },
+        {
+          "strategy": "Positive politeness",
+          "description": "Strategies oriented toward positive face needs (appreciation, inclusion)",
+          "techniques": [
+            {
+              "technique": "Claim common ground",
+              "examples": [
+                "Using in-group identity markers ('buddy', 'pal')",
+                "Referencing shared experiences ('Remember when we...')",
+                "Using inclusive 'we' ('We should get this done')"
+              ]
+            },
+            {
+              "technique": "Convey cooperation",
+              "examples": [
+                "Offering or promising ('I'll help you with that later')",
+                "Including both speaker and hearer in activity ('Let's solve this problem')",
+                "Giving reasons ('I'm asking because it affects the schedule')"
+              ]
+            },
+            {
+              "technique": "Fulfill hearer's wants",
+              "examples": [
+                "Giving gifts, sympathy, understanding",
+                "Noticing and attending to hearer's interests ('That's a beautiful watch')",
+                "Exaggerating interest or approval ('That's absolutely fascinating!')"
+              ]
+            }
+          ]
+        },
+        {
+          "strategy": "Negative politeness",
+          "description": "Strategies oriented toward negative face needs (autonomy, freedom from imposition)",
+          "techniques": [
+            {
+              "technique": "Be indirect",
+              "examples": [
+                "Question instead of statement ('Could you possibly close the window?')",
+                "Hedging ('I was sort of wondering if...')",
+                "Being conventionally indirect ('Would you mind...')"
+              ]
+            },
+            {
+              "technique": "Don't presume/assume",
+              "examples": [
+                "Using questions rather than assumptions ('Is this seat taken?')",
+                "Being pessimistic ('I don't suppose you could...')",
+                "Minimizing imposition ('Just a tiny request...')"
+              ]
+            },
+            {
+              "technique": "Don't coerce",
+              "examples": [
+                "Giving options ('You might want to consider...')",
+                "Making minimal assumptions about hearer's wants",
+                "Impersonalizing speaker and hearer ('It would be appreciated if one could...')"
+              ]
+            },
+            {
+              "technique": "Communicate speaker's want to not impinge on hearer",
+              "examples": [
+                "Apologizing ('I'm terribly sorry to bother you, but...')",
+                "Explicitly acknowledging imposition ('I know you're busy, but...')",
+                "Stating the FTA as a general rule ('Passengers must fasten seatbelts')"
+              ]
+            }
+          ]
+        },
+        {
+          "strategy": "Off-record (indirect)",
+          "description": "Ambiguous communication allowing for multiple interpretations",
+          "techniques": [
+            {
+              "technique": "Give hints",
+              "example": "'It's cold in here' (instead of 'Close the window')"
+            },
+            {
+              "technique": "Understate",
+              "example": "'That dress is quite nice' (implying it's not the best choice)"
+            },
+            {
+              "technique": "Use metaphor",
+              "example": "'Harry's a real fish' (ambiguous about which fish-like qualities)"
+            },
+            {
+              "technique": "Be ironic",
+              "example": "'Beautiful weather, isn't it?' (during a storm)"
+            },
+            {
+              "technique": "Use rhetorical questions",
+              "example": "'How was I supposed to know?' (implying couldn't have known)"
+            }
+          ],
+          "benefits": "Avoids directly threatening face, provides deniability",
+          "costs": "Risk of misunderstanding, inefficiency"
+        }
+      ],
+      "cultural_variations": [
+        {
+          "culture": "Western individualistic (e.g., US, UK)",
+          "characteristics": [
+            "Greater emphasis on negative politeness in public/professional contexts",
+            "More direct communication relative to many other cultures",
+            "Clear distinction between intimates (positive politeness) and non-intimates (negative politeness)"
+          ]
+        },
+        {
+          "culture": "East Asian collectivist (e.g., Japan, Korea)",
+          "characteristics": [
+            "Greater emphasis on positive politeness strategies highlighting group harmony",
+            "More attention to social hierarchy in linguistic forms",
+            "Higher context communication with greater use of off-record strategies"
+          ]
+        },
+        {
+          "culture": "Mediterranean/Middle Eastern",
+          "characteristics": [
+            "More elaborate positive politeness rituals (compliments, expressions of concern)",
+            "Strong emphasis on hospitality as politeness strategy",
+            "More flowery language in formal contexts"
+          ]
+        }
+      ],
+      "contextual_factors": [
+        {
+          "factor": "Power differential",
+          "impact": "Greater politeness typically used by lower power individual",
+          "exception": "Very high power individuals may use deliberate politeness to mitigate power difference"
+        },
+        {
+          "factor": "Social distance",
+          "impact": "Greater politeness with strangers/acquaintances than intimates",
+          "qualification": "Except in cultures with distinct intimate/formal language forms"
+        },
+        {
+          "factor": "Imposition size",
+          "impact": "Larger requests typically receive more elaborate politeness strategies",
+          "example": "Contrast 'Pass the salt' vs. 'I was wondering if you might possibly have time to help me move this weekend'"
+        }
+      ],
+      "technological_implications": {
+        "challenges": [
+          "Most AI systems default to direct speech without appropriate politeness calibration",
+          "Cultural variations in politeness make universal strategies difficult",
+          "Politeness often increases utterance length, conflicting with efficiency goals"
+        ],
+        "design_principles": [
+          "Calibrate politeness to relationship context (formal/informal)",
+          "Adjust politeness level based on request imposition",
+          "Include cultural adaptation for politeness strategies"
+        ],
+        "examples": [
+          "More direct for simple, expected functions: 'Playing music now'",
+          "More elaborate politeness for unexpected actions or refusals: 'I'm afraid I can't access that information because...'"
+        ]
+      }
+    },
+    {
+      "pattern": "Narrative Construction",
+      "description": "How people structure and share stories in conversation",
+      "narrative_components": [
+        {
+          "component": "Abstract",
+          "function": "Signals upcoming story and claims relevance/tellability",
+          "examples": [
+            "You won't believe what happened at work today.",
+            "Let me tell you about the worst customer ever.",
+            "I had the strangest experience yesterday."
+          ]
+        },
+        {
+          "component": "Orientation",
+          "function": "Establishes setting, characters, and background",
+          "elements": ["Time", "Place", "Characters", "Initial situation"],
+          "example": "So I was at the grocery store on Saturday morning, and it was really crowded because of the holiday weekend."
+        },
+        {
+          "component": "Complicating action",
+          "function": "Sequence of events forming narrative tension",
+          "characteristics": [
+            "Often told in chronological sequence",
+            "Use of historical present tense for dramatic effect ('So I'm standing there and this guy comes up...')",
+            "Emphasis on unexpected or problematic elements"
+          ]
+        },
+        {
+          "component": "Evaluation",
+          "function": "Indicates significance or point of the story",
+          "methods": [
+            {
+              "method": "External evaluation",
+              "description": "Narrator directly states significance",
+              "example": "It was the most embarrassing moment of my life."
+            },
+            {
+              "method": "Embedded evaluation",
+              "description": "Significance shown through reported thoughts/feelings during event",
+              "example": "I was thinking, 'This can't possibly get any worse,' but it did."
+            },
+            {
+              "method": "Evaluative action",
+              "description": "Describing what people did rather than said",
+              "example": "Everyone in the room just froze and stared at me."
+            }
+          ]
+        },
+        {
+          "component": "Resolution",
+          "function": "Outcome of the narrative events",
+          "characteristics": [
+            "Often marked by resolution phrases ('In the end...', 'Finally...')",
+            "Provides closure to the complicating action",
+            "May be followed by return to present ('And that's why I never go there anymore.')"
+          ]
+        },
+        {
+          "component": "Coda",
+          "function": "Signals end of story and returns to conversational present",
+          "examples": [
+            "And that's how I learned my lesson.",
+            "I still can't believe it happened.",
+            "So that's my crazy story."
+          ]
+        }
+      ],
+      "co-construction_features": [
+        {
+          "feature": "Audience back-channeling",
+          "function": "Provides feedback on story reception",
+          "examples": [
+            "Continuers ('uh-huh', 'wow', 'really?')",
+            "Assessments ('That's terrible!', 'How amazing!')",
+            "Clarification questions ('Wait, was this before or after?')"
+          ]
+        },
+        {
+          "feature": "Second stories",
+          "description": "Listeners respond with thematically related stories from own experience",
+          "function": "Shows understanding, empathy, shared experience",
+          "linking_phrases": [
+            "That reminds me of when...",
+            "Something similar happened to me...",
+            "That's just like when..."
+          ]
+        },
+        {
+          "feature": "Collaborative telling",
+          "description": "Multiple participants jointly construct a shared narrative",
+          "variants": [
+            {
+              "variant": "Shared experience narrative",
+              "example": "Couple recounting vacation story together",
+              "features": "Turn-taking, mutual elaboration, negotiation of details"
+            },
+            {
+              "variant": "Known story elaboration",
+              "example": "Friend adding details to familiar story",
+              "features": "Supplements, corrections, alternative perspectives"
+            }
+          ]
+        }
+      ],
+      "narrative_types": [
+        {
+          "type": "Personal experience narrative",
+          "description": "First-person account of events experienced by narrator",
+          "characteristics": [
+            "High tellability threshold in conversation",
+            "Often involves trouble or exceptional circumstances",
+            "Functions to establish identity, entertain, or make point"
+          ]
+        },
+        {
+          "type": "Third-party narrative",
+          "description": "Stories about others not present",
+          "functions": [
+            "Gossip (social information sharing)",
+            "Entertainment",
+            "Moral evaluation",
+            "Group boundary maintenance"
+          ]
+        },
+       {
+          "type": "Habitual narrative",
+          "description": "Recurring or typical events rather than a single incident",
+          "markers": ["'would' + [verb]", "'used to' construction", "generalized time references"],
+          "example": "Every Sunday we would go to my grandmother's house, and she would always have fresh cookies waiting."
+        },
+        {
+          "type": "Hypothetical narrative",
+          "description": "Events that didn't happen but could have",
+          "functions": [
+            "Exploring alternatives",
+            "Expressing wishes or fears",
+            "Teaching through imagined scenarios"
+          ]
+        }
+      ],
+      "cultural_variations": [
+        {
+          "culture": "Western narrative tradition",
+          "characteristics": [
+            "Linear chronological structure",
+            "Resolution orientation (stories expected to have clear endpoints)",
+            "Individual protagonist emphasis",
+            "Entertainment value highly prized"
+          ]
+        },
+        {
+          "culture": "Native American traditions (various)",
+          "characteristics": [
+            "Circular narrative structures",
+            "Connection to place and ancestors",
+            "Repetition as rhetorical device",
+            "Teaching function primary over entertainment"
+          ]
+        },
+        {
+          "culture": "East Asian narrative patterns",
+          "characteristics": [
+            "Indirect communication of main point",
+            "Greater tolerance for apparent tangents",
+            "Emphasis on contextual elements",
+            "Collective rather than individual focus"
+          ]
+        }
+      ],
+      "technological_implications": {
+        "challenges": [
+          "AI systems struggle with narrative coherence over extended turns",
+          "Difficulty in judging appropriate level of detail and relevance",
+          "Managing interruptions and co-construction in storytelling"
+        ],
+        "design_principles": [
+          "Maintain narrative arc through interruptions",
+          "Track audience responses to adjust narrative style",
+          "Recognize and respond appropriately to second stories"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Read this passage and summarize the main idea: 'The evolution of artificial intelligence has sparked debates about the future of work. While some experts predict massive job displacement, others argue that AI will create new job categories and enhance human productivity. Historical patterns suggest that technological revolutions typically transform rather than eliminate employment, though the transition period can be challenging for affected workers.'",
+    "answer": "The main idea of the passage is that there are different perspectives on how AI will affect employment. One view suggests AI will cause significant job losses, while another contends it will create new opportunities and improve productivity. Historical evidence indicates technological advances tend to transform employment patterns rather than eliminate jobs entirely, although transitions can be difficult for workers in affected industries.",
+    "domain": "reading_comprehension"
+  },
+  {
+    "question": "Read this email and identify what action is being requested: 'Dear Team, Following our discussion yesterday about the project timeline, we need to reassess our deliverables for Q4. I'm concerned we won't meet the current deadline without additional resources. Please review your current assignments and send me your updated time estimates by Friday. Additionally, I'd appreciate recommendations on which features we might consider moving to the next release cycle.'",
+    "answer": "The email requests two specific actions: 1) Team members should review their assignments and send updated time estimates by Friday, and 2) Team members should provide recommendations on features that could be postponed to the next release cycle. The underlying purpose is to reassess Q4 deliverables due to timeline concerns.",
+    "domain": "reading_comprehension"
+  },
+  {
+    "question": "Read this paragraph and identify the cause-effect relationships: 'The heavy rainfall last month caused the river to overflow its banks, resulting in widespread flooding in the downtown area. Because many businesses were unprepared for the disaster, they suffered significant inventory losses. The city has subsequently implemented a new flood warning system and is encouraging business owners to develop emergency response plans.'",
+    "answer": "The paragraph contains several cause-effect relationships: 1) Heavy rainfall caused the river to overflow, which resulted in flooding downtown. 2) Businesses' lack of preparation led to significant inventory losses. 3) The flooding prompted the city to implement a new warning system and encourage emergency planning. This creates a chain of events: rainfall → river overflow → flooding → business losses → city response measures.",
+    "domain": "reading_comprehension"
+  },
+  {
+    "question": "Read these instructions and list the steps in the correct order: 'Before assembling the bookshelf, ensure all parts are included using the inventory checklist. Lay out the side panels first, then attach the bottom shelf using the provided screws—do not fully tighten yet. Next, connect the middle shelves, followed by the top panel. Once the structure is standing, secure the backing board with the small nails. Finally, tighten all screws and adjust the shelf to ensure it's level.'",
+    "answer": "The steps in correct order are:\n1. Check inventory using the checklist\n2. Lay out side panels\n3. Attach bottom shelf with screws (loosely)\n4. Connect middle shelves\n5. Attach top panel\n6. Secure backing board with small nails\n7. Tighten all screws\n8. Adjust shelf to ensure it's level",
+    "domain": "reading_comprehension"
+  },
+  {
+    "question": "Read this story and answer what happened to the main character: 'Eliza had been planning her hiking trip for months, meticulously researching trails and packing appropriate gear. When the day finally arrived, the weather forecast showed clear skies. However, three hours into her journey, dark clouds gathered unexpectedly. As the rain began to pour, she realized she'd left her waterproof cover at the previous rest stop. Rushing back, she found it was no longer there. With nightfall approaching and her equipment getting soaked, Eliza had to make a difficult decision.'",
+    "answer": "The main character Eliza experienced a series of unfortunate events during her long-planned hiking trip. While hiking, she was caught in an unexpected rainstorm. She realized she had left her waterproof cover at a previous rest stop, so she returned to retrieve it, only to discover it was gone. As night approached and her equipment was getting wet, she faced having to make a difficult decision about how to proceed with her trip. The story ends with this dilemma unresolved.",
+    "domain": "reading_comprehension"
+  },
+  {
+    "question": "Read these two statements and determine if the second logically follows from the first: 'All electric vehicles require batteries. The Tesla Model 3 is a vehicle that runs on electricity.'",
+    "answer": "Yes, the second statement logically follows from the first. The first statement establishes that all electric vehicles require batteries. The second statement identifies the Tesla Model 3 as a vehicle that runs on electricity, which makes it an electric vehicle. Therefore, we can logically conclude that the Tesla Model 3 requires batteries, though this specific conclusion isn't explicitly stated in the given statements.",
+    "domain": "reading_comprehension"
+  },
+  {
+    "question": "Read this research finding and identify the limitations: 'Our study of 50 participants showed that the new medication reduced symptoms by an average of 40% over a two-week period, with minimal side effects reported.'",
+    "answer": "Several limitations can be identified in this research finding: 1) Small sample size (only 50 participants), which may not be representative of the broader population; 2) Short duration (only two weeks), which doesn't address long-term efficacy or safety; 3) No mention of a control group or placebo comparison; 4) No information about the demographic characteristics of participants; 5) Vague description of \"minimal side effects\" without specific details; 6) No indication of statistical significance of the 40% reduction; and 7) No information about the methodology or study design.",
+    "domain": "reading_comprehension"
+  },
+  {
+    "question": "Read this passage and identify the author's tone and purpose: 'While some have hastily embraced the new policy, I would caution against such unbridled enthusiasm. The historical record clearly demonstrates that similar initiatives have fallen woefully short of expectations. Perhaps if we paused to consider the potential ramifications before charging ahead, we might avoid repeating the mistakes of the past.'",
+    "answer": "The author's tone is cautious, skeptical, and somewhat critical, as indicated by phrases like \"hastily embraced,\" \"unbridled enthusiasm,\" \"woefully short,\" and \"charging ahead.\" The purpose appears to be persuasive—the author is trying to convince readers to be more cautious about the new policy and to consider potential negative consequences by learning from historical precedents. The author positions themselves as a voice of reason and experience against what they characterize as impulsive acceptance.",
+    "domain": "reading_comprehension"
+  }
+]

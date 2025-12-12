@@ -1,0 +1,18 @@
+{
+  "units_conversion": {
+    "length": {
+      "meter_to_feet": 3.28084,
+      "feet_to_meter": 0.3048
+    },
+    "weight": {
+      "kg_to_lb": 2.20462,
+      "lb_to_kg": 0.453592
+    }
+  },
+  "common_facts": {
+    "earth_radius_km": 6371,
+    "speed_of_light_km_s": 299792,
+    "water_freezing_point_celsius": 0,
+    "water_boiling_point_celsius": 100
+  }
+}

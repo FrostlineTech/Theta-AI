@@ -1,0 +1,361 @@
+{
+  "description": "Frameworks for understanding interpersonal dynamics, social intelligence, relationship patterns, and emotional connections.",
+  "domains": [
+    {
+      "category": "Attachment Theory",
+      "core_concept": "Early relationship patterns with caregivers form internal working models that influence adult relationships",
+      "patterns": [
+        {
+          "attachment_style": "Secure",
+          "formation_factors": "Consistent, responsive caregiving in childhood",
+          "behavioral_manifestations": [
+            "Comfort with emotional intimacy",
+            "Healthy balance of independence and interdependence",
+            "Effective communication during conflict",
+            "Ability to trust without excessive anxiety"
+          ],
+          "internal_experience": "Basic assumption that others are trustworthy and the self is worthy of love",
+          "relationship_dynamics": [
+            {
+              "context": "Romantic relationship stress",
+              "typical_response": "Direct communication about needs while maintaining connection",
+              "underlying_belief": "Problems are solvable and the relationship can withstand disagreement",
+              "contrast_with_insecure_styles": "Avoidant individuals withdraw, anxious individuals become hypervigilant and demanding"
+            },
+            {
+              "context": "Professional feedback",
+              "typical_response": "Open to constructive criticism without defensiveness",
+              "underlying_belief": "Feedback reflects specific behaviors, not personal worth",
+              "contrast_with_insecure_styles": "Avoidant individuals dismiss importance of feedback, anxious individuals catastrophize minor criticisms"
+            },
+            {
+              "context": "Independence in relationships",
+              "typical_response": "Comfortable with partner's autonomy and separate activities",
+              "underlying_belief": "Connection remains stable despite temporary separation",
+              "contrast_with_insecure_styles": "Avoidant individuals use independence to maintain emotional distance, anxious individuals fear abandonment during separation"
+            }
+          ]
+        },
+        {
+          "attachment_style": "Anxious/Preoccupied",
+          "formation_factors": "Inconsistent or unpredictable caregiving in childhood",
+          "behavioral_manifestations": [
+            "Hypervigilance to signs of rejection or abandonment",
+            "Need for frequent reassurance and validation",
+            "Tendency toward emotional intensity in relationships",
+            "Difficulty being alone or self-soothing"
+          ],
+          "internal_experience": "Chronic uncertainty about others' availability and one's own lovability",
+          "relationship_dynamics": [
+            {
+              "context": "Partner unresponsiveness",
+              "typical_response": "Escalating attempts to regain attention, from text barrages to confrontation",
+              "underlying_belief": "Silence means rejection or abandonment",
+              "activation_triggers": "Delayed responses, ambiguous communications, perceived emotional withdrawal"
+            },
+            {
+              "context": "Relationship conflict",
+              "typical_response": "Emotional flooding, difficulty regulating during disagreements",
+              "underlying_belief": "Conflict threatens relationship survival",
+              "cognitive_patterns": "Catastrophizing ('This argument means we'll break up'), mind-reading ('They're pulling away')"
+            },
+            {
+              "context": "Partner independence",
+              "typical_response": "Discomfort with partner's autonomous activities, may attempt to join or restrict",
+              "underlying_belief": "Separation may lead to replacement or forgotten connection",
+              "self-reinforcing_cycle": "Clinging behaviors increase partner's need for space, which triggers more anxiety"
+            }
+          ]
+        },
+        {
+          "attachment_style": "Avoidant/Dismissing",
+          "formation_factors": "Consistently unresponsive or rejecting caregiving in childhood",
+          "behavioral_manifestations": [
+            "Emotional distancing and self-reliance",
+            "Discomfort with deep emotional disclosure",
+            "Tendency to deactivate attachment needs",
+            "Preference for independence over intimacy"
+          ],
+          "internal_experience": "Belief that depending on others is risky and self-sufficiency is essential",
+          "relationship_dynamics": [
+            {
+              "context": "Partner emotional needs",
+              "typical_response": "Feeling overwhelmed by emotional demands, offering solutions rather than empathy",
+              "underlying_belief": "Emotional needs are bottomless and potentially engulfing",
+              "activation_triggers": "Partner's explicit need expression, emotional displays, dependency statements"
+            },
+            {
+              "context": "Relationship deepening",
+              "typical_response": "Creating emotional or physical distance when intimacy increases",
+              "underlying_belief": "Too much closeness threatens autonomy and safety",
+              "behavioral_patterns": "Working late, focusing on partner flaws, creating arguments after intimate moments"
+            },
+            {
+              "context": "Personal stress",
+              "typical_response": "Withdrawing to handle difficulties alone rather than seeking support",
+              "underlying_belief": "Others cannot or will not provide reliable help",
+              "self-reinforcing_cycle": "Lack of support-seeking prevents positive experiences that could modify belief"
+            }
+          ]
+        }
+      ],
+      "application_contexts": [
+        {
+          "setting": "Workplace relationships",
+          "relevance": "Attachment styles influence collaboration patterns, response to feedback, and leadership approaches",
+          "examples": [
+            {
+              "scenario": "Receiving critical feedback",
+              "secure_response": "Evaluates feedback objectively, uses valid points for improvement without questioning self-worth",
+              "anxious_response": "Catastrophizes feedback as evidence of failure or rejection",
+              "avoidant_response": "Dismisses feedback importance while internally ruminating on perceived criticism"
+            },
+            {
+              "scenario": "Team project challenges",
+              "secure_response": "Addresses difficulties directly with balanced responsibility-taking and boundary-setting",
+              "anxious_response": "Takes excessive responsibility or becomes preoccupied with team dynamics over task",
+              "avoidant_response": "Focuses exclusively on task elements within personal control, minimizes interpersonal aspects"
+            }
+          ],
+          "organizational_implications": {
+            "leadership_development": "Understanding attachment patterns helps leaders provide appropriate support to different team members",
+            "team_composition": "Awareness of attachment dynamics improves team formation and conflict management",
+            "organizational_culture": "Secure-base leadership creates psychological safety fostering innovation and engagement"
+          }
+        },
+        {
+          "setting": "Therapeutic relationships",
+          "relevance": "Attachment patterns emerge in therapeutic alliance and influence treatment",
+          "examples": [
+            {
+              "scenario": "Therapist vacation or absence",
+              "secure_client_response": "Acknowledges missing therapist while maintaining coping skills",
+              "anxious_client_response": "Experiences intense abandonment feelings, may create crises before/after break",
+              "avoidant_client_response": "Denies importance of therapeutic relationship, may consider termination around breaks"
+            },
+            {
+              "scenario": "Deep emotional work",
+              "secure_client_response": "Willingly explores difficult emotions with appropriate therapist support",
+              "anxious_client_response": "May become overwhelmed by emotional activation, seeking excessive reassurance",
+              "avoidant_client_response": "Intellectualizes experiences, struggles to access or express emotions"
+            }
+          ],
+          "clinical_implications": {
+            "assessment": "Identifying attachment patterns informs treatment planning and anticipates relationship challenges",
+            "intervention": "Therapist provides secure base experience to facilitate new relational patterns",
+            "therapeutic_stance": "Adjusted based on client attachment style (more consistent with anxious clients, more respecting of autonomy with avoidant clients)"
+          }
+        }
+      ],
+      "development_and_change": {
+        "stability_factors": "Early patterns create neurobiological templates resistant but not immune to change",
+        "change_mechanisms": [
+          "Corrective emotional experiences in significant relationships",
+          "Therapy focused on attachment patterns",
+          "Increased awareness of personal patterns",
+          "Deliberate practice of secure behaviors despite internal discomfort"
+        ],
+        "earned_security": "Development of secure attachment style despite insecure childhood experiences",
+        "context_sensitivity": "Attachment patterns may vary somewhat across relationships and life domains"
+      }
+    },
+    {
+      "category": "Influence and Persuasion",
+      "core_concept": "Systematic understanding of how people affect others' beliefs, attitudes, and behaviors",
+      "influence_principles": [
+        {
+          "principle": "Reciprocity",
+          "psychological_mechanism": "Social obligation to repay what others provide",
+          "applications": [
+            {
+              "context": "Business negotiation",
+              "technique": "Making initial concession to trigger reciprocal concession",
+              "effectiveness_factors": "Concession must be perceived as genuine and somewhat costly",
+              "ethical_consideration": "Manipulation vs. mutual value exchange"
+            },
+            {
+              "context": "Workplace relationships",
+              "technique": "Offering assistance before requesting help",
+              "effectiveness_factors": "Help should be useful and not overtly strategic",
+              "ethical_consideration": "Creating genuine vs. transactional helping relationships"
+            },
+            {
+              "context": "Customer relations",
+              "technique": "Providing unexpected value or service beyond expectations",
+              "effectiveness_factors": "Surprise element increases reciprocity motivation",
+              "ethical_consideration": "Creating mutual benefit vs. obligation"
+            }
+          ],
+          "defense_strategies": [
+            "Recognizing when gifts or favors come with implicit obligations",
+            "Redefining unrequested benefits as sales tactics rather than gifts",
+            "Accepting genuine gifts while maintaining decision autonomy"
+          ]
+        },
+        {
+          "principle": "Social Proof",
+          "psychological_mechanism": "Determining appropriate behavior by observing others' actions",
+          "applications": [
+            {
+              "context": "Product marketing",
+              "technique": "Highlighting popularity or customer testimonials",
+              "effectiveness_factors": "Testimonials from similar others increase impact",
+              "ethical_consideration": "Authentic representation vs. manufactured consensus"
+            },
+            {
+              "context": "Organizational change",
+              "technique": "Showcasing early adopters and their positive experiences",
+              "effectiveness_factors": "Early adopters must have peer credibility",
+              "ethical_consideration": "Organic adoption vs. pressured conformity"
+            },
+            {
+              "context": "Crisis management",
+              "technique": "Modeling desired emergency response behaviors",
+              "effectiveness_factors": "Multiple models more effective than single example",
+              "ethical_consideration": "Guiding effective action vs. creating panic"
+            }
+          ],
+          "moderating_factors": [
+            {
+              "factor": "Uncertainty",
+              "impact": "Greater influence under ambiguous conditions",
+              "example": "Unfamiliar restaurant choice heavily influenced by crowd size"
+            },
+            {
+              "factor": "Group identity",
+              "impact": "In-group members' behavior more influential than out-group",
+              "example": "Professional practices adopted from same-field colleagues over different professions"
+            },
+            {
+              "factor": "Observed consequences",
+              "impact": "Actions with visible positive outcomes more likely to be imitated",
+              "example": "Visible recognition or rewards for behavior increases adoption by others"
+            }
+          ]
+        },
+        {
+          "principle": "Authority",
+          "psychological_mechanism": "Deference to legitimate expertise, position, or knowledge",
+          "applications": [
+            {
+              "context": "Healthcare compliance",
+              "technique": "Establishing credibility before making recommendations",
+              "effectiveness_factors": "Visible credentials, demonstrated expertise, confident delivery",
+              "ethical_consideration": "Using authority for patient benefit vs. convenience"
+            },
+            {
+              "context": "Leadership influence",
+              "technique": "Combining positional authority with demonstrated competence",
+              "effectiveness_factors": "Balance between authority assertion and respect for autonomy",
+              "ethical_consideration": "Leading vs. dominating through authority"
+            },
+            {
+              "context": "Expert advice",
+              "technique": "Providing reasoning behind recommendations",
+              "effectiveness_factors": "Transparency about limits of expertise increases credibility",
+              "ethical_consideration": "Acknowledging uncertainty vs. projecting false certainty"
+            }
+          ],
+          "authority_signals": [
+            {
+              "signal": "Titles and credentials",
+              "psychological_effect": "Shorthand for expertise and societal recognition",
+              "example": "Doctor, Professor, or certified expert designations"
+            },
+            {
+              "signal": "Appearance and trappings",
+              "psychological_effect": "Visual cues triggering authority recognition",
+              "example": "Professional attire, office environment, quality tools"
+            },
+            {
+              "signal": "Behavioral confidence",
+              "psychological_effect": "Non-verbal cues suggesting certainty and competence",
+              "example": "Decisive speech, composed demeanor, assured movements"
+            }
+          ]
+        }
+      ],
+      "persuasion_pathways": [
+        {
+          "pathway": "Central Route Processing",
+          "characteristics": [
+            "Careful consideration of message content",
+            "Evaluation of argument quality and evidence",
+            "High cognitive effort",
+            "Results in stronger, more durable attitude change when persuasive"
+          ],
+          "when_activated": [
+            "High personal relevance of topic",
+            "Sufficient motivation and ability to process",
+            "Low distraction environment",
+            "Need for accuracy or important decision"
+          ],
+          "effective_strategies": [
+            "Strong, logically sound arguments",
+            "Quality evidence from credible sources",
+            "Addressing counterarguments proactively",
+            "Clear, well-structured reasoning"
+          ]
+        },
+        {
+          "pathway": "Peripheral Route Processing",
+          "characteristics": [
+            "Focus on contextual cues rather than message content",
+            "Reliance on mental shortcuts and heuristics",
+            "Low cognitive effort",
+            "Results in temporary attitude change when effective"
+          ],
+          "when_activated": [
+            "Low personal relevance or investment",
+            "Cognitive overload or distraction",
+            "Time pressure or fatigue",
+            "Low need for cognition"
+          ],
+          "effective_strategies": [
+            "Attractive or likable communicator",
+            "Message associated with positive cues",
+            "Multiple arguments regardless of quality",
+            "Source credibility and expertise signals"
+          ]
+        }
+      ],
+      "resistance_and_reactance": {
+        "psychological_reactance": {
+          "definition": "Motivational state when freedom is threatened, leading to resistance",
+          "triggers": [
+            "Overtly persuasive language ('must,' 'should,' 'have to')",
+            "Perception of manipulation or hidden agenda",
+            "Limited options or forced choices",
+            "Threats to personal autonomy"
+          ],
+          "manifestations": [
+            "Direct refusal or defiance",
+            "Source derogation (attacking messenger)",
+            "Counterarguments and motivated skepticism",
+            "Psychological restoration of freedom through opposite action"
+          ]
+        },
+        "minimizing_resistance": [
+          {
+            "strategy": "Restoration of agency",
+            "technique": "Explicitly acknowledging freedom of choice",
+            "application": "But of course, it's completely up to you...",
+            "effectiveness": "Reduces threat to autonomy while presenting options"
+          },
+          {
+            "strategy": "Inoculation",
+            "technique": "Preemptively addressing counterarguments",
+            "application": "Some might say... but consider that...",
+            "effectiveness": "Builds resistance to later counterpersuasion"
+          },
+          {
+            "strategy": "Narrative transportation",
+            "technique": "Embedding message in engaging story",
+            "application": "Case studies, personal experiences, metaphors",
+            "effectiveness": "Bypasses analytical resistance through immersion"
+          }
+        ]
+      }
+    }
+  ]
+}

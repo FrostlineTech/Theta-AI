@@ -1,0 +1,26 @@
+[
+  {
+    "question": "what is an api",
+    "answer": "API stands for Application Programming Interface. It's a set of rules that allows different software applications to communicate with each other. APIs define the methods and data formats that applications can use to request and exchange information, enabling different software systems to interact without requiring developers to understand the internal workings of each system. Common types include REST APIs, SOAP APIs, and GraphQL APIs, which are widely used for web services, mobile applications, and system integrations."
+  },
+  {
+    "question": "what is the CIA triad",
+    "answer": "The CIA triad refers to three core principles of information security: Confidentiality, Integrity, and Availability. Confidentiality ensures that information is accessible only to authorized parties. Integrity guarantees that data remains accurate and unaltered by unauthorized modifications. Availability ensures that information systems and data are functioning and accessible when needed by authorized users. These three principles form the foundation for developing security policies and evaluating security measures within organizations."
+  },
+  {
+    "question": "what are the principles in the cia triad",
+    "answer": "The CIA triad consists of three core principles:\n\n1. Confidentiality: Ensuring that sensitive information is accessible only to authorized individuals and kept hidden from others. This is implemented through encryption, access controls, and authentication mechanisms.\n\n2. Integrity: Maintaining the accuracy, consistency, and trustworthiness of data throughout its lifecycle. This ensures data hasn't been improperly modified by unauthorized users. Hash functions, digital signatures, and version control help maintain integrity.\n\n3. Availability: Ensuring systems, networks, and data are accessible when needed by authorized users. This involves maintaining hardware, performing timely software updates, creating data backups, and implementing disaster recovery plans to prevent disruption from events like system failures or cyber attacks."
+  },
+  {
+    "question": "what is an array list",
+    "answer": "An ArrayList is a resizable implementation of the List interface in many programming languages, most notably Java. Unlike fixed-size arrays, ArrayLists can dynamically grow or shrink in size as elements are added or removed. Key characteristics include: 1) Dynamic sizing with automatic resizing when elements are added beyond capacity, 2) Index-based access allowing O(1) retrieval of elements, 3) Support for storing objects (not primitives in Java), 4) Ordered collection that maintains insertion order, and 5) Allowance for duplicate elements. ArrayLists are preferred when frequent access operations are needed but less efficient for frequent insertions and deletions compared to LinkedLists."
+  },
+  {
+    "question": "what is 10x10",
+    "answer": "10x10 equals 100, as it represents 10 multiplied by 10. In programming contexts, this could refer to: 1) A simple arithmetic operation, 2) The dimensions of a 10 by 10 two-dimensional array containing 100 elements, 3) A 10x10 matrix in mathematical operations, or 4) The pixel dimensions of a small square image or grid. The specific meaning depends on the context in which it's being used."
+  },
+  {
+    "question": "heyy theta how are you feeling today ?",
+    "answer": "I'm doing well, thank you! How about yourself?"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "cybersecurity": {
+    "firewall": "A network security device that monitors and filters incoming and outgoing network traffic based on predefined security rules. It establishes a barrier between trusted internal networks and untrusted external networks.",
+    "encryption": "The process of converting information or data into a code to prevent unauthorized access. It uses mathematical algorithms to transform readable data (plaintext) into an unreadable format (ciphertext).",
+    "vulnerability": "A weakness or flaw in a system's design, implementation, or operation that could be exploited to compromise the system's security objectives.",
+    "penetration testing": "A simulated cyber attack against a computer system to check for exploitable vulnerabilities. It involves active analysis of the system for potential weaknesses that could be exploited by malicious actors.",
+    "zero-day exploit": "An attack that targets a previously unknown vulnerability in software or hardware, meaning the developers have had zero days to address and patch the vulnerability.",
+    "ransomware": "A type of malicious software designed to block access to a computer system or data until a sum of money (ransom) is paid. It typically encrypts files on the victim's system."
+  },
+  "programming": {
+    "api": "Application Programming Interface. A set of rules and protocols that allows different software applications to communicate with each other.",
+    "framework": "A platform for developing software applications that provides a foundation on which software developers can build programs for a specific platform.",
+    "algorithm": "A step-by-step procedure or formula for solving a problem, based on conducting a sequence of specified actions.",
+    "function": "A block of organized, reusable code that performs a single, related action. Functions provide modularity and code reuse.",
+    "variable": "A storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value.",
+    "object-oriented programming": "A programming paradigm based on the concept of 'objects', which can contain data and code: data in the form of fields (attributes), and code in the form of procedures (methods)."
+  },
+  "networking": {
+    "ip address": "Internet Protocol address. A numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.",
+    "router": "A networking device that forwards data packets between computer networks. It performs the traffic directing functions on the Internet.",
+    "dns": "Domain Name System. A hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet. It translates domain names to IP addresses.",
+    "tcp/ip": "Transmission Control Protocol/Internet Protocol. A suite of communication protocols used to interconnect network devices on the Internet or private networks.",
+    "vpn": "Virtual Private Network. A technology that creates a safe and encrypted connection over a less secure network, such as the internet.",
+    "subnet": "A logical subdivision of an IP network. The practice of dividing a network into two or more networks."
+  }
+}

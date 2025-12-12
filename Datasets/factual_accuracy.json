@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is a computer?",
+    "answer": "A computer is an electronic device that manipulates information, or data. It has the ability to store, retrieve, and process data. Modern computers can perform a wide range of activities including calculation, data processing, media playback, communication, and controlling other devices. They operate by executing a series of instructions called programs that direct their operations. Computers range from small embedded systems in appliances and cars to personal devices like smartphones and laptops, to large supercomputers and server farms that power the internet and perform complex scientific calculations.",
+    "domain": "computing"
+  },
+  {
+    "question": "What is an API in computer programming?",
+    "answer": "An API (Application Programming Interface) is a set of rules, protocols, and tools that allow different software applications to communicate with each other. APIs define the methods and data formats that programs can use to request services from other applications or components. They abstract complex implementation details and provide standardized interfaces. Types of APIs include library APIs (used within programming languages), operating system APIs (for interacting with OS functionality), web APIs (like REST or GraphQL for internet-based services), and hardware APIs (for interacting with physical components). APIs are essential for software integration, third-party development, and creating modular, maintainable software systems.",
+    "domain": "programming"
+  },
+  {
+    "question": "What is machine learning?",
+    "answer": "Machine learning is a branch of artificial intelligence that focuses on building systems that learn from data and improve their performance without being explicitly programmed. It works by identifying patterns in data and using these patterns to make predictions or decisions. There are three main categories: supervised learning (training with labeled data), unsupervised learning (finding patterns in unlabeled data), and reinforcement learning (learning through trial and error with rewards/penalties). Common algorithms include linear regression, decision trees, random forests, neural networks, and support vector machines. Machine learning powers many modern applications including recommendation systems, natural language processing, computer vision, fraud detection, and autonomous vehicles.",
+    "domain": "data_science"
+  },
+  {
+    "question": "What is cloud computing?",
+    "answer": "Cloud computing is the delivery of computing services over the internet ('the cloud'), including servers, storage, databases, networking, software, and analytics. It provides on-demand access to shared computing resources with minimal management effort. The three main service models are Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). Deployment models include public cloud (shared resources), private cloud (dedicated to one organization), hybrid cloud (combination of public and private), and multi-cloud (using multiple providers). Key benefits include scalability, cost-efficiency, reliability, and global accessibility. Major providers include AWS, Microsoft Azure, Google Cloud, and IBM Cloud.",
+    "domain": "cloud_computing"
+  },
+  {
+    "question": "What is cybersecurity?",
+    "answer": "Cybersecurity is the practice of protecting systems, networks, programs, and data from digital attacks, damage, or unauthorized access. It encompasses various technologies, processes, and practices designed to safeguard computing assets. Key areas include network security, application security, information security, operational security, disaster recovery, and end-user education. Common security measures include firewalls, encryption, multi-factor authentication, intrusion detection systems, and security awareness training. The cybersecurity landscape continually evolves as new threats emerge, including malware, phishing, ransomware, social engineering, and advanced persistent threats, requiring organizations to maintain vigilant and adaptive security postures.",
+    "domain": "cybersecurity"
+  },
+  {
+    "question": "What is a database?",
+    "answer": "A database is an organized collection of structured information or data, typically stored electronically in a computer system. It is controlled by a database management system (DBMS) that allows for efficient storage, retrieval, manipulation, and management of data. Types include relational databases (using tables with rows and columns, like MySQL, PostgreSQL), NoSQL databases (including document, key-value, graph, and wide-column stores, like MongoDB, Redis), object-oriented databases, and time-series databases. Databases are fundamental components in applications ranging from websites and mobile apps to enterprise systems and scientific research platforms, enabling features like user accounts, product catalogs, content management, and data analytics.",
+    "domain": "database"
+  },
+  {
+    "question": "What is a neural network?",
+    "answer": "A neural network is a computational model inspired by the human brain's structure and function. It consists of interconnected nodes (neurons) organized in layers that process and transform input data to generate outputs. The basic structure includes an input layer, one or more hidden layers, and an output layer. Each connection between neurons has an associated weight that adjusts during training through a process called backpropagation. Neural networks excel at pattern recognition, classification, prediction, and approximating complex functions. Deep neural networks with many hidden layers (deep learning) have revolutionized fields like computer vision, natural language processing, and speech recognition. Common architectures include convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformers.",
+    "domain": "data_science"
+  },
+  {
+    "question": "What is encryption?",
+    "answer": "Encryption is the process of converting information into a code to prevent unauthorized access. It transforms readable data (plaintext) into an unreadable format (ciphertext) using mathematical algorithms and keys, which can only be decrypted with the appropriate decryption key. Types include symmetric encryption (using the same key for encryption and decryption, like AES) and asymmetric encryption (using public and private key pairs, like RSA). Encryption is fundamental to information security, protecting data in transit (TLS/SSL for websites), at rest (disk encryption), and in use. It enables secure communications, e-commerce, digital signatures, and compliance with data protection regulations, while presenting challenges for key management and potential performance impacts.",
+    "domain": "cybersecurity"
+  },
+  {
+    "question": "What is virtualization?",
+    "answer": "Virtualization is technology that creates virtual versions of physical resources, such as servers, storage devices, networks, or operating systems. It works by adding a software layer (hypervisor) that separates physical hardware from the operating systems using it. Types include server virtualization (running multiple virtual machines on one physical server), storage virtualization (pooling physical storage from multiple devices), network virtualization (creating software-defined networks), and desktop virtualization (hosting desktop environments remotely). Benefits include improved hardware utilization, reduced costs, easier disaster recovery, isolated testing environments, and flexibility in resource allocation. Virtualization is a foundational technology for cloud computing and modern data center infrastructure.",
+    "domain": "cloud_computing"
+  },
+  {
+    "question": "What is blockchain?",
+    "answer": "Blockchain is a distributed, immutable digital ledger technology that records transactions across many computers so that the records cannot be altered retroactively without altering all subsequent blocks and network consensus. It works through a chain of blocks containing batches of time-stamped, verified transactions secured by cryptography. Each block contains a hash of the previous block, creating a continuous chain. Key features include decentralization (no central authority), transparency (all network participants see the same data), immutability (records cannot be changed once verified), and consensus mechanisms (like proof of work or proof of stake). While initially developed for cryptocurrencies like Bitcoin, blockchain applications now extend to supply chain tracking, digital identity, smart contracts, voting systems, and record management.",
+    "domain": "cybersecurity"
+  }
+]
