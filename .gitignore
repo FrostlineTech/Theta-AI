@@ -139,7 +139,6 @@ cleanup.bat
 copy_punkt_files.py
 fix_*.py
 install_dependencies.py
-interface.bat
 run_checkpoint_cleanup.bat
 run_data_processing.py
 run_theta_server.bat

@@ -5,7 +5,7 @@
 If you discover a security vulnerability within Theta AI, please follow these steps:
 
 1. **Do not** disclose the vulnerability publicly until it has been addressed.
-2. Email the security details to [security@thetaai.example.com](mailto:security@thetaai.example.com) with:
+2. Email the security details to [security@thetaai.example.com](mailto:frostlinesolutionsllc@gmail.com) with:
    - A description of the vulnerability
    - Steps to reproduce (if applicable)
    - Potential impact
