@@ -1,18 +1,61 @@
-torch==2.0.1
-transformers==4.30.2
-datasets==2.13.0
-numpy==1.24.3
-pandas==2.0.2
-scikit-learn==1.2.2
-matplotlib==3.7.1
-tqdm==4.65.0
-nltk==3.8.1
-tensorboard==2.13.0
-colorama==0.4.6
-scipy==1.10.1
-sentencepiece==0.1.99
-protobuf==3.20.3
-psycopg2-binary==2.9.9
-python-dotenv==1.0.0
-gputil==1.4.0
-psutil==5.9.5
+# ============================================
+# Theta AI - Requirements
+# ============================================
+# Install with: pip install -r requirements.txt
+
+# === Core Deep Learning ===
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# === Transformers & NLP ===
+transformers>=4.30.0
+tokenizers>=0.13.0
+datasets>=2.13.0
+sentencepiece>=0.1.99
+nltk>=3.8.1
+
+# === Scientific Computing ===
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# === Training Utilities ===
+tqdm>=4.65.0
+colorama>=0.4.6
+tensorboard>=2.13.0
+
+# === Evaluation (optional) ===
+evaluate>=0.4.0
+
+# === System Monitoring ===
+psutil>=5.9.0
+gputil>=1.4.0
+
+# === Configuration ===
+python-dotenv>=1.0.0
+protobuf>=3.20.0
+
+# === Database (optional - for knowledge base) ===
+psycopg2-binary>=2.9.0
+
+# === Visualization (optional) ===
+matplotlib>=3.7.0
+
+# === Email Notifications ===
+# (uses built-in smtplib, ssl, email - no extra deps)
+
+# ============================================
+# Installation Notes:
+# ============================================
+# 
+# For CUDA support (recommended):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# For CPU only:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+#
+# After installation, download NLTK data:
+#   python -c "import nltk; nltk.download('punkt'); nltk.download('wordnet'); nltk.download('stopwords')"
+#
