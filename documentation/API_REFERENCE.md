@@ -23,7 +23,7 @@ ThetaModel(model_name: str = "gpt2", device: str = None)
 
 #### Methods
 
-**generate(prompt, max_length, temperature, top_p, top_k)**
+##### generate(prompt, max_length, temperature, top_p, top_k)
 
 Generate text continuation.
 
@@ -37,7 +37,7 @@ response = model.generate(
 )
 ```
 
-**save(path)**
+##### save(path)
 
 Save model and tokenizer.
 
@@ -45,7 +45,7 @@ Save model and tokenizer.
 model.save("models/my_model")
 ```
 
-**load(path)** (classmethod)
+##### load(path) - classmethod
 
 Load saved model.
 

@@ -17,6 +17,7 @@ train_overnight_enhanced.bat
 ```
 
 This script:
+
 - Prepares and validates datasets
 - Runs 20 epochs with RTX 3060 optimizations
 - Sends email notifications on progress
@@ -54,7 +55,8 @@ python src/training/train_enhanced.py ^
 ## Training Output
 
 After training completes:
-```
+
+```text
 models/
 ├── theta_enhanced_YYYYMMDD/
 │   ├── theta_final/          # Final model
@@ -66,7 +68,9 @@ models/
 ## Monitoring Training
 
 ### Console Output
+
 The training script displays real-time metrics:
+
 - Loss (training and validation)
 - Perplexity
 - Token accuracy
@@ -74,13 +78,16 @@ The training script displays real-time metrics:
 - Curriculum progress
 
 ### Email Notifications
+
 If configured in `.env`, you'll receive:
+
 - Training start notification
 - Epoch completion updates
 - 10-minute status updates with alerts
 - Training completion summary
 
 ### Log Files
+
 Check `logs/training_enhanced_*.log` for detailed logs.
 
 ## Resume Training

@@ -42,6 +42,7 @@ theta_model.py
 **Base Model**: GPT-2 (124M) or GPT-2 Medium (355M)
 
 **Key Features**:
+
 - Custom tokenizer with special tokens
 - Generation with temperature control
 - Checkpoint save/load
@@ -221,7 +222,6 @@ Theta AI/
 │   │   ├── __init__.py
 │   │   ├── train_enhanced.py
 │   │   ├── email_integration.py
-│   │   ├── cleanup_utils.py
 │   │   ├── evaluate_model.py
 │   │   └── optimize_for_inference.py
 │   ├── data_processing/

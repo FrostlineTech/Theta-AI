@@ -71,7 +71,7 @@ Main training script with these key classes:
 5. **Checkpointing**
    - Save best model based on val_loss
    - Early stopping with patience
-   - Cleanup old checkpoints
+   - Automatic checkpoint management
 
 ## Training Features
 

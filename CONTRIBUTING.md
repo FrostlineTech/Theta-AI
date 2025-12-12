@@ -1,19 +1,59 @@
 # Contributing to Theta AI
 
-Thank you for your interest in contributing to Theta AI! This guide will help you get started with the development process and outline the best practices for contributing to this project.
+Thank you for your interest in contributing to Theta AI! This project is designed as a foundation for you to build your own unique AI assistant.
+
+## Branching Strategy
+
+**This is important**: Theta AI is meant to be forked and customized. Each project should be unique and tailored to your specific needs.
+
+### Create Your Own Branch
+
+1. **Fork the repository** to your own GitHub account
+
+2. **Create your own branch** for your unique project:
+
+   ```bash
+   git checkout -b your-project-name
+   ```
+
+3. **Build your own version** - customize the model, training data, and features to make it yours
+4. **Keep your branch separate** - your project is your own, not intended to merge back to main
+
+### Pull Requests to Main
+
+**Only submit pull requests to `main` for bug fixes** that benefit everyone:
+
+- Bug fixes in core training pipeline
+- Security patches
+- Documentation corrections
+- Critical dependency updates
+
+**Do NOT submit PRs to main for:**
+
+- Custom features specific to your project
+- New training data or datasets
+- Model architecture changes for your use case
+- Interface customizations
 
 ## Getting Started
 
-1. **Fork the repository** and clone your fork
-2. **Set up the development environment**:
+1. **Fork and clone**:
+
+   ```bash
+   git clone https://github.com/yourusername/theta-ai.git
+   cd theta-ai
+   git checkout -b my-theta-project
+   ```
+
+2. **Set up environment**:
+
    ```bash
    pip install -r requirements.txt
-   pip install -r web_requirements.txt  # If you'll be working on the web interface
+   cp .env.example .env
+   # Edit .env with your settings
    ```
-3. **Create a new branch** for your feature or bug fix:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
+
+3. **Start customizing** - make Theta your own!
 
 ## Development Guidelines
 
@@ -21,66 +61,58 @@ Thank you for your interest in contributing to Theta AI! This guide will help yo
 
 - Follow PEP 8 style guide for Python code
 - Use descriptive variable and function names
-- Include docstrings for all functions and classes
+- Include docstrings for functions and classes
 - Use type hints where appropriate
 
 ### Commit Messages
 
 - Use clear, descriptive commit messages
-- Start with a verb in the imperative mood (e.g., "Add", "Fix", "Update")
+- Start with a verb (e.g., "Add", "Fix", "Update")
 - Reference issue numbers where applicable
-
-### Pull Request Process
-
-1. Update the README.md or documentation with details of changes if appropriate
-2. Update the CHANGELOG.md following the format described in that file
-3. Make sure your code passes all tests
-4. The PR should be reviewed by at least one maintainer
-5. Once approved, a maintainer will merge your PR
 
 ## Project Structure
 
-- `src/`: Source code
-  - `data_processing/`: Scripts for data preparation
-  - `model/`: Model architecture definition
-  - `training/`: Training pipelines
-  - `interface/`: User interaction interfaces
-- `datasets/`: Contains training data
-- `docs/`: Documentation
-- `models/`: Model checkpoints and configurations
-- `static/`: Static assets for web interface
-- `templates/`: HTML templates for web interface
+```text
+src/
+├── model/           # Model architecture
+├── training/        # Training pipeline
+├── inference/       # Inference utilities
+├── data_processing/ # Dataset processing
+└── utils/           # Utilities
+Datasets/            # Training data (JSON)
+models/              # Saved checkpoints
+documentation/       # Guides and references
+```
 
 ## Working with Datasets
 
-When adding new training data:
-1. Follow the JSON format in existing dataset files
-2. Ensure high quality of information (accuracy, relevance, completeness)
-3. Run validation scripts to check for proper formatting
+- Follow the JSON format in existing dataset files
+- Create your own domain-specific training data
+- Use the provided download scripts for base datasets
+- Quality over quantity - curate your data carefully
 
-## Working with Models
+## Bug Fix Pull Requests
 
-- Model checkpoints (`.pt`, `.bin`, `.pb` files) are excluded from version control
-- Model configuration files (`.json`, `.yaml`, `.py`) should be included
-- Document hyperparameters and training settings in code or in the docs
+If you find a bug in the core training pipeline:
 
-## Testing
+1. Create a branch from `main`:
 
-- Add unit tests for new functionality
-- Ensure existing tests pass with your changes
-- For interface changes, perform manual testing and document the process
+   ```bash
+   git checkout main
+   git pull origin main
+   git checkout -b fix/description-of-bug
+   ```
 
-## Documentation
+2. Fix the bug with minimal changes
 
-- Update documentation for any new features or changes
-- Place comprehensive documentation in the `docs/` folder
-- Include code examples where appropriate
+3. Submit PR to `main` with:
+   - Clear description of the bug
+   - How your fix resolves it
+   - Any testing performed
 
 ## Questions and Support
 
-If you have questions or need help with your contribution, please:
+- Open an issue for bugs in the core pipeline
+- Share your projects - we'd love to see what you build!
 
-- Open an issue in the repository
-- Reach out to the maintainers through appropriate channels
-
-Thank you for contributing to Theta AI!
+Thank you for using Theta AI as your foundation!

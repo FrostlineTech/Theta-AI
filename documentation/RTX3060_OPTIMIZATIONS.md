@@ -157,6 +157,7 @@ Limited batch size (3) can cause noisy gradients. These techniques compensate:
 ### R-Drop Memory Consideration
 
 R-Drop runs 2 forward passes. Memory is managed by:
+
 - Reusing same batch (no extra data loading)
 - Gradient accumulation (smaller per-step memory)
 
@@ -165,6 +166,7 @@ R-Drop runs 2 forward passes. Memory is managed by:
 ### In Training
 
 10-minute status emails include:
+
 - GPU temperature
 - Memory usage
 - Utilization %

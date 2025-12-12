@@ -46,6 +46,7 @@ python test_email_notification.py
 **Trigger**: When training begins
 
 **Content**:
+
 - Training parameters (epochs, batch size, learning rate)
 - GPU information (name, temperature, memory)
 - System information (CPU, RAM)
@@ -55,6 +56,7 @@ python test_email_notification.py
 **Trigger**: After each epoch completes
 
 **Content**:
+
 - Progress bar
 - Training/validation loss
 - Perplexity
@@ -67,6 +69,7 @@ python test_email_notification.py
 **Trigger**: Every 10 minutes during training
 
 **Content**:
+
 - Active alerts (if any)
 - Current training metrics
 - GPU status
@@ -77,6 +80,7 @@ python test_email_notification.py
 **Trigger**: When training finishes
 
 **Content**:
+
 - Training summary
 - Best validation loss and epoch
 - Total training time
@@ -97,7 +101,8 @@ The 10-minute status updates include color-coded alerts:
 | Domain Coherence | < 0.5 | 🟡 Warning |
 
 When alerts are present, the email subject changes to:
-```
+
+```text
 ⚠️ Theta AI - Status Update (N alerts)
 ```
 

@@ -11,17 +11,20 @@ Common issues and solutions for Theta AI training.
 **Solutions**:
 
 1. Verify NVIDIA driver:
+
    ```bash
    nvidia-smi
    ```
 
 2. Check CUDA version compatibility:
+
    ```bash
    nvcc --version
    python -c "import torch; print(torch.version.cuda)"
    ```
 
 3. Reinstall PyTorch with correct CUDA:
+
    ```bash
    pip uninstall torch
    pip install torch --index-url https://download.pytorch.org/whl/cu118
@@ -32,6 +35,7 @@ Common issues and solutions for Theta AI training.
 **Symptom**: `ModuleNotFoundError: No module named 'xxx'`
 
 **Solution**:
+
 ```bash
 pip install -r requirements.txt --force-reinstall
 ```
@@ -41,11 +45,13 @@ pip install -r requirements.txt --force-reinstall
 **Symptom**: `Resource punkt not found`
 
 **Solution**:
+
 ```bash
 python -c "import nltk; nltk.download('punkt'); nltk.download('wordnet'); nltk.download('stopwords')"
 ```
 
 Or run:
+
 ```bash
 python setup_nltk_data.py
 ```
@@ -59,26 +65,31 @@ python setup_nltk_data.py
 **Solutions** (in order of effectiveness):
 
 1. **Reduce batch size**:
+
    ```bash
    --batch_size 2
    ```
 
 2. **Increase gradient accumulation**:
+
    ```bash
    --gradient_accumulation_steps 6
    ```
 
 3. **Enable CPU offloading**:
+
    ```bash
    --use_cpu_offload --cpu_offload_fraction 0.6
    ```
 
 4. **Disable R-Drop** (removes dual forward pass):
+
    ```bash
    --no_rdrop
    ```
 
 5. **Use smaller model**:
+
    ```bash
    --model_name gpt2  # Instead of gpt2-medium
    ```
@@ -90,21 +101,25 @@ python setup_nltk_data.py
 **Solutions**:
 
 1. **Lower learning rate**:
+
    ```bash
    --learning_rate 1e-5
    ```
 
 2. **Increase warmup**:
+
    ```bash
    --warmup_proportion 0.2
    ```
 
 3. **Check data for issues**:
+
    ```bash
    python validate_json_files.py
    ```
 
 4. **Use ablation mode** (baseline training):
+
    ```bash
    --ablation_mode
    ```
@@ -114,6 +129,7 @@ python setup_nltk_data.py
 **Symptom**: Training takes longer than expected
 
 **Diagnosis**:
+
 ```bash
 nvidia-smi -l 1  # Check GPU utilization
 ```
@@ -130,6 +146,7 @@ nvidia-smi -l 1  # Check GPU utilization
    - Reduce batch size if memory fragmented
 
 3. **Verify environment variables**:
+
    ```batch
    set NVIDIA_TF32_OVERRIDE=1
    set PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:128
@@ -162,6 +179,7 @@ nvidia-smi -l 1  # Check GPU utilization
 **Symptom**: Training stops after few epochs
 
 **Solution**:
+
 ```bash
 --patience 7  # Increase from default 5
 ```
@@ -173,6 +191,7 @@ nvidia-smi -l 1  # Check GPU utilization
 **Symptom**: No email notifications received
 
 **Diagnosis**:
+
 ```bash
 python test_email_notification.py
 ```
@@ -180,6 +199,7 @@ python test_email_notification.py
 **Solutions**:
 
 1. **Verify .env settings**:
+
    ```bash
    EMAIL_PASSWORD=your_16_char_app_password
    EMAIL_SENDER=your_email@gmail.com
@@ -209,11 +229,13 @@ python test_email_notification.py
 **Symptom**: `JSONDecodeError`
 
 **Solution**:
+
 ```bash
 python validate_json_files.py
 ```
 
 Common fixes:
+
 - Remove trailing commas
 - Fix unescaped quotes in strings
 - Check encoding (should be UTF-8)
@@ -225,6 +247,7 @@ Common fixes:
 **Solutions**:
 
 1. Use streaming:
+
    ```python
    # In custom data loader
    for line in open(file):
@@ -232,6 +255,7 @@ Common fixes:
    ```
 
 2. Split large files:
+
    ```bash
    python -c "import json; d=json.load(open('large.json')); [json.dump(d[i:i+10000], open(f'part{i//10000}.json','w')) for i in range(0,len(d),10000)]"
    ```
@@ -241,6 +265,7 @@ Common fixes:
 **Symptom**: Unicode errors or garbled text
 
 **Solution**:
+
 ```bash
 python src/data_processing/fix_encodings.py
 ```
@@ -254,6 +279,7 @@ python src/data_processing/fix_encodings.py
 **Solutions**:
 
 1. **Check path**:
+
    ```python
    import os
    print(os.path.exists("models/theta_enhanced_YYYYMMDD/theta_final"))
@@ -270,6 +296,7 @@ python src/data_processing/fix_encodings.py
 **Solutions**:
 
 1. **Adjust generation parameters**:
+
    ```python
    model.generate(
        ...,
@@ -296,16 +323,15 @@ python src/data_processing/fix_encodings.py
 **Solutions**:
 
 1. **Enable disk optimization**:
+
    ```bash
    --optimize_disk --keep_best_only
    ```
 
-2. **Clean checkpoints**:
-   ```bash
-   python -c "from src.training.cleanup_utils import cleanup_old_checkpoints; cleanup_old_checkpoints('models/', keep_last_n=1)"
-   ```
+2. **Clean old checkpoints manually** - delete old checkpoint folders in `models/`
 
 3. **Move cache to larger drive**:
+
    ```batch
    set HF_HOME=D:\cache
    ```
@@ -315,6 +341,7 @@ python src/data_processing/fix_encodings.py
 **Symptom**: Training process terminates unexpectedly
 
 **Causes**:
+
 - OOM Killer (Linux) - reduce memory usage
 - Windows memory limits - increase virtual memory
 - Thermal shutdown - improve cooling

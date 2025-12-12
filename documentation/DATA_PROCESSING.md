@@ -106,6 +106,7 @@ Ensures representation across all domains.
 | other | 5% |
 
 **Methods**:
+
 - Undersampling: Cap overrepresented domains
 - Oversampling: Duplicate underrepresented examples
 - Synthetic: Generate new examples for gaps
@@ -167,6 +168,7 @@ has_code = (
 Generates additional examples for underrepresented domains:
 
 **Techniques**:
+
 - Paraphrasing (input variation)
 - Response expansion
 - Question generation
@@ -227,6 +229,7 @@ python validate_json_files.py
 ```
 
 Checks:
+
 - JSON syntax
 - Required fields (input, output)
 - Encoding (UTF-8)
@@ -239,6 +242,7 @@ python check_dataset.py
 ```
 
 Output:
+
 - Total examples
 - Domain distribution
 - Length statistics

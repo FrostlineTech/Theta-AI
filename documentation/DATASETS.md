@@ -73,6 +73,7 @@ python prepare_data_for_training.py --output "Datasets/enhanced_training_data.js
 ```
 
 This script:
+
 1. Loads all JSON datasets from `Datasets/`
 2. Balances domain distribution
 3. Applies quality scoring
@@ -161,6 +162,7 @@ python check_dataset.py
 ```
 
 Output includes:
+
 - Total examples per domain
 - Average input/output length
 - Quality score distribution
