@@ -1,130 +1,128 @@
-# Theta AI - Enhanced Conversation Edition
+# Theta AI
 
-Theta is an internal AI assistant for Frostline Solutions employees, with newly enhanced multi-turn conversational capabilities. The system is designed to maintain context across conversations, track topics, detect inconsistencies, and provide more natural dialogue experiences.
+A GPT-2 based conversational AI training framework optimized for NVIDIA RTX 3060 (12GB VRAM). This repository contains everything needed to train, fine-tune, and run inference on Theta AI models.
 
-## Enhanced Features
+## Features
 
-### Advanced Conversation Management
+- **Optimized Training Pipeline**: Gradient checkpointing, mixed precision (FP16), CPU offloading
+- **Advanced Techniques**: Curriculum learning, R-Drop regularization, EMA, label smoothing
+- **RTX 3060 Optimized**: Configured for 12GB VRAM with memory-efficient settings
+- **Email Notifications**: Real-time training alerts with GPU stats and metric monitoring
+- **Multi-domain Training**: Cybersecurity, programming, networking, data science, and more
 
-- **Multi-turn Context Awareness**: Maintains conversation history and references previous exchanges
-- **Topic Detection and Tracking**: Identifies discussion topics and maintains coherence
-- **Self-consistency Checking**: Prevents contradictions in responses
-- **Follow-up Generation**: Creates natural follow-up questions to continue conversations
-- **Enhanced Response Formatting**: Adds natural transitions and references to previous context
-
-### Rich Training Data
-
-- **Stack Exchange Technical Corpus**: Real-world technical Q&A from experts
-- **GitHub Issue Conversations**: Multi-turn troubleshooting discussions
-- **Technical Documentation**: Structured knowledge from official documentation
-- **Tutorial Dialogues**: Step-by-step guides in conversation format
-
-### Core Features
-
-- Trained on Frostline-specific information with enhanced conversational capabilities
-- Optimized for RTX 3060 GPU (12GB VRAM)
-- Mobile-friendly web interface
-- Robust response validation and hallucination prevention
-
-## Documentation
-
-Comprehensive documentation is available in the `docs/` directory:
-
-- [Getting Started Guide](docs/getting_started.md)
-- [Architecture Overview](docs/architecture.md)
-- [Training Guide](docs/training_guide.md)
-- [Dataset Guide](docs/dataset_guide.md)
-- [Full Documentation Index](docs/README.md)
-
-For contributors:
-
-- [Contributing Guidelines](CONTRIBUTING.md)
-- [Changelog](CHANGELOG.md)
-
-## Getting Started
+## Quick Start
 
 ### Requirements
 
-- NVIDIA RTX 3060 GPU (12GB)
-- AMD Ryzen 5-5500
-- CUDA toolkit
-- Python 3.8+
+- **GPU**: NVIDIA RTX 3060 12GB (or similar)
+- **CPU**: AMD Ryzen 5-5500 or equivalent
+- **CUDA**: 11.8+
+- **Python**: 3.8+
 
 ### Installation
 
-1. Clone this repository
-2. Install dependencies:
-
 ```bash
+# Clone repository
+git clone https://github.com/yourusername/theta-ai.git
+cd theta-ai
+
+# Install dependencies (CUDA)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
+
+# Download NLTK data
+python -c "import nltk; nltk.download('punkt'); nltk.download('wordnet'); nltk.download('stopwords')"
+
+# Setup environment
+cp .env.example .env
+# Edit .env with your settings
 ```
 
-For web interface dependencies:
+### Download Datasets
 
 ```bash
-pip install -r web_requirements.txt
+# Human-like conversational data (28MB)
+download_human_like_dpo.bat
+
+# OpenAssistant dataset (6GB)
+download_openassistant.bat
+
+# OpenMath dataset (9GB, optional)
+download_openmath_instruct.bat
 ```
 
-### Usage
-
-#### Training
-
-For overnight training with optimal parameters for RTX 3060:
+### Training
 
 ```bash
-train_overnight.bat
-```
-
-For enhanced training with additional optimizations:
-
-```bash
+# Full training pipeline (overnight recommended)
 train_overnight_enhanced.bat
 ```
 
-See the [Training Guide](docs/training_guide.md) for detailed information on training options and parameters.
+### Inference
 
-#### Using Theta AI
+```python
+from src.model.theta_model import ThetaModel
 
-To use the command-line interface:
-
-```bash
-interface.bat
+model = ThetaModel.load("models/theta_enhanced_YYYYMMDD/theta_final")
+response = model.generate("What is machine learning?", max_length=200)
+print(response)
 ```
 
-To start the web interface:
+## Documentation
 
-```bash
-web_interface.bat
-```
+Full documentation is available in the [`documentation/`](documentation/) folder:
 
-Both interfaces automatically use the best model checkpoint (epoch 26) with the lowest validation loss for optimal responses. If this checkpoint isn't available, they will fall back to the latest available checkpoint or the final model.
+| Guide | Description |
+|-------|-------------|
+| [Installation](documentation/INSTALLATION.md) | Detailed setup instructions |
+| [Quick Start](documentation/QUICKSTART.md) | Get training in 5 minutes |
+| [Training Pipeline](documentation/TRAINING_PIPELINE.md) | Complete training system guide |
+| [Datasets](documentation/DATASETS.md) | Dataset formats and creation |
+| [Hyperparameters](documentation/HYPERPARAMETERS.md) | All configuration options |
+| [RTX 3060 Optimizations](documentation/RTX3060_OPTIMIZATIONS.md) | GPU-specific tuning |
+| [Email Notifications](documentation/EMAIL_NOTIFICATIONS.md) | Alert system setup |
+| [Architecture](documentation/ARCHITECTURE.md) | System design overview |
+| [API Reference](documentation/API_REFERENCE.md) | Code documentation |
+| [Data Processing](documentation/DATA_PROCESSING.md) | Data preparation guide |
+| [Model Config](documentation/MODEL_CONFIG.md) | Model settings |
+| [Troubleshooting](documentation/TROUBLESHOOTING.md) | Common issues & fixes |
 
 ## Project Structure
 
-- `src/`: Source code
-  - `interface/`: Enhanced conversation management components
-    - `conversation_manager.py`: Core conversation tracking and context handling
-    - `topic_detection.py`: Topic identification and tracking
-    - `consistency_checker.py`: Self-consistency verification
-    - `followup_generator.py`: Natural follow-up question generation
-  - `data_processing/`: Advanced dataset generators
-    - `stack_exchange_processor.py`: Technical Q&A processing
-    - `github_issue_conversations.py`: Multi-turn technical discussions
-    - `technical_documentation.py`: Documentation corpus processor
-    - `tutorial_dialogues.py`: Step-by-step guide converter
-    - `generate_advanced_datasets.py`: Combined dataset generation
-  - `model/`: Model architecture and interfaces
-  - `database/`: Conversation persistence and retrieval
-- `datasets/`: Contains training data in JSON format
-- `models/`: Saved model checkpoints and configurations
-- `templates/`: Web interface templates
-- `static/`: Static assets for web interface
-- `docs/`: Comprehensive documentation
+```text
+theta-ai/
+├── src/
+│   ├── model/              # Model architecture
+│   ├── training/           # Training pipeline
+│   ├── inference/          # Inference utilities
+│   ├── data_processing/    # Dataset processing
+│   └── utils/              # Email notifier, GPU info
+├── Datasets/               # Training data (JSON)
+├── models/                 # Saved checkpoints
+├── documentation/          # Full documentation
+├── train_overnight_enhanced.bat  # Main training script
+├── prepare_data_for_training.py  # Data preparation
+└── requirements.txt        # Dependencies
+```
+
+## Key Files
+
+| File | Purpose |
+|------|---------|
+| `train_overnight_enhanced.bat` | Main training orchestration |
+| `prepare_data_for_training.py` | Data preparation pipeline |
+| `src/training/train_enhanced.py` | Core training logic |
+| `src/model/theta_model.py` | Model architecture |
+| `src/utils/email_notifier.py` | Training notifications |
 
 ## Contributing
 
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## Version History
+## Changelog
 
-See the [Changelog](CHANGELOG.md) for version history and release notes.
+See [CHANGELOG.md](CHANGELOG.md) for version history.
+
+## License
+
+This project is for educational and research purposes.
