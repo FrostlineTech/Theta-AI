@@ -315,25 +315,3 @@ info = get_best_gpu_info()
 #   'power_draw': 120
 # }
 ```
-
----
-
-## Cleanup Utilities
-
-```python
-from src.training.cleanup_utils import (
-    cleanup_old_checkpoints,
-    cleanup_temp_files,
-    check_disk_space,
-    optimize_memory_usage,
-    keep_only_best_checkpoint
-)
-```
-
-| Function | Description |
-|----------|-------------|
-| `cleanup_old_checkpoints(dir, keep_last_n)` | Remove old checkpoints |
-| `cleanup_temp_files()` | Remove temp files |
-| `check_disk_space(min_gb)` | Verify disk space |
-| `optimize_memory_usage()` | Force garbage collection |
-| `keep_only_best_checkpoint(dir, best_epoch)` | Keep only best |
