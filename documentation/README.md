@@ -29,13 +29,12 @@ Welcome to the Theta AI documentation. This folder contains comprehensive guides
 
 ## Project Structure
 
-```
+```text
 Theta AI/
 ├── src/                          # Source code
 │   ├── training/                 # Training pipeline
 │   │   ├── train_enhanced.py     # Main training script
 │   │   ├── email_integration.py  # Email notifications
-│   │   ├── cleanup_utils.py      # Checkpoint management
 │   │   └── evaluate_model.py     # Model evaluation
 │   ├── model/                    # Model architecture
 │   │   └── theta_model.py        # ThetaModel class
