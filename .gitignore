@@ -20,6 +20,7 @@
 
 # Main training script
 !train_overnight_enhanced.bat
+!finetune_theta.bat
 
 # Dataset download scripts
 !download_human_like_dpo.bat

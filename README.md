@@ -58,6 +58,17 @@ download_openmath_instruct.bat
 train_overnight_enhanced.bat
 ```
 
+### Fine-tuning (After Initial Training)
+
+If training stalls or validation loss plateaus, run targeted fine-tuning with reduced regularization:
+
+```bash
+# Create a config file or use existing one
+finetune_theta.bat
+```
+
+See [Training Pipeline](documentation/TRAINING_PIPELINE.md#targeted-fine-tuning) for details.
+
 ### Inference
 
 ```python
@@ -110,6 +121,7 @@ theta-ai/
 | File | Purpose |
 |------|---------|
 | `train_overnight_enhanced.bat` | Main training orchestration |
+| `finetune_theta.bat` | Targeted fine-tuning with reduced regularization |
 | `prepare_data_for_training.py` | Data preparation pipeline |
 | `src/training/train_enhanced.py` | Core training logic |
 | `src/model/theta_model.py` | Model architecture |

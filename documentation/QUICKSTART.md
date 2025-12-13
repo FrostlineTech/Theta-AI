@@ -101,6 +101,23 @@ python src/training/train_enhanced.py ^
   --resume_from_checkpoint
 ```
 
+## Targeted Fine-tuning
+
+If training stalls (validation loss stuck, early stopping triggered without improvement):
+
+```bash
+# Run fine-tuning with reduced regularization
+finetune_theta.bat
+```
+
+Or with a custom config:
+
+```bash
+python src/training/run_finetune.py --config "models/theta_enhanced_YYYYMMDD/finetune_config.json"
+```
+
+See [Training Pipeline - Targeted Fine-tuning](TRAINING_PIPELINE.md#targeted-fine-tuning) for configuration details.
+
 ## Common Issues
 
 | Issue | Solution |

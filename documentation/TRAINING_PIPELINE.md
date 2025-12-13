@@ -224,3 +224,59 @@ models/theta_enhanced_YYYYMMDD/
 1. Ensure CUDA is detected
 2. Check GPU utilization with `nvidia-smi`
 3. Reduce `num_workers` if CPU bottlenecked
+
+## Targeted Fine-tuning
+
+If training stalls with flat validation loss (e.g., stuck at the same value for multiple epochs), use targeted fine-tuning with reduced regularization.
+
+### When to Use
+
+- Validation loss hasn't improved for 3+ epochs
+- Training loss is stable but validation isn't decreasing
+- Early stopping triggered without meaningful improvement
+- Token accuracy stuck below 5%
+
+### Fine-tuning Script
+
+```bash
+# Run with default config
+finetune_theta.bat
+
+# Or run manually with custom config
+python src/training/run_finetune.py --config "path/to/config.json"
+```
+
+### Fine-tuning Configuration
+
+Create a JSON config file with reduced regularization:
+
+```json
+{
+  "model_name": "models/theta_enhanced_YYYYMMDD/theta_final",
+  "output_dir": "models/theta_finetune_YYYYMMDD",
+  "learning_rate": 5e-06,
+  "epochs": 4,
+  "label_smoothing": 0.03,
+  "rdrop_alpha": 0.02,
+  "ema_decay": 0.995,
+  "ema_warmup_epochs": 0,
+  "curriculum_start_fraction": 0.5,
+  "dynamic_curriculum_warmup": 1
+}
+```
+
+### Key Parameter Changes
+
+| Parameter | Initial Training | Fine-tuning | Why |
+|-----------|-----------------|-------------|-----|
+| `learning_rate` | 3e-5 | 5e-6 | Lower LR for fine-tuning |
+| `label_smoothing` | 0.05 | 0.03 | Reduce regularization |
+| `rdrop_alpha` | 0.05 | 0.02 | Less KL penalty |
+| `ema_decay` | 0.998 | 0.995 | Faster weight updates |
+| `epochs` | 20 | 4 | Short targeted run |
+
+### What to Watch For
+
+1. **Validation loss should change** - If still stuck, disable R-Drop entirely
+2. **Training loss should decrease** - Target ~6-7 range
+3. **Token accuracy should improve** - Should increase from baseline
